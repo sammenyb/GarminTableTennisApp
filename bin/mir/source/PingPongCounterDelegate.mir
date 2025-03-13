@@ -1,0 +1,79 @@
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc"; @line = 4; @symbol_classdef = [PingPongCounterDelegate,4,6,29]; @symbol_extends<0> = [WatchUi,4,38,45]; @symbol_extends<1> = [BehaviorDelegate,4,46,62]; ]
+class PingPongCounterDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterDelegate_mc_6_26_8_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc" 7 8 ]
+        symbol [ BehaviorDelegate %tmp.2 7 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 7 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterDelegate_mc_6_26_8_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc"; @line = 10; @symbol_functiondef = [onMenu,10,13,19]; @symbol_return<0> = [Boolean,10,25,32]; ]
+    function onMenu() as Boolean {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterDelegate_mc_10_33_13_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc" 11 8 ]
+        symbol [ WatchUi %tmp.1 11 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.2 11 16 24 ];
+        %tmp.2 = getv function %tmp.1 :pushView;
+        symbol [ Rez %tmp.6 11 29 32 ];
+        %tmp.6 = getv ? :Rez;
+        symbol [ Menus %tmp.7 11 33 38 ];
+        %tmp.7 = getv %tmp.6 :Menus;
+        symbol [ MainMenu %tmp.8 11 39 47 ];
+        %tmp.8 = getv function ? %tmp.7 :MainMenu;
+        %tmp.3 = newc %tmp.8 ();
+        symbol [ PingPongCounterMenuDelegate %tmp.12 11 55 82 ];
+        %tmp.12 = getv ? :PingPongCounterMenuDelegate;
+        %tmp.9 = newc %tmp.12 ();
+        symbol [ WatchUi %tmp.13 11 86 93 ];
+        %tmp.13 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.14 11 94 102 ];
+        %tmp.14 = getv %tmp.13 :SLIDE_UP;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.9, %tmp.14);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc" 12 8 ]
+        %tmp.15 = true;
+        ret %tmp.15;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterDelegate_mc_10_33_13_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc"; @line = 15; @symbol_functiondef = [onKey,15,13,18]; @symbol_param<0> = [keyEvent,15,19,27]; @symbol_param<0>_type<0> = [KeyEvent,15,31,39]; @symbol_return<0> = [Boolean,15,44,51]; ]
+    function onKey(keyEvent as KeyEvent) as Boolean {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterDelegate_mc_15_52_36_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc" 32 8 ]
+        symbol [ PingPongCounterView %tmp.4 32 12 31 ];
+        %tmp.4 = getv ? :PingPongCounterView;
+        %tmp.1 = newc %tmp.4 ();
+        symbol [ dynamicUpdate %tmp.5 32 34 47 ];
+        %tmp.5 = getv function %tmp.1 :dynamicUpdate;
+        %tmp.6 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.6 32 48 56 ];
+        invoke %tmp.1 %tmp.5(%tmp.6);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc" 33 8 ]
+        symbol [ WatchUi %tmp.7 33 8 15 ];
+        %tmp.7 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.8 33 16 29 ];
+        %tmp.8 = getv function %tmp.7 :requestUpdate;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc" 35 8 ]
+        %tmp.9 = true;
+        ret %tmp.9;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterDelegate_mc_15_52_36_4_stop:
+    }
+}
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterDelegate.mc"; @line = 1; ]
+<init> {
+}

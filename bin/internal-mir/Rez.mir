@@ -1,0 +1,2025 @@
+[ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [pingpong,9,27,35]; @symbol_type<0> = [ResourceId,9,39,49]; ]
+        var pingpong as ResourceId;
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,10,27,39]; @symbol_type<0> = [ResourceId,10,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 13; @symbol_moduledef = [Layouts,13,11,18]; ]
+    module Layouts {
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 13; ]
+        <init> {
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 14; @symbol_functiondef = [MainLayout,14,17,27]; @symbol_param<0> = [dc,14,28,30]; @symbol_param<0>_type<0> = [Graphics,14,34,42]; @symbol_param<0>_type<1> = [Dc,14,43,45]; @symbol_return<0> = [Array,14,50,55]; @symbol_return<1> = [WatchUi,14,56,63]; @symbol_return<2> = [Drawable,14,64,72]; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_start:
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 15 12 ]
+            [ "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_start" "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_stop" ]
+            %rez_cmp_local_bitmap_pingpong.1 = local;
+            symbol [ rez_cmp_local_bitmap_pingpong %rez_cmp_local_bitmap_pingpong.1 15 16 45 ];
+            symbol [ WatchUi %tmp.3 15 52 59 ];
+            %tmp.3 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.4 15 60 66 ];
+            %tmp.4 = getv function ? %tmp.3 :Bitmap;
+            %tmp.5 = newd 4;
+            %tmp.7 = const :identifier;
+            symbol [ identifier %tmp.7 15 69 79 const ];
+            %tmp.8 = "pingpong";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :rezId;
+            symbol [ rezId %tmp.12 15 94 99 const ];
+            symbol [ $ %tmp.13 15 101 102 ];
+            %tmp.13 = getm $;
+            symbol [ Rez %tmp.14 15 103 106 ];
+            %tmp.14 = getv %tmp.13 :Rez;
+            symbol [ Drawables %tmp.15 15 107 116 ];
+            %tmp.15 = getv %tmp.14 :Drawables;
+            symbol [ pingpong %tmp.16 15 117 125 ];
+            %tmp.16 = getv %tmp.15 :pingpong;
+            %tmp.17 = dup %tmp.10;
+            %tmp.18 = aputv %tmp.17 %tmp.12 %tmp.16;
+            %tmp.20 = const :locX;
+            symbol [ locX %tmp.20 15 128 132 const ];
+            %tmp.21 = 100;
+            %tmp.22 = dup %tmp.18;
+            %tmp.23 = aputv %tmp.22 %tmp.20 %tmp.21;
+            %tmp.25 = const :locY;
+            symbol [ locY %tmp.25 15 140 144 const ];
+            %tmp.26 = 20;
+            %tmp.27 = dup %tmp.23;
+            %tmp.28 = aputv %tmp.27 %tmp.25 %tmp.26;
+            %tmp.1 = newc %tmp.4 (%tmp.28);
+            lputv %rez_cmp_local_bitmap_pingpong.1 %tmp.1;
+            symbol [ rez_cmp_local_bitmap_pingpong %rez_cmp_local_bitmap_pingpong.1 15 16 45 ];
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 17 12 ]
+            [ "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_start" "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_stop" ]
+            %rez_cmp_local_text_1193959466.2 = local;
+            symbol [ rez_cmp_local_text_1193959466 %rez_cmp_local_text_1193959466.2 17 16 45 ];
+            symbol [ WatchUi %tmp.31 17 52 59 ];
+            %tmp.31 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.32 17 60 64 ];
+            %tmp.32 = getv function ? %tmp.31 :Text;
+            %tmp.33 = newd 5;
+            %tmp.35 = const :color;
+            symbol [ color %tmp.35 17 67 72 const ];
+            symbol [ Gfx %tmp.36 17 74 77 ];
+            %tmp.36 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.37 17 78 89 ];
+            %tmp.37 = getv %tmp.36 :COLOR_WHITE;
+            %tmp.38 = dup %tmp.33;
+            %tmp.39 = aputv %tmp.38 %tmp.35 %tmp.37;
+            %tmp.41 = const :locX;
+            symbol [ locX %tmp.41 17 92 96 const ];
+            %tmp.42 = 45;
+            %tmp.43 = dup %tmp.39;
+            %tmp.44 = aputv %tmp.43 %tmp.41 %tmp.42;
+            %tmp.46 = const :locY;
+            symbol [ locY %tmp.46 17 103 107 const ];
+            %tmp.47 = 90;
+            %tmp.48 = dup %tmp.44;
+            %tmp.49 = aputv %tmp.48 %tmp.46 %tmp.47;
+            %tmp.51 = const :text;
+            symbol [ text %tmp.51 17 114 118 const ];
+            symbol [ $ %tmp.52 17 120 121 ];
+            %tmp.52 = getm $;
+            symbol [ Rez %tmp.53 17 122 125 ];
+            %tmp.53 = getv %tmp.52 :Rez;
+            symbol [ Strings %tmp.54 17 126 133 ];
+            %tmp.54 = getv %tmp.53 :Strings;
+            symbol [ p1 %tmp.55 17 134 136 ];
+            %tmp.55 = getv %tmp.54 :p1;
+            %tmp.56 = dup %tmp.49;
+            %tmp.57 = aputv %tmp.56 %tmp.51 %tmp.55;
+            %tmp.59 = const :font;
+            symbol [ font %tmp.59 17 139 143 const ];
+            symbol [ Gfx %tmp.60 17 145 148 ];
+            %tmp.60 = getm $.Toybox.Graphics;
+            symbol [ FONT_MEDIUM %tmp.61 17 149 160 ];
+            %tmp.61 = getv %tmp.60 :FONT_MEDIUM;
+            %tmp.62 = dup %tmp.57;
+            %tmp.63 = aputv %tmp.62 %tmp.59 %tmp.61;
+            %tmp.29 = newc %tmp.32 (%tmp.63);
+            lputv %rez_cmp_local_text_1193959466.2 %tmp.29;
+            symbol [ rez_cmp_local_text_1193959466 %rez_cmp_local_text_1193959466.2 17 16 45 ];
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 19 12 ]
+            [ "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_start" "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_stop" ]
+            %rez_cmp_local_text_p1_score.3 = local;
+            symbol [ rez_cmp_local_text_p1_score %rez_cmp_local_text_p1_score.3 19 16 43 ];
+            symbol [ WatchUi %tmp.66 19 50 57 ];
+            %tmp.66 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.67 19 58 62 ];
+            %tmp.67 = getv function ? %tmp.66 :Text;
+            %tmp.68 = newd 7;
+            %tmp.70 = const :identifier;
+            symbol [ identifier %tmp.70 19 65 75 const ];
+            %tmp.71 = "p1_score";
+            %tmp.72 = dup %tmp.68;
+            %tmp.73 = aputv %tmp.72 %tmp.70 %tmp.71;
+            %tmp.75 = const :color;
+            symbol [ color %tmp.75 19 90 95 const ];
+            symbol [ Gfx %tmp.76 19 97 100 ];
+            %tmp.76 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.77 19 101 112 ];
+            %tmp.77 = getv %tmp.76 :COLOR_WHITE;
+            %tmp.78 = dup %tmp.73;
+            %tmp.79 = aputv %tmp.78 %tmp.75 %tmp.77;
+            %tmp.81 = const :locX;
+            symbol [ locX %tmp.81 19 115 119 const ];
+            %tmp.82 = 60;
+            %tmp.83 = dup %tmp.79;
+            %tmp.84 = aputv %tmp.83 %tmp.81 %tmp.82;
+            %tmp.86 = const :locY;
+            symbol [ locY %tmp.86 19 126 130 const ];
+            %tmp.87 = 119;
+            %tmp.88 = dup %tmp.84;
+            %tmp.89 = aputv %tmp.88 %tmp.86 %tmp.87;
+            %tmp.91 = const :text;
+            symbol [ text %tmp.91 19 138 142 const ];
+            %tmp.92 = "00";
+            %tmp.93 = dup %tmp.89;
+            %tmp.94 = aputv %tmp.93 %tmp.91 %tmp.92;
+            %tmp.96 = const :justification;
+            symbol [ justification %tmp.96 19 151 164 const ];
+            symbol [ Gfx %tmp.97 19 166 169 ];
+            %tmp.97 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.98 19 170 189 ];
+            %tmp.98 = getv %tmp.97 :TEXT_JUSTIFY_CENTER;
+            %tmp.99 = dup %tmp.94;
+            %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
+            %tmp.102 = const :font;
+            symbol [ font %tmp.102 19 192 196 const ];
+            symbol [ Gfx %tmp.103 19 198 201 ];
+            %tmp.103 = getm $.Toybox.Graphics;
+            symbol [ FONT_NUMBER_MEDIUM %tmp.104 19 202 220 ];
+            %tmp.104 = getv %tmp.103 :FONT_NUMBER_MEDIUM;
+            %tmp.105 = dup %tmp.100;
+            %tmp.106 = aputv %tmp.105 %tmp.102 %tmp.104;
+            %tmp.64 = newc %tmp.67 (%tmp.106);
+            lputv %rez_cmp_local_text_p1_score.3 %tmp.64;
+            symbol [ rez_cmp_local_text_p1_score %rez_cmp_local_text_p1_score.3 19 16 43 ];
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 21 12 ]
+            [ "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_start" "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_stop" ]
+            %rez_cmp_local_text_p1_set.4 = local;
+            symbol [ rez_cmp_local_text_p1_set %rez_cmp_local_text_p1_set.4 21 16 41 ];
+            symbol [ WatchUi %tmp.109 21 48 55 ];
+            %tmp.109 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.110 21 56 60 ];
+            %tmp.110 = getv function ? %tmp.109 :Text;
+            %tmp.111 = newd 7;
+            %tmp.113 = const :identifier;
+            symbol [ identifier %tmp.113 21 63 73 const ];
+            %tmp.114 = "p1_set";
+            %tmp.115 = dup %tmp.111;
+            %tmp.116 = aputv %tmp.115 %tmp.113 %tmp.114;
+            %tmp.118 = const :color;
+            symbol [ color %tmp.118 21 86 91 const ];
+            symbol [ Gfx %tmp.119 21 93 96 ];
+            %tmp.119 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.120 21 97 108 ];
+            %tmp.120 = getv %tmp.119 :COLOR_WHITE;
+            %tmp.121 = dup %tmp.116;
+            %tmp.122 = aputv %tmp.121 %tmp.118 %tmp.120;
+            %tmp.124 = const :locX;
+            symbol [ locX %tmp.124 21 111 115 const ];
+            %tmp.125 = 114;
+            %tmp.126 = dup %tmp.122;
+            %tmp.127 = aputv %tmp.126 %tmp.124 %tmp.125;
+            %tmp.129 = const :locY;
+            symbol [ locY %tmp.129 21 123 127 const ];
+            %tmp.130 = 125;
+            %tmp.131 = dup %tmp.127;
+            %tmp.132 = aputv %tmp.131 %tmp.129 %tmp.130;
+            %tmp.134 = const :text;
+            symbol [ text %tmp.134 21 135 139 const ];
+            %tmp.135 = "0";
+            %tmp.136 = dup %tmp.132;
+            %tmp.137 = aputv %tmp.136 %tmp.134 %tmp.135;
+            %tmp.139 = const :justification;
+            symbol [ justification %tmp.139 21 147 160 const ];
+            symbol [ Gfx %tmp.140 21 162 165 ];
+            %tmp.140 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.141 21 166 185 ];
+            %tmp.141 = getv %tmp.140 :TEXT_JUSTIFY_CENTER;
+            %tmp.142 = dup %tmp.137;
+            %tmp.143 = aputv %tmp.142 %tmp.139 %tmp.141;
+            %tmp.145 = const :font;
+            symbol [ font %tmp.145 21 188 192 const ];
+            symbol [ Gfx %tmp.146 21 194 197 ];
+            %tmp.146 = getm $.Toybox.Graphics;
+            symbol [ FONT_SMALL %tmp.147 21 198 208 ];
+            %tmp.147 = getv %tmp.146 :FONT_SMALL;
+            %tmp.148 = dup %tmp.143;
+            %tmp.149 = aputv %tmp.148 %tmp.145 %tmp.147;
+            %tmp.107 = newc %tmp.110 (%tmp.149);
+            lputv %rez_cmp_local_text_p1_set.4 %tmp.107;
+            symbol [ rez_cmp_local_text_p1_set %rez_cmp_local_text_p1_set.4 21 16 41 ];
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 23 12 ]
+            [ "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_start" "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_stop" ]
+            %rez_cmp_local_text_1139614796.5 = local;
+            symbol [ rez_cmp_local_text_1139614796 %rez_cmp_local_text_1139614796.5 23 16 45 ];
+            symbol [ WatchUi %tmp.152 23 52 59 ];
+            %tmp.152 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.153 23 60 64 ];
+            %tmp.153 = getv function ? %tmp.152 :Text;
+            %tmp.154 = newd 5;
+            %tmp.156 = const :color;
+            symbol [ color %tmp.156 23 67 72 const ];
+            symbol [ Gfx %tmp.157 23 74 77 ];
+            %tmp.157 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.158 23 78 89 ];
+            %tmp.158 = getv %tmp.157 :COLOR_WHITE;
+            %tmp.159 = dup %tmp.154;
+            %tmp.160 = aputv %tmp.159 %tmp.156 %tmp.158;
+            %tmp.162 = const :locX;
+            symbol [ locX %tmp.162 23 92 96 const ];
+            %tmp.163 = 182;
+            %tmp.164 = dup %tmp.160;
+            %tmp.165 = aputv %tmp.164 %tmp.162 %tmp.163;
+            %tmp.167 = const :locY;
+            symbol [ locY %tmp.167 23 104 108 const ];
+            %tmp.168 = 90;
+            %tmp.169 = dup %tmp.165;
+            %tmp.170 = aputv %tmp.169 %tmp.167 %tmp.168;
+            %tmp.172 = const :text;
+            symbol [ text %tmp.172 23 115 119 const ];
+            symbol [ $ %tmp.173 23 121 122 ];
+            %tmp.173 = getm $;
+            symbol [ Rez %tmp.174 23 123 126 ];
+            %tmp.174 = getv %tmp.173 :Rez;
+            symbol [ Strings %tmp.175 23 127 134 ];
+            %tmp.175 = getv %tmp.174 :Strings;
+            symbol [ p2 %tmp.176 23 135 137 ];
+            %tmp.176 = getv %tmp.175 :p2;
+            %tmp.177 = dup %tmp.170;
+            %tmp.178 = aputv %tmp.177 %tmp.172 %tmp.176;
+            %tmp.180 = const :font;
+            symbol [ font %tmp.180 23 140 144 const ];
+            symbol [ Gfx %tmp.181 23 146 149 ];
+            %tmp.181 = getm $.Toybox.Graphics;
+            symbol [ FONT_MEDIUM %tmp.182 23 150 161 ];
+            %tmp.182 = getv %tmp.181 :FONT_MEDIUM;
+            %tmp.183 = dup %tmp.178;
+            %tmp.184 = aputv %tmp.183 %tmp.180 %tmp.182;
+            %tmp.150 = newc %tmp.153 (%tmp.184);
+            lputv %rez_cmp_local_text_1139614796.5 %tmp.150;
+            symbol [ rez_cmp_local_text_1139614796 %rez_cmp_local_text_1139614796.5 23 16 45 ];
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 25 12 ]
+            [ "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_start" "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_stop" ]
+            %rez_cmp_local_text_p2_score.6 = local;
+            symbol [ rez_cmp_local_text_p2_score %rez_cmp_local_text_p2_score.6 25 16 43 ];
+            symbol [ WatchUi %tmp.187 25 50 57 ];
+            %tmp.187 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.188 25 58 62 ];
+            %tmp.188 = getv function ? %tmp.187 :Text;
+            %tmp.189 = newd 7;
+            %tmp.191 = const :identifier;
+            symbol [ identifier %tmp.191 25 65 75 const ];
+            %tmp.192 = "p2_score";
+            %tmp.193 = dup %tmp.189;
+            %tmp.194 = aputv %tmp.193 %tmp.191 %tmp.192;
+            %tmp.196 = const :color;
+            symbol [ color %tmp.196 25 90 95 const ];
+            symbol [ Gfx %tmp.197 25 97 100 ];
+            %tmp.197 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.198 25 101 112 ];
+            %tmp.198 = getv %tmp.197 :COLOR_WHITE;
+            %tmp.199 = dup %tmp.194;
+            %tmp.200 = aputv %tmp.199 %tmp.196 %tmp.198;
+            %tmp.202 = const :locX;
+            symbol [ locX %tmp.202 25 115 119 const ];
+            %tmp.203 = 198;
+            %tmp.204 = dup %tmp.200;
+            %tmp.205 = aputv %tmp.204 %tmp.202 %tmp.203;
+            %tmp.207 = const :locY;
+            symbol [ locY %tmp.207 25 127 131 const ];
+            %tmp.208 = 119;
+            %tmp.209 = dup %tmp.205;
+            %tmp.210 = aputv %tmp.209 %tmp.207 %tmp.208;
+            %tmp.212 = const :text;
+            symbol [ text %tmp.212 25 139 143 const ];
+            %tmp.213 = "00";
+            %tmp.214 = dup %tmp.210;
+            %tmp.215 = aputv %tmp.214 %tmp.212 %tmp.213;
+            %tmp.217 = const :justification;
+            symbol [ justification %tmp.217 25 152 165 const ];
+            symbol [ Gfx %tmp.218 25 167 170 ];
+            %tmp.218 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.219 25 171 190 ];
+            %tmp.219 = getv %tmp.218 :TEXT_JUSTIFY_CENTER;
+            %tmp.220 = dup %tmp.215;
+            %tmp.221 = aputv %tmp.220 %tmp.217 %tmp.219;
+            %tmp.223 = const :font;
+            symbol [ font %tmp.223 25 193 197 const ];
+            symbol [ Gfx %tmp.224 25 199 202 ];
+            %tmp.224 = getm $.Toybox.Graphics;
+            symbol [ FONT_NUMBER_MEDIUM %tmp.225 25 203 221 ];
+            %tmp.225 = getv %tmp.224 :FONT_NUMBER_MEDIUM;
+            %tmp.226 = dup %tmp.221;
+            %tmp.227 = aputv %tmp.226 %tmp.223 %tmp.225;
+            %tmp.185 = newc %tmp.188 (%tmp.227);
+            lputv %rez_cmp_local_text_p2_score.6 %tmp.185;
+            symbol [ rez_cmp_local_text_p2_score %rez_cmp_local_text_p2_score.6 25 16 43 ];
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 27 12 ]
+            [ "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_start" "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_stop" ]
+            %rez_cmp_local_text_p2_set.7 = local;
+            symbol [ rez_cmp_local_text_p2_set %rez_cmp_local_text_p2_set.7 27 16 41 ];
+            symbol [ WatchUi %tmp.230 27 48 55 ];
+            %tmp.230 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.231 27 56 60 ];
+            %tmp.231 = getv function ? %tmp.230 :Text;
+            %tmp.232 = newd 7;
+            %tmp.234 = const :identifier;
+            symbol [ identifier %tmp.234 27 63 73 const ];
+            %tmp.235 = "p2_set";
+            %tmp.236 = dup %tmp.232;
+            %tmp.237 = aputv %tmp.236 %tmp.234 %tmp.235;
+            %tmp.239 = const :color;
+            symbol [ color %tmp.239 27 86 91 const ];
+            symbol [ Gfx %tmp.240 27 93 96 ];
+            %tmp.240 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.241 27 97 108 ];
+            %tmp.241 = getv %tmp.240 :COLOR_WHITE;
+            %tmp.242 = dup %tmp.237;
+            %tmp.243 = aputv %tmp.242 %tmp.239 %tmp.241;
+            %tmp.245 = const :locX;
+            symbol [ locX %tmp.245 27 111 115 const ];
+            %tmp.246 = 144;
+            %tmp.247 = dup %tmp.243;
+            %tmp.248 = aputv %tmp.247 %tmp.245 %tmp.246;
+            %tmp.250 = const :locY;
+            symbol [ locY %tmp.250 27 123 127 const ];
+            %tmp.251 = 125;
+            %tmp.252 = dup %tmp.248;
+            %tmp.253 = aputv %tmp.252 %tmp.250 %tmp.251;
+            %tmp.255 = const :text;
+            symbol [ text %tmp.255 27 135 139 const ];
+            %tmp.256 = "0";
+            %tmp.257 = dup %tmp.253;
+            %tmp.258 = aputv %tmp.257 %tmp.255 %tmp.256;
+            %tmp.260 = const :justification;
+            symbol [ justification %tmp.260 27 147 160 const ];
+            symbol [ Gfx %tmp.261 27 162 165 ];
+            %tmp.261 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.262 27 166 185 ];
+            %tmp.262 = getv %tmp.261 :TEXT_JUSTIFY_CENTER;
+            %tmp.263 = dup %tmp.258;
+            %tmp.264 = aputv %tmp.263 %tmp.260 %tmp.262;
+            %tmp.266 = const :font;
+            symbol [ font %tmp.266 27 188 192 const ];
+            symbol [ Gfx %tmp.267 27 194 197 ];
+            %tmp.267 = getm $.Toybox.Graphics;
+            symbol [ FONT_SMALL %tmp.268 27 198 208 ];
+            %tmp.268 = getv %tmp.267 :FONT_SMALL;
+            %tmp.269 = dup %tmp.264;
+            %tmp.270 = aputv %tmp.269 %tmp.266 %tmp.268;
+            %tmp.228 = newc %tmp.231 (%tmp.270);
+            lputv %rez_cmp_local_text_p2_set.7 %tmp.228;
+            symbol [ rez_cmp_local_text_p2_set %rez_cmp_local_text_p2_set.7 27 16 41 ];
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 29 12 ]
+            [ "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_start" "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_stop" ]
+            %rez_cmp_local_text_binding.8 = local;
+            symbol [ rez_cmp_local_text_binding %rez_cmp_local_text_binding.8 29 16 42 ];
+            symbol [ WatchUi %tmp.273 29 49 56 ];
+            %tmp.273 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.274 29 57 61 ];
+            %tmp.274 = getv function ? %tmp.273 :Text;
+            %tmp.275 = newd 7;
+            %tmp.277 = const :identifier;
+            symbol [ identifier %tmp.277 29 64 74 const ];
+            %tmp.278 = "binding";
+            %tmp.279 = dup %tmp.275;
+            %tmp.280 = aputv %tmp.279 %tmp.277 %tmp.278;
+            %tmp.282 = const :color;
+            symbol [ color %tmp.282 29 88 93 const ];
+            symbol [ Gfx %tmp.283 29 95 98 ];
+            %tmp.283 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.284 29 99 110 ];
+            %tmp.284 = getv %tmp.283 :COLOR_WHITE;
+            %tmp.285 = dup %tmp.280;
+            %tmp.286 = aputv %tmp.285 %tmp.282 %tmp.284;
+            %tmp.288 = const :locX;
+            symbol [ locX %tmp.288 29 113 117 const ];
+            %tmp.289 = 129;
+            %tmp.290 = dup %tmp.286;
+            %tmp.291 = aputv %tmp.290 %tmp.288 %tmp.289;
+            %tmp.293 = const :locY;
+            symbol [ locY %tmp.293 29 125 129 const ];
+            %tmp.294 = 125;
+            %tmp.295 = dup %tmp.291;
+            %tmp.296 = aputv %tmp.295 %tmp.293 %tmp.294;
+            %tmp.298 = const :text;
+            symbol [ text %tmp.298 29 137 141 const ];
+            %tmp.299 = "-";
+            %tmp.300 = dup %tmp.296;
+            %tmp.301 = aputv %tmp.300 %tmp.298 %tmp.299;
+            %tmp.303 = const :justification;
+            symbol [ justification %tmp.303 29 149 162 const ];
+            symbol [ Gfx %tmp.304 29 164 167 ];
+            %tmp.304 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.305 29 168 187 ];
+            %tmp.305 = getv %tmp.304 :TEXT_JUSTIFY_CENTER;
+            %tmp.306 = dup %tmp.301;
+            %tmp.307 = aputv %tmp.306 %tmp.303 %tmp.305;
+            %tmp.309 = const :font;
+            symbol [ font %tmp.309 29 190 194 const ];
+            symbol [ Gfx %tmp.310 29 196 199 ];
+            %tmp.310 = getm $.Toybox.Graphics;
+            symbol [ FONT_SMALL %tmp.311 29 200 210 ];
+            %tmp.311 = getv %tmp.310 :FONT_SMALL;
+            %tmp.312 = dup %tmp.307;
+            %tmp.313 = aputv %tmp.312 %tmp.309 %tmp.311;
+            %tmp.271 = newc %tmp.274 (%tmp.313);
+            lputv %rez_cmp_local_text_binding.8 %tmp.271;
+            symbol [ rez_cmp_local_text_binding %rez_cmp_local_text_binding.8 29 16 42 ];
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 31 12 ]
+            [ "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_start" "c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_stop" ]
+            %rez_cmp_local_text_time_label.9 = local;
+            symbol [ rez_cmp_local_text_time_label %rez_cmp_local_text_time_label.9 31 16 45 ];
+            symbol [ WatchUi %tmp.316 31 52 59 ];
+            %tmp.316 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.317 31 60 64 ];
+            %tmp.317 = getv function ? %tmp.316 :Text;
+            %tmp.318 = newd 7;
+            %tmp.320 = const :identifier;
+            symbol [ identifier %tmp.320 31 67 77 const ];
+            %tmp.321 = "time_label";
+            %tmp.322 = dup %tmp.318;
+            %tmp.323 = aputv %tmp.322 %tmp.320 %tmp.321;
+            %tmp.325 = const :color;
+            symbol [ color %tmp.325 31 94 99 const ];
+            symbol [ Gfx %tmp.326 31 101 104 ];
+            %tmp.326 = getm $.Toybox.Graphics;
+            symbol [ COLOR_LT_GRAY %tmp.327 31 105 118 ];
+            %tmp.327 = getv %tmp.326 :COLOR_LT_GRAY;
+            %tmp.328 = dup %tmp.323;
+            %tmp.329 = aputv %tmp.328 %tmp.325 %tmp.327;
+            %tmp.331 = const :locX;
+            symbol [ locX %tmp.331 31 121 125 const ];
+            %tmp.332 = 130;
+            %tmp.333 = dup %tmp.329;
+            %tmp.334 = aputv %tmp.333 %tmp.331 %tmp.332;
+            %tmp.336 = const :locY;
+            symbol [ locY %tmp.336 31 133 137 const ];
+            %tmp.337 = 225;
+            %tmp.338 = dup %tmp.334;
+            %tmp.339 = aputv %tmp.338 %tmp.336 %tmp.337;
+            %tmp.341 = const :text;
+            symbol [ text %tmp.341 31 145 149 const ];
+            %tmp.342 = "00:00";
+            %tmp.343 = dup %tmp.339;
+            %tmp.344 = aputv %tmp.343 %tmp.341 %tmp.342;
+            %tmp.346 = const :justification;
+            symbol [ justification %tmp.346 31 161 174 const ];
+            symbol [ Gfx %tmp.347 31 176 179 ];
+            %tmp.347 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.348 31 180 199 ];
+            %tmp.348 = getv %tmp.347 :TEXT_JUSTIFY_CENTER;
+            %tmp.349 = dup %tmp.344;
+            %tmp.350 = aputv %tmp.349 %tmp.346 %tmp.348;
+            %tmp.352 = const :font;
+            symbol [ font %tmp.352 31 202 206 const ];
+            symbol [ Gfx %tmp.353 31 208 211 ];
+            %tmp.353 = getm $.Toybox.Graphics;
+            symbol [ FONT_SMALL %tmp.354 31 212 222 ];
+            %tmp.354 = getv %tmp.353 :FONT_SMALL;
+            %tmp.355 = dup %tmp.350;
+            %tmp.356 = aputv %tmp.355 %tmp.352 %tmp.354;
+            %tmp.314 = newc %tmp.317 (%tmp.356);
+            lputv %rez_cmp_local_text_time_label.9 %tmp.314;
+            symbol [ rez_cmp_local_text_time_label %rez_cmp_local_text_time_label.9 31 16 45 ];
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 33 12 ]
+            %tmp.357 = newa 9 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.357 33 287 292 ];
+            symbol [ WatchUi %tmp.357 33 293 300 ];
+            symbol [ Drawable %tmp.357 33 301 309 ];
+            %tmp.358 = lgetv %rez_cmp_local_bitmap_pingpong.1;
+            symbol [ rez_cmp_local_bitmap_pingpong %tmp.358 33 20 49 ];
+            %tmp.359 = dup %tmp.357;
+            %tmp.360 = aputv %tmp.359 0 %tmp.358;
+            %tmp.361 = lgetv %rez_cmp_local_text_1193959466.2;
+            symbol [ rez_cmp_local_text_1193959466 %tmp.361 33 51 80 ];
+            %tmp.362 = dup %tmp.360;
+            %tmp.363 = aputv %tmp.362 1 %tmp.361;
+            %tmp.364 = lgetv %rez_cmp_local_text_p1_score.3;
+            symbol [ rez_cmp_local_text_p1_score %tmp.364 33 82 109 ];
+            %tmp.365 = dup %tmp.363;
+            %tmp.366 = aputv %tmp.365 2 %tmp.364;
+            %tmp.367 = lgetv %rez_cmp_local_text_p1_set.4;
+            symbol [ rez_cmp_local_text_p1_set %tmp.367 33 111 136 ];
+            %tmp.368 = dup %tmp.366;
+            %tmp.369 = aputv %tmp.368 3 %tmp.367;
+            %tmp.370 = lgetv %rez_cmp_local_text_1139614796.5;
+            symbol [ rez_cmp_local_text_1139614796 %tmp.370 33 138 167 ];
+            %tmp.371 = dup %tmp.369;
+            %tmp.372 = aputv %tmp.371 4 %tmp.370;
+            %tmp.373 = lgetv %rez_cmp_local_text_p2_score.6;
+            symbol [ rez_cmp_local_text_p2_score %tmp.373 33 169 196 ];
+            %tmp.374 = dup %tmp.372;
+            %tmp.375 = aputv %tmp.374 5 %tmp.373;
+            %tmp.376 = lgetv %rez_cmp_local_text_p2_set.7;
+            symbol [ rez_cmp_local_text_p2_set %tmp.376 33 198 223 ];
+            %tmp.377 = dup %tmp.375;
+            %tmp.378 = aputv %tmp.377 6 %tmp.376;
+            %tmp.379 = lgetv %rez_cmp_local_text_binding.8;
+            symbol [ rez_cmp_local_text_binding %tmp.379 33 225 251 ];
+            %tmp.380 = dup %tmp.378;
+            %tmp.381 = aputv %tmp.380 7 %tmp.379;
+            %tmp.382 = lgetv %rez_cmp_local_text_time_label.9;
+            symbol [ rez_cmp_local_text_time_label %tmp.382 33 253 282 ];
+            %tmp.383 = dup %tmp.381;
+            %tmp.384 = aputv %tmp.383 8 %tmp.382;
+            ret %tmp.384;
+c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_14_74_34_8_stop:
+        }
+    }
+    [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 37; @symbol_moduledef = [Menus,37,11,16]; ]
+    module Menus {
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 37; ]
+        <init> {
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 38; @symbol_classdef = [MainMenu,38,14,22]; @symbol_extends<0> = [WatchUi,38,31,38]; @symbol_extends<1> = [Menu,38,39,43]; ]
+        class MainMenu extends WatchUi.Menu {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 38; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 38; ]
+            static
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 39; @symbol_functiondef = [initialize,39,21,31]; ]
+            function initialize() as Void {
+c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_39_34_42_12_start:
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 40 16 ]
+                symbol [ Menu %tmp.2 40 16 20 ];
+                %tmp.2 = getv ? :Menu;
+                symbol [ initialize %tmp.3 40 21 31 ];
+                %tmp.3 = getv function %tmp.2 :initialize;
+                invoke %tmp.2 %tmp.3();
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 41 16 ]
+                %tmp.4 = self;
+                symbol [ addItem %tmp.5 41 16 23 ];
+                %tmp.5 = getv function %tmp.4 :addItem;
+                symbol [ WatchUi %tmp.6 41 25 32 ];
+                %tmp.6 = getm $.Toybox.WatchUi;
+                symbol [ loadResource %tmp.7 41 33 45 ];
+                %tmp.7 = getv function %tmp.6 :loadResource;
+                symbol [ $ %tmp.8 41 46 47 ];
+                %tmp.8 = getm $;
+                symbol [ Rez %tmp.9 41 48 51 ];
+                %tmp.9 = getv %tmp.8 :Rez;
+                symbol [ Strings %tmp.10 41 52 59 ];
+                %tmp.10 = getv %tmp.9 :Strings;
+                symbol [ menu_label_1 %tmp.11 41 60 72 ];
+                %tmp.11 = getv %tmp.10 :menu_label_1;
+                %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.11);
+                %tmp.13 = as %tmp.12 String;
+                symbol [ String %tmp.13 41 77 83 ];
+                %tmp.15 = const :item_1;
+                symbol [ item_1 %tmp.15 41 87 93 const ];
+                invoke %tmp.4 %tmp.5(%tmp.13, %tmp.15);
+c_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_bin_gen_006_B3906_00_source_Rez_mcgen_39_34_42_12_stop:
+            }
+        }
+    }
+    [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 46; @symbol_moduledef = [Strings,46,11,18]; ]
+    module Strings {
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 46; ]
+        <init> {
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 47; @position = 27; initialized = true; @symbol_vardef = [p1,47,27,29]; @symbol_type<0> = [ResourceId,47,33,43]; ]
+        var p1 as ResourceId;
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 48; @position = 27; initialized = true; @symbol_vardef = [p2,48,27,29]; @symbol_type<0> = [ResourceId,48,33,43]; ]
+        var p2 as ResourceId;
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 49; @position = 27; initialized = true; @symbol_vardef = [menu_label_1,49,27,39]; @symbol_type<0> = [ResourceId,49,43,53]; ]
+        var menu_label_1 as ResourceId;
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 50; @position = 27; initialized = true; @symbol_vardef = [prompt,50,27,33]; @symbol_type<0> = [ResourceId,50,37,47]; ]
+        var prompt as ResourceId;
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 51; @position = 27; initialized = true; @symbol_vardef = [AppName,51,27,34]; @symbol_type<0> = [ResourceId,51,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 54; @symbol_moduledef = [Styles,54,11,17]; ]
+    module Styles {
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 54; ]
+        <init> {
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 55; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,55,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 55; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [exclude,56,18,25]; @symbol_type<0> = [Boolean,56,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 59; @symbol_moduledef = [system_size__menu_header,59,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 59; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 60; @position = 18; @symbol_constdef = [width,60,18,23]; @symbol_type<0> = [Number,60,27,33]; ]
+            const width as Number = 260;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 61; @position = 18; @symbol_constdef = [height,61,18,24]; @symbol_type<0> = [Number,61,28,34]; ]
+            const height as Number = 81;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 64; @symbol_moduledef = [system_loc__hint_button_left_bottom,64,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 64; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 65; @position = 18; @symbol_constdef = [x,65,18,19]; @symbol_type<0> = [Number,65,23,29]; ]
+            const x as Number = 10;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 66; @position = 18; @symbol_constdef = [y,66,18,19]; @symbol_type<0> = [Number,66,23,29]; ]
+            const y as Number = 172;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 69; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,69,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 69; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [exclude,70,18,25]; @symbol_type<0> = [Boolean,70,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 73; @symbol_moduledef = [prompt_loc__body_no_title,73,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 73; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 74; @position = 18; @symbol_constdef = [x,74,18,19]; @symbol_type<0> = [Number,74,23,29]; ]
+            const x as Number = 26;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 75; @position = 18; @symbol_constdef = [y,75,18,19]; @symbol_type<0> = [Number,75,23,29]; ]
+            const y as Number = 26;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 78; @symbol_moduledef = [system_icon_dark__about,78,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 78; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 79; @position = 18; @symbol_constdef = [filename,79,18,26]; @symbol_type<0> = [String,79,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [compress,80,18,26]; @symbol_type<0> = [String,80,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 81; @position = 18; @symbol_constdef = [dithering,81,18,27]; @symbol_type<0> = [String,81,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 82; @position = 18; @symbol_constdef = [automaticPalette,82,18,34]; @symbol_type<0> = [String,82,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 85; @symbol_moduledef = [system_icon_light__question,85,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 85; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 86; @position = 18; @symbol_constdef = [filename,86,18,26]; @symbol_type<0> = [String,86,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__question.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 87; @position = 18; @symbol_constdef = [dithering,87,18,27]; @symbol_type<0> = [String,87,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 90; @symbol_moduledef = [system_loc__hint_button_left_top,90,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 90; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 91; @position = 18; @symbol_constdef = [exclude,91,18,25]; @symbol_type<0> = [Boolean,91,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 94; @symbol_moduledef = [prompt_font__title,94,15,33]; ]
+        module prompt_font__title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 94; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 95 18 ]
+                symbol [ Graphics %tmp.16 95 34 42 ];
+                %tmp.16 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.17 95 43 62 ];
+                %tmp.17 = getv %tmp.16 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.18 95 63 71 ];
+                %tmp.18 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.19 95 72 92 ];
+                %tmp.19 = getv %tmp.18 :TEXT_JUSTIFY_VCENTER;
+                %tmp.20 = bitor %tmp.17 %tmp.19;
+                putv self :justification %tmp.20;
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 96 18 ]
+                symbol [ Graphics %tmp.21 96 25 33 ];
+                %tmp.21 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.22 96 34 44 ];
+                %tmp.22 = getv %tmp.21 :FONT_XTINY;
+                putv self :font %tmp.22;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [justification,95,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 96; @position = 18; @symbol_constdef = [font,96,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 99; @symbol_moduledef = [system_icon_dark__discard,99,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 99; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [filename,100,18,26]; @symbol_type<0> = [String,100,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 101; @position = 18; @symbol_constdef = [compress,101,18,26]; @symbol_type<0> = [String,101,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 102; @position = 18; @symbol_constdef = [dithering,102,18,27]; @symbol_type<0> = [String,102,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 103; @position = 18; @symbol_constdef = [automaticPalette,103,18,34]; @symbol_type<0> = [String,103,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 106; @symbol_moduledef = [system_size__menu_item,106,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 106; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 107; @position = 18; @symbol_constdef = [width,107,18,23]; @symbol_type<0> = [Number,107,27,33]; ]
+            const width as Number = 260;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 108; @position = 18; @symbol_constdef = [height,108,18,24]; @symbol_type<0> = [Number,108,28,34]; ]
+            const height as Number = 68;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 111; @symbol_moduledef = [system_color_dark__text,111,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 111; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 113 18 ]
+                symbol [ Graphics %tmp.23 113 31 39 ];
+                %tmp.23 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.24 113 40 57 ];
+                %tmp.24 = getv %tmp.23 :COLOR_TRANSPARENT;
+                putv self :background %tmp.24;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 112; @position = 18; @symbol_constdef = [color,112,18,23]; @symbol_type<0> = [Number,112,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [background,113,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 116; @symbol_moduledef = [system_icon_destructive__discard,116,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 116; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 117; @position = 18; @symbol_constdef = [filename,117,18,26]; @symbol_type<0> = [String,117,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_destructive__discard.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [dithering,118,18,27]; @symbol_type<0> = [String,118,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 121; @symbol_moduledef = [system_icon_dark__hint_action_menu,121,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 121; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [filename,122,18,26]; @symbol_type<0> = [String,122,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [dithering,123,18,27]; @symbol_type<0> = [String,123,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 126; @symbol_moduledef = [prompt_size__title,126,15,33]; ]
+        module prompt_size__title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 126; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [width,127,18,23]; @symbol_type<0> = [Number,127,27,33]; ]
+            const width as Number = 208;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [height,128,18,24]; @symbol_type<0> = [Number,128,28,34]; ]
+            const height as Number = 39;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 131; @symbol_moduledef = [confirmation_font__body,131,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 131; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 132 18 ]
+                symbol [ Graphics %tmp.25 132 34 42 ];
+                %tmp.25 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.26 132 43 62 ];
+                %tmp.26 = getv %tmp.25 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.27 132 63 71 ];
+                %tmp.27 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.28 132 72 92 ];
+                %tmp.28 = getv %tmp.27 :TEXT_JUSTIFY_VCENTER;
+                %tmp.29 = bitor %tmp.26 %tmp.28;
+                putv self :justification %tmp.29;
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 133 18 ]
+                symbol [ Graphics %tmp.30 133 25 33 ];
+                %tmp.30 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.31 133 34 43 ];
+                %tmp.31 = getv %tmp.30 :FONT_TINY;
+                putv self :font %tmp.31;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [justification,132,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [font,133,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 136; @symbol_moduledef = [system_color_dark__background,136,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 136; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [color,137,18,23]; @symbol_type<0> = [Number,137,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [background,138,18,28]; @symbol_type<0> = [Number,138,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 141; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,141,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [filename,142,18,26]; @symbol_type<0> = [String,142,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [dithering,143,18,27]; @symbol_type<0> = [String,143,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 146; @symbol_moduledef = [system_size__launch_icon,146,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 146; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [scaleX,147,18,24]; @symbol_type<0> = [Number,147,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [scaleY,148,18,24]; @symbol_type<0> = [Number,148,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 149; @position = 18; @symbol_constdef = [scaleRelativeTo,149,18,33]; @symbol_type<0> = [String,149,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 152; @symbol_moduledef = [confirmation_input__confirm,152,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 152; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 153 18 ]
+                symbol [ WatchUi %tmp.32 153 27 34 ];
+                %tmp.32 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.33 153 35 44 ];
+                %tmp.33 = getv %tmp.32 :KEY_ENTER;
+                putv self :button %tmp.33;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [button,153,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 156; @symbol_moduledef = [prompt_font__body_with_title,156,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 156; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 157 18 ]
+                symbol [ Graphics %tmp.34 157 34 42 ];
+                %tmp.34 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.35 157 43 62 ];
+                %tmp.35 = getv %tmp.34 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.35;
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 158 18 ]
+                symbol [ Graphics %tmp.36 158 25 33 ];
+                %tmp.36 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.37 158 34 43 ];
+                %tmp.37 = getv %tmp.36 :FONT_TINY;
+                putv self :font %tmp.37;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [justification,157,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [font,158,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 161; @symbol_moduledef = [confirmation_loc__body,161,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [x,162,18,19]; @symbol_type<0> = [Number,162,23,29]; ]
+            const x as Number = 52;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [y,163,18,19]; @symbol_type<0> = [Number,163,23,29]; ]
+            const y as Number = 52;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 166; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,166,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [filename,167,18,26]; @symbol_type<0> = [String,167,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [dithering,168,18,27]; @symbol_type<0> = [String,168,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 171; @symbol_moduledef = [prompt_color_dark__background,171,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 171; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 172; @position = 18; @symbol_constdef = [color,172,18,23]; @symbol_type<0> = [Number,172,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [background,173,18,28]; @symbol_type<0> = [Number,173,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 176; @symbol_moduledef = [system_icon_destructive__hint_action_menu,176,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 176; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [filename,177,18,26]; @symbol_type<0> = [String,177,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [dithering,178,18,27]; @symbol_type<0> = [String,178,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 181; @symbol_moduledef = [system_loc__hint_action_menu,181,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [x,182,18,19]; @symbol_type<0> = [Number,182,23,29]; ]
+            const x as Number = 225;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [y,183,18,19]; @symbol_type<0> = [Number,183,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 186; @symbol_moduledef = [confirmation_icon__hint_confirm,186,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 186; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [filename,187,18,26]; @symbol_type<0> = [String,187,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [dithering,188,18,27]; @symbol_type<0> = [String,188,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 191; @symbol_moduledef = [system_loc__hint_button_left_middle,191,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 191; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [x,192,18,19]; @symbol_type<0> = [Number,192,23,29]; ]
+            const x as Number = 3;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [y,193,18,19]; @symbol_type<0> = [Number,193,23,29]; ]
+            const y as Number = 108;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 196; @symbol_moduledef = [prompt_size__body_no_title,196,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [width,197,18,23]; @symbol_type<0> = [Number,197,27,33]; ]
+            const width as Number = 208;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [height,198,18,24]; @symbol_type<0> = [Number,198,28,34]; ]
+            const height as Number = 208;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 201; @symbol_moduledef = [system_icon_light__hint_button_left_top,201,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 201; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [filename,202,18,26]; @symbol_type<0> = [String,202,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__hint_button_left_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 203; @position = 18; @symbol_constdef = [dithering,203,18,27]; @symbol_type<0> = [String,203,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 206; @symbol_moduledef = [prompt_color_light__background,206,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 206; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [color,207,18,23]; @symbol_type<0> = [Number,207,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 208; @position = 18; @symbol_constdef = [background,208,18,28]; @symbol_type<0> = [Number,208,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 211; @symbol_moduledef = [confirmation_input__delete,211,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 211; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 212 18 ]
+                symbol [ WatchUi %tmp.38 212 27 34 ];
+                %tmp.38 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.39 212 35 44 ];
+                %tmp.39 = getv %tmp.38 :KEY_ENTER;
+                putv self :button %tmp.39;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [button,212,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 215; @symbol_moduledef = [system_icon_dark__hint_button_left_top,215,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [filename,216,18,26]; @symbol_type<0> = [String,216,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 217; @position = 18; @symbol_constdef = [dithering,217,18,27]; @symbol_type<0> = [String,217,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 220; @symbol_moduledef = [system_input__action_menu,220,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 220; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 221 18 ]
+                symbol [ WatchUi %tmp.40 221 27 34 ];
+                %tmp.40 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.41 221 35 44 ];
+                %tmp.41 = getv %tmp.40 :KEY_ENTER;
+                putv self :button %tmp.41;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [button,221,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 224; @symbol_moduledef = [system_icon_light__save,224,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 224; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [filename,225,18,26]; @symbol_type<0> = [String,225,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__save.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [dithering,226,18,27]; @symbol_type<0> = [String,226,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 229; @symbol_moduledef = [prompt_color_light__body,229,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 229; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 231 18 ]
+                symbol [ Graphics %tmp.42 231 31 39 ];
+                %tmp.42 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.43 231 40 57 ];
+                %tmp.43 = getv %tmp.42 :COLOR_TRANSPARENT;
+                putv self :background %tmp.43;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 230; @position = 18; @symbol_constdef = [color,230,18,23]; @symbol_type<0> = [Number,230,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [background,231,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 234; @symbol_moduledef = [system_loc__subwindow,234,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 234; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [exclude,235,18,25]; @symbol_type<0> = [Boolean,235,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 238; @symbol_moduledef = [system_icon_light__warning,238,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 238; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [filename,239,18,26]; @symbol_type<0> = [String,239,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__warning.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [dithering,240,18,27]; @symbol_type<0> = [String,240,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 243; @symbol_moduledef = [confirmation_color_light__body,243,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 243; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 245 18 ]
+                symbol [ Graphics %tmp.44 245 31 39 ];
+                %tmp.44 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.45 245 40 57 ];
+                %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
+                putv self :background %tmp.45;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [color,244,18,23]; @symbol_type<0> = [Number,244,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [background,245,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 248; @symbol_moduledef = [confirmation_icon_light__hint_keep,248,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 248; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 249; @position = 18; @symbol_constdef = [filename,249,18,26]; @symbol_type<0> = [String,249,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [dithering,250,18,27]; @symbol_type<0> = [String,250,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 253; @symbol_moduledef = [activity_color_light__background,253,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 253; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 254; @position = 18; @symbol_constdef = [color,254,18,23]; @symbol_type<0> = [Number,254,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [background,255,18,28]; @symbol_type<0> = [Number,255,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 258; @symbol_moduledef = [system_icon_positive__hint_button_right_top,258,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 259; @position = 18; @symbol_constdef = [filename,259,18,26]; @symbol_type<0> = [String,259,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [dithering,260,18,27]; @symbol_type<0> = [String,260,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 263; @symbol_moduledef = [system_size__screen,263,15,34]; ]
+        module system_size__screen {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [width,264,18,23]; @symbol_type<0> = [Number,264,27,33]; ]
+            const width as Number = 260;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [height,265,18,24]; @symbol_type<0> = [Number,265,28,34]; ]
+            const height as Number = 260;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 268; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,268,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [filename,269,18,26]; @symbol_type<0> = [String,269,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [dithering,270,18,27]; @symbol_type<0> = [String,270,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 273; @symbol_moduledef = [system_color_light__background,273,15,45]; ]
+        module system_color_light__background {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [color,274,18,23]; @symbol_type<0> = [Number,274,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [background,275,18,28]; @symbol_type<0> = [Number,275,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 278; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,278,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 278; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [filename,279,18,26]; @symbol_type<0> = [String,279,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [dithering,280,18,27]; @symbol_type<0> = [String,280,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 283; @symbol_moduledef = [confirmation_loc__hint_confirm,283,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [x,284,18,19]; @symbol_type<0> = [Number,284,23,29]; ]
+            const x as Number = 210;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [y,285,18,19]; @symbol_type<0> = [Number,285,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 288; @symbol_moduledef = [activity_color_dark__text,288,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 288; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 290 18 ]
+                symbol [ Graphics %tmp.46 290 31 39 ];
+                %tmp.46 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.47 290 40 57 ];
+                %tmp.47 = getv %tmp.46 :COLOR_TRANSPARENT;
+                putv self :background %tmp.47;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [color,289,18,23]; @symbol_type<0> = [Number,289,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [background,290,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 293; @symbol_moduledef = [confirmation_input__keep,293,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 293; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 294 18 ]
+                symbol [ WatchUi %tmp.48 294 27 34 ];
+                %tmp.48 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.49 294 35 43 ];
+                %tmp.49 = getv %tmp.48 :KEY_DOWN;
+                putv self :button %tmp.49;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [button,294,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 297; @symbol_moduledef = [prompt_loc__body_with_title,297,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [x,298,18,19]; @symbol_type<0> = [Number,298,23,29]; ]
+            const x as Number = 26;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [y,299,18,19]; @symbol_type<0> = [Number,299,23,29]; ]
+            const y as Number = 78;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 302; @symbol_moduledef = [system_icon_dark__search,302,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 302; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [filename,303,18,26]; @symbol_type<0> = [String,303,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [compress,304,18,26]; @symbol_type<0> = [String,304,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [dithering,305,18,27]; @symbol_type<0> = [String,305,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 306; @position = 18; @symbol_constdef = [automaticPalette,306,18,34]; @symbol_type<0> = [String,306,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 309; @symbol_moduledef = [activity_color_light__text,309,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 309; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 311 18 ]
+                symbol [ Graphics %tmp.50 311 31 39 ];
+                %tmp.50 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.51 311 40 57 ];
+                %tmp.51 = getv %tmp.50 :COLOR_TRANSPARENT;
+                putv self :background %tmp.51;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [color,310,18,23]; @symbol_type<0> = [Number,310,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [background,311,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 314; @symbol_moduledef = [confirmation_icon__hint_keep,314,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 314; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 315; @position = 18; @symbol_constdef = [filename,315,18,26]; @symbol_type<0> = [String,315,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 316; @position = 18; @symbol_constdef = [dithering,316,18,27]; @symbol_type<0> = [String,316,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 319; @symbol_moduledef = [system_icon_dark__save,319,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 319; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 320; @position = 18; @symbol_constdef = [filename,320,18,26]; @symbol_type<0> = [String,320,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 321; @position = 18; @symbol_constdef = [compress,321,18,26]; @symbol_type<0> = [String,321,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [dithering,322,18,27]; @symbol_type<0> = [String,322,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [automaticPalette,323,18,34]; @symbol_type<0> = [String,323,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 326; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,326,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 326; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [filename,327,18,26]; @symbol_type<0> = [String,327,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [dithering,328,18,27]; @symbol_type<0> = [String,328,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 331; @symbol_moduledef = [system_icon_light__search,331,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 331; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [filename,332,18,26]; @symbol_type<0> = [String,332,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__search.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [dithering,333,18,27]; @symbol_type<0> = [String,333,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 336; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,336,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 336; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [filename,337,18,26]; @symbol_type<0> = [String,337,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [dithering,338,18,27]; @symbol_type<0> = [String,338,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 341; @symbol_moduledef = [system_icon_positive__hint_button_left_top,341,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 341; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [filename,342,18,26]; @symbol_type<0> = [String,342,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_positive__hint_button_left_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [dithering,343,18,27]; @symbol_type<0> = [String,343,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 346; @symbol_moduledef = [system_loc__hint_button_right_bottom,346,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 346; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 347; @position = 18; @symbol_constdef = [x,347,18,19]; @symbol_type<0> = [Number,347,23,29]; ]
+            const x as Number = 225;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [y,348,18,19]; @symbol_type<0> = [Number,348,23,29]; ]
+            const y as Number = 172;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 351; @symbol_moduledef = [confirmation_icon_dark__hint_reject,351,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 351; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [filename,352,18,26]; @symbol_type<0> = [String,352,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [dithering,353,18,27]; @symbol_type<0> = [String,353,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 356; @symbol_moduledef = [confirmation_color_dark__body,356,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 356; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 358 18 ]
+                symbol [ Graphics %tmp.52 358 31 39 ];
+                %tmp.52 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.53 358 40 57 ];
+                %tmp.53 = getv %tmp.52 :COLOR_TRANSPARENT;
+                putv self :background %tmp.53;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [color,357,18,23]; @symbol_type<0> = [Number,357,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [background,358,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 361; @symbol_moduledef = [confirmation_icon_light__hint_confirm,361,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 361; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [filename,362,18,26]; @symbol_type<0> = [String,362,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [dithering,363,18,27]; @symbol_type<0> = [String,363,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 366; @symbol_moduledef = [prompt_color_dark__title,366,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 366; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 368 18 ]
+                symbol [ Graphics %tmp.54 368 31 39 ];
+                %tmp.54 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.55 368 40 57 ];
+                %tmp.55 = getv %tmp.54 :COLOR_TRANSPARENT;
+                putv self :background %tmp.55;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [color,367,18,23]; @symbol_type<0> = [Number,367,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [background,368,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 371; @symbol_moduledef = [system_icon_destructive__cancel,371,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [filename,372,18,26]; @symbol_type<0> = [String,372,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_destructive__cancel.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [dithering,373,18,27]; @symbol_type<0> = [String,373,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 376; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,376,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 376; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [filename,377,18,26]; @symbol_type<0> = [String,377,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [dithering,378,18,27]; @symbol_type<0> = [String,378,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 381; @symbol_moduledef = [prompt_loc__title,381,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 381; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [x,382,18,19]; @symbol_type<0> = [Number,382,23,29]; ]
+            const x as Number = 26;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [y,383,18,19]; @symbol_type<0> = [Number,383,23,29]; ]
+            const y as Number = 19;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 386; @symbol_moduledef = [confirmation_font_enhanced_readability__body,386,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 386; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [exclude,387,18,25]; @symbol_type<0> = [Boolean,387,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 390; @symbol_moduledef = [prompt_color_light__title,390,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 390; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 392 18 ]
+                symbol [ Graphics %tmp.56 392 31 39 ];
+                %tmp.56 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.57 392 40 57 ];
+                %tmp.57 = getv %tmp.56 :COLOR_TRANSPARENT;
+                putv self :background %tmp.57;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [color,391,18,23]; @symbol_type<0> = [Number,391,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [background,392,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 395; @symbol_moduledef = [system_icon_dark__hint_button_right_top,395,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 395; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [filename,396,18,26]; @symbol_type<0> = [String,396,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [dithering,397,18,27]; @symbol_type<0> = [String,397,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 400; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,400,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 400; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [filename,401,18,26]; @symbol_type<0> = [String,401,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [dithering,402,18,27]; @symbol_type<0> = [String,402,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 405; @symbol_moduledef = [confirmation_icon_dark__hint_keep,405,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 405; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [filename,406,18,26]; @symbol_type<0> = [String,406,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [dithering,407,18,27]; @symbol_type<0> = [String,407,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 410; @symbol_moduledef = [system_icon_light__cancel,410,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [filename,411,18,26]; @symbol_type<0> = [String,411,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__cancel.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [dithering,412,18,27]; @symbol_type<0> = [String,412,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 415; @symbol_moduledef = [confirmation_icon_light__hint_reject,415,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [filename,416,18,26]; @symbol_type<0> = [String,416,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [dithering,417,18,27]; @symbol_type<0> = [String,417,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 420; @symbol_moduledef = [system_icon_light__about,420,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [filename,421,18,26]; @symbol_type<0> = [String,421,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__about.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [dithering,422,18,27]; @symbol_type<0> = [String,422,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 425; @symbol_moduledef = [system_size__toast_icon,425,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [scaleX,426,18,24]; @symbol_type<0> = [Number,426,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [scaleY,427,18,24]; @symbol_type<0> = [Number,427,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 428; @position = 18; @symbol_constdef = [scaleRelativeTo,428,18,33]; @symbol_type<0> = [String,428,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 431; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,431,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 431; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [exclude,432,18,25]; @symbol_type<0> = [Boolean,432,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 435; @symbol_moduledef = [confirmation_icon__hint_reject,435,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [filename,436,18,26]; @symbol_type<0> = [String,436,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 437; @position = 18; @symbol_constdef = [dithering,437,18,27]; @symbol_type<0> = [String,437,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 440; @symbol_moduledef = [system_icon_light__hint_action_menu,440,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [filename,441,18,26]; @symbol_type<0> = [String,441,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [dithering,442,18,27]; @symbol_type<0> = [String,442,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 445; @symbol_moduledef = [system_icon_light__hint_button_right_middle,445,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [exclude,446,18,25]; @symbol_type<0> = [Boolean,446,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 449; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,449,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 449; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [exclude,450,18,25]; @symbol_type<0> = [Boolean,450,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 453; @symbol_moduledef = [confirmation_loc__hint_reject,453,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 453; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [x,454,18,19]; @symbol_type<0> = [Number,454,23,29]; ]
+            const x as Number = 10;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [y,455,18,19]; @symbol_type<0> = [Number,455,23,29]; ]
+            const y as Number = 172;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [horizontalJustification,456,18,41]; @symbol_type<0> = [String,456,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 459; @symbol_moduledef = [confirmation_icon_dark__hint_delete,459,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 459; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 460; @position = 18; @symbol_constdef = [filename,460,18,26]; @symbol_type<0> = [String,460,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [dithering,461,18,27]; @symbol_type<0> = [String,461,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 464; @symbol_moduledef = [activity_color_dark__background,464,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 464; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [color,465,18,23]; @symbol_type<0> = [Number,465,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [background,466,18,28]; @symbol_type<0> = [Number,466,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 469; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,469,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [filename,470,18,26]; @symbol_type<0> = [String,470,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [dithering,471,18,27]; @symbol_type<0> = [String,471,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 474; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,474,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [filename,475,18,26]; @symbol_type<0> = [String,475,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [dithering,476,18,27]; @symbol_type<0> = [String,476,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 479; @symbol_moduledef = [system_size__menu_icon,479,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 479; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [scaleX,480,18,24]; @symbol_type<0> = [Number,480,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [scaleY,481,18,24]; @symbol_type<0> = [Number,481,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 482; @position = 18; @symbol_constdef = [scaleRelativeTo,482,18,33]; @symbol_type<0> = [String,482,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 485; @symbol_moduledef = [system_icon_destructive__warning,485,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 485; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [filename,486,18,26]; @symbol_type<0> = [String,486,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_destructive__warning.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 487; @position = 18; @symbol_constdef = [dithering,487,18,27]; @symbol_type<0> = [String,487,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 490; @symbol_moduledef = [system_loc__hint_button_right_middle,490,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 490; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [exclude,491,18,25]; @symbol_type<0> = [Boolean,491,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 494; @symbol_moduledef = [system_icon_dark__cancel,494,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [filename,495,18,26]; @symbol_type<0> = [String,495,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 496; @position = 18; @symbol_constdef = [compress,496,18,26]; @symbol_type<0> = [String,496,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 497; @position = 18; @symbol_constdef = [dithering,497,18,27]; @symbol_type<0> = [String,497,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 498; @position = 18; @symbol_constdef = [automaticPalette,498,18,34]; @symbol_type<0> = [String,498,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 501; @symbol_moduledef = [prompt_size__body_with_title,501,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 501; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [width,502,18,23]; @symbol_type<0> = [Number,502,27,33]; ]
+            const width as Number = 208;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [height,503,18,24]; @symbol_type<0> = [Number,503,28,34]; ]
+            const height as Number = 156;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 506; @symbol_moduledef = [system_loc__hint_button_right_top,506,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 506; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [x,507,18,19]; @symbol_type<0> = [Number,507,23,29]; ]
+            const x as Number = 225;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [y,508,18,19]; @symbol_type<0> = [Number,508,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 511; @symbol_moduledef = [system_color_light__text,511,15,39]; ]
+        module system_color_light__text {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 511; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 513 18 ]
+                symbol [ Graphics %tmp.58 513 31 39 ];
+                %tmp.58 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.59 513 40 57 ];
+                %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+                putv self :background %tmp.59;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 512; @position = 18; @symbol_constdef = [color,512,18,23]; @symbol_type<0> = [Number,512,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 513; @position = 18; @symbol_constdef = [background,513,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 516; @symbol_moduledef = [system_icon_light__check,516,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 516; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [filename,517,18,26]; @symbol_type<0> = [String,517,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__check.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [dithering,518,18,27]; @symbol_type<0> = [String,518,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 521; @symbol_moduledef = [confirmation_input__reject,521,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 521; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 522 18 ]
+                symbol [ WatchUi %tmp.60 522 27 34 ];
+                %tmp.60 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.61 522 35 43 ];
+                %tmp.61 = getv %tmp.60 :KEY_DOWN;
+                putv self :button %tmp.61;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [button,522,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 525; @symbol_moduledef = [system_icon_light__revert,525,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 525; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [filename,526,18,26]; @symbol_type<0> = [String,526,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__revert.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [dithering,527,18,27]; @symbol_type<0> = [String,527,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 530; @symbol_moduledef = [system_size__subwindow,530,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 530; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [exclude,531,18,25]; @symbol_type<0> = [Boolean,531,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 534; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,534,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 534; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 535; @position = 18; @symbol_constdef = [filename,535,18,26]; @symbol_type<0> = [String,535,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [dithering,536,18,27]; @symbol_type<0> = [String,536,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 539; @symbol_moduledef = [system_icon_dark__check,539,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 539; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 540; @position = 18; @symbol_constdef = [filename,540,18,26]; @symbol_type<0> = [String,540,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 541; @position = 18; @symbol_constdef = [compress,541,18,26]; @symbol_type<0> = [String,541,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [dithering,542,18,27]; @symbol_type<0> = [String,542,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [automaticPalette,543,18,34]; @symbol_type<0> = [String,543,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 546; @symbol_moduledef = [confirmation_loc__hint_keep,546,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [x,547,18,19]; @symbol_type<0> = [Number,547,23,29]; ]
+            const x as Number = 10;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [y,548,18,19]; @symbol_type<0> = [Number,548,23,29]; ]
+            const y as Number = 172;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 549; @position = 18; @symbol_constdef = [horizontalJustification,549,18,41]; @symbol_type<0> = [String,549,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 552; @symbol_moduledef = [confirmation_loc__hint_delete,552,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 552; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [x,553,18,19]; @symbol_type<0> = [Number,553,23,29]; ]
+            const x as Number = 210;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [y,554,18,19]; @symbol_type<0> = [Number,554,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 557; @symbol_moduledef = [system_icon_positive__hint_action_menu,557,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 557; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [filename,558,18,26]; @symbol_type<0> = [String,558,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 559; @position = 18; @symbol_constdef = [dithering,559,18,27]; @symbol_type<0> = [String,559,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 562; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,562,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 562; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 563; @position = 18; @symbol_constdef = [exclude,563,18,25]; @symbol_type<0> = [Boolean,563,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 566; @symbol_moduledef = [system_icon_light__hint_button_left_middle,566,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 566; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [filename,567,18,26]; @symbol_type<0> = [String,567,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__hint_button_left_middle.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 568; @position = 18; @symbol_constdef = [dithering,568,18,27]; @symbol_type<0> = [String,568,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 571; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,571,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 571; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [filename,572,18,26]; @symbol_type<0> = [String,572,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 573; @position = 18; @symbol_constdef = [dithering,573,18,27]; @symbol_type<0> = [String,573,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 576; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,576,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 576; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [filename,577,18,26]; @symbol_type<0> = [String,577,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [dithering,578,18,27]; @symbol_type<0> = [String,578,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 581; @symbol_moduledef = [system_icon_dark__revert,581,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 581; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [filename,582,18,26]; @symbol_type<0> = [String,582,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [compress,583,18,26]; @symbol_type<0> = [String,583,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [dithering,584,18,27]; @symbol_type<0> = [String,584,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 585; @position = 18; @symbol_constdef = [automaticPalette,585,18,34]; @symbol_type<0> = [String,585,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 588; @symbol_moduledef = [confirmation_icon_light__hint_delete,588,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 588; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [filename,589,18,26]; @symbol_type<0> = [String,589,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 590; @position = 18; @symbol_constdef = [dithering,590,18,27]; @symbol_type<0> = [String,590,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 593; @symbol_moduledef = [system_icon_dark__question,593,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 593; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 594; @position = 18; @symbol_constdef = [filename,594,18,26]; @symbol_type<0> = [String,594,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 595; @position = 18; @symbol_constdef = [compress,595,18,26]; @symbol_type<0> = [String,595,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 596; @position = 18; @symbol_constdef = [dithering,596,18,27]; @symbol_type<0> = [String,596,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [automaticPalette,597,18,34]; @symbol_type<0> = [String,597,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 600; @symbol_moduledef = [system_icon_light__discard,600,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 600; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 601; @position = 18; @symbol_constdef = [filename,601,18,26]; @symbol_type<0> = [String,601,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__discard.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [dithering,602,18,27]; @symbol_type<0> = [String,602,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 605; @symbol_moduledef = [device_info,605,15,26]; ]
+        module device_info {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 605; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 607 18 ]
+                symbol [ Toybox %tmp.63 607 32 38 ];
+                %tmp.63 = getv ? :Toybox;
+                symbol [ System %tmp.64 607 39 45 ];
+                %tmp.64 = getv %tmp.63 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.65 607 46 64 ];
+                %tmp.65 = getv %tmp.64 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.65;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [screenWidth,606,18,29]; @symbol_type<0> = [Number,606,33,39]; ]
+            const screenWidth as Number = 260;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [screenShape,607,18,29]; ]
+            const screenShape;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 608; @position = 18; @symbol_constdef = [hasNightMode,608,18,30]; @symbol_type<0> = [Boolean,608,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 609; @position = 18; @symbol_constdef = [hasGpu,609,18,24]; @symbol_type<0> = [Boolean,609,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [screenHeight,610,18,30]; @symbol_type<0> = [Number,610,34,40]; ]
+            const screenHeight as Number = 260;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [hasTouchScreen,611,18,32]; @symbol_type<0> = [Boolean,611,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,612,18,44]; @symbol_type<0> = [Boolean,612,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 615; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,615,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 615; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [filename,616,18,26]; @symbol_type<0> = [String,616,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [dithering,617,18,27]; @symbol_type<0> = [String,617,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 620; @symbol_moduledef = [prompt_font__body_no_title,620,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 620; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 621 18 ]
+                symbol [ Graphics %tmp.66 621 34 42 ];
+                %tmp.66 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.67 621 43 62 ];
+                %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.68 621 63 71 ];
+                %tmp.68 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.69 621 72 92 ];
+                %tmp.69 = getv %tmp.68 :TEXT_JUSTIFY_VCENTER;
+                %tmp.70 = bitor %tmp.67 %tmp.69;
+                putv self :justification %tmp.70;
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 622 18 ]
+                symbol [ Graphics %tmp.71 622 25 33 ];
+                %tmp.71 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.72 622 34 43 ];
+                %tmp.72 = getv %tmp.71 :FONT_TINY;
+                putv self :font %tmp.72;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [justification,621,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [font,622,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 625; @symbol_moduledef = [prompt_size__title_icon,625,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 625; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [scaleX,626,18,24]; @symbol_type<0> = [Float,626,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [scaleRelativeTo,627,18,33]; @symbol_type<0> = [String,627,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 630; @symbol_moduledef = [system_icon_dark__warning,630,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 630; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [filename,631,18,26]; @symbol_type<0> = [String,631,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [compress,632,18,26]; @symbol_type<0> = [String,632,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [dithering,633,18,27]; @symbol_type<0> = [String,633,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [automaticPalette,634,18,34]; @symbol_type<0> = [String,634,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 637; @symbol_moduledef = [prompt_loc__title_icon,637,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 637; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [x,638,18,19]; @symbol_type<0> = [Number,638,23,29]; ]
+            const x as Number = 130;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [y,639,18,19]; @symbol_type<0> = [Number,639,23,29]; ]
+            const y as Number = 39;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [horizontalJustification,640,18,41]; @symbol_type<0> = [String,640,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [verticalJustification,641,18,39]; @symbol_type<0> = [String,641,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 644; @symbol_moduledef = [prompt_font_enhanced_readability__title,644,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 644; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [exclude,645,18,25]; @symbol_type<0> = [Boolean,645,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 648; @symbol_moduledef = [prompt_color_dark__body,648,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 648; ]
+            <init> {
+[ "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen" 650 18 ]
+                symbol [ Graphics %tmp.73 650 31 39 ];
+                %tmp.73 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.74 650 40 57 ];
+                %tmp.74 = getv %tmp.73 :COLOR_TRANSPARENT;
+                putv self :background %tmp.74;
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [color,649,18,23]; @symbol_type<0> = [Number,649,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [background,650,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 653; @symbol_moduledef = [confirmation_icon__hint_delete,653,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 653; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [filename,654,18,26]; @symbol_type<0> = [String,654,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [dithering,655,18,27]; @symbol_type<0> = [String,655,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 658; @symbol_moduledef = [system_icon_light__hint_button_right_top,658,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 658; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 659; @position = 18; @symbol_constdef = [filename,659,18,26]; @symbol_type<0> = [String,659,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [dithering,660,18,27]; @symbol_type<0> = [String,660,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 663; @symbol_moduledef = [confirmation_size__body,663,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 663; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 664; @position = 18; @symbol_constdef = [width,664,18,23]; @symbol_type<0> = [Number,664,27,33]; ]
+            const width as Number = 156;
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [height,665,18,24]; @symbol_type<0> = [Number,665,28,34]; ]
+            const height as Number = 156;
+        }
+        [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 668; @symbol_moduledef = [system_icon_positive__check,668,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 668; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [filename,669,18,26]; @symbol_type<0> = [String,669,30,36]; ]
+            const filename as String = "C:\\Users\\Samuel\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7\\system_icon_positive__check.svg";
+            [ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [dithering,670,18,27]; @symbol_type<0> = [String,670,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "c:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\bin\gen\006-B3906-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

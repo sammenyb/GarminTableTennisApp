@@ -1,0 +1,1086 @@
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Application,3,14,25]; ]
+import Toybox.Application;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Application,4,14,25]; @symbol_importdef<2> = [Properties,4,26,36]; ]
+import Toybox.Application.Properties;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Lang,5,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Timer,6,14,19]; ]
+import Toybox.Timer;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 8; @position = 4; @symbol_vardef = [_p1Score_ctr,8,4,16]; ]
+var _p1Score_ctr = 0;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 9; @position = 4; @symbol_vardef = [_p2Score_ctr,9,4,16]; ]
+var _p2Score_ctr = 0;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 10; @position = 4; @symbol_vardef = [_p1Score,10,4,12]; ]
+var _p1Score = null;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 11; @position = 4; @symbol_vardef = [_p2Score,11,4,12]; ]
+var _p2Score = null;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 12; @position = 4; @symbol_vardef = [_p1Set_ctr,12,4,14]; ]
+var _p1Set_ctr = 0;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 13; @position = 4; @symbol_vardef = [_p2Set_ctr,13,4,14]; ]
+var _p2Set_ctr = 0;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 14; @position = 4; @symbol_vardef = [_p1Set,14,4,10]; ]
+var _p1Set = null;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 15; @position = 4; @symbol_vardef = [_p2Set,15,4,10]; ]
+var _p2Set = null;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 16; @position = 4; @symbol_vardef = [_total_points,16,4,17]; ]
+var _total_points = 0;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 18; @position = 4; @symbol_vardef = [_whoServes,18,4,14]; ]
+var _whoServes = 2;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 19; @position = 4; @symbol_vardef = [_setServer,19,4,14]; ]
+var _setServer;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 21; @position = 4; @symbol_vardef = [updateTimer,21,4,15]; ]
+var updateTimer = null;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 23; @symbol_classdef = [PingPongCounterView,23,6,25]; @symbol_extends<0> = [WatchUi,23,34,41]; @symbol_extends<1> = [View,23,42,46]; ]
+class PingPongCounterView extends WatchUi.View {
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 23; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 23; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 25; @symbol_functiondef = [initialize,25,13,23]; ]
+    function initialize() as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_25_26_32_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 26 8 ]
+        symbol [ View %tmp.2 26 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 26 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 27 8 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_27_8_29_8_if_stmt:
+        symbol [ updateTimer %tmp.5 27 12 23 ];
+        %tmp.5 = getv ? :updateTimer;
+        %tmp.6 = null;
+        %tmp.7 = ne %tmp.5 %tmp.6;
+        bf %tmp.7 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_27_8_29_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_27_8_29_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_27_33_29_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 28 12 ]
+        symbol [ updateTimer %tmp.9 28 12 23 ];
+        %tmp.9 = getv ? :updateTimer;
+        %tmp.10 = as %tmp.9 { (!Null) };
+        symbol [ stop %tmp.11 28 24 28 ];
+        %tmp.11 = getv function %tmp.10 :stop;
+        invoke %tmp.10 %tmp.11();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_27_33_29_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_27_8_29_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_27_8_29_8_if_end:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 30 8 ]
+        symbol [ Timer %tmp.14 30 26 31 ];
+        %tmp.14 = getm $.Toybox.Timer;
+        symbol [ Timer %tmp.15 30 32 37 ];
+        %tmp.15 = getv function ? %tmp.14 :Timer;
+        %tmp.12 = newc %tmp.15 ();
+        symbol [ updateTimer ? 30 8 19 ];
+        putv self :updateTimer %tmp.12;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 31 8 ]
+        symbol [ updateTimer %tmp.17 31 8 19 ];
+        %tmp.17 = getv ? :updateTimer;
+        symbol [ start %tmp.18 31 20 25 ];
+        %tmp.18 = getv function %tmp.17 :start;
+        %tmp.19 = self;
+        symbol [ method %tmp.20 31 26 32 ];
+        %tmp.20 = getv function %tmp.19 :method;
+        %tmp.22 = const :timerCallback;
+        symbol [ timerCallback %tmp.22 31 34 47 const ];
+        %tmp.23 = invoke %tmp.19 %tmp.20(%tmp.22);
+        %tmp.24 = 1000;
+        %tmp.25 = true;
+        invoke %tmp.17 %tmp.18(%tmp.23, %tmp.24, %tmp.25);
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_25_26_32_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 35; @symbol_functiondef = [onLayout,35,13,21]; @symbol_param<0> = [dc,35,22,24]; @symbol_param<0>_type<0> = [Dc,35,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_35_40_42_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 36 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 36 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 36 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 36 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ MainLayout %tmp.6 36 30 40 ];
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 36 41 43 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 37 8 ]
+        %tmp.9 = self;
+        symbol [ findDrawableById %tmp.10 37 19 35 ];
+        %tmp.10 = getv function %tmp.9 :findDrawableById;
+        %tmp.11 = "p1_score";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        %tmp.13 = as %tmp.12 WatchUi.Text;
+        symbol [ WatchUi %tmp.13 37 51 58 ];
+        symbol [ Text %tmp.13 37 59 63 ];
+        symbol [ _p1Score ? 37 8 16 ];
+        putv self :_p1Score %tmp.13;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 38 8 ]
+        %tmp.14 = self;
+        symbol [ findDrawableById %tmp.15 38 19 35 ];
+        %tmp.15 = getv function %tmp.14 :findDrawableById;
+        %tmp.16 = "p2_score";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        %tmp.18 = as %tmp.17 WatchUi.Text;
+        symbol [ WatchUi %tmp.18 38 51 58 ];
+        symbol [ Text %tmp.18 38 59 63 ];
+        symbol [ _p2Score ? 38 8 16 ];
+        putv self :_p2Score %tmp.18;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 39 8 ]
+        %tmp.19 = self;
+        symbol [ findDrawableById %tmp.20 39 17 33 ];
+        %tmp.20 = getv function %tmp.19 :findDrawableById;
+        %tmp.21 = "p1_set";
+        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
+        %tmp.23 = as %tmp.22 WatchUi.Text;
+        symbol [ WatchUi %tmp.23 39 47 54 ];
+        symbol [ Text %tmp.23 39 55 59 ];
+        symbol [ _p1Set ? 39 8 14 ];
+        putv self :_p1Set %tmp.23;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 40 8 ]
+        %tmp.24 = self;
+        symbol [ findDrawableById %tmp.25 40 17 33 ];
+        %tmp.25 = getv function %tmp.24 :findDrawableById;
+        %tmp.26 = "p2_set";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        %tmp.28 = as %tmp.27 WatchUi.Text;
+        symbol [ WatchUi %tmp.28 40 47 54 ];
+        symbol [ Text %tmp.28 40 55 59 ];
+        symbol [ _p2Set ? 40 8 14 ];
+        putv self :_p2Set %tmp.28;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_35_40_42_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 47; @symbol_functiondef = [onShow,47,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 51; @symbol_functiondef = [onUpdate,51,13,21]; @symbol_param<0> = [dc,51,22,24]; @symbol_param<0>_type<0> = [Dc,51,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_51_40_78_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 53 8 ]
+        symbol [ View %tmp.2 53 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ onUpdate %tmp.3 53 13 21 ];
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 53 22 24 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 54 8 ]
+        [ "C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_51_40_78_4_start" "C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_51_40_78_4_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 54 12 21 ];
+        symbol [ System %tmp.6 54 24 30 ];
+        %tmp.6 = getv ? :System;
+        symbol [ getClockTime %tmp.7 54 31 43 ];
+        %tmp.7 = getv function %tmp.6 :getClockTime;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        lputv %clockTime.1 %tmp.8;
+        symbol [ clockTime %clockTime.1 54 12 21 ];
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 55 8 ]
+        [ "C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_51_40_78_4_start" "C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_51_40_78_4_stop" ]
+        %timeString.2 = local;
+        symbol [ timeString %timeString.2 55 12 22 ];
+        symbol [ Lang %tmp.9 55 25 29 ];
+        %tmp.9 = getm $.Toybox.Lang;
+        symbol [ format %tmp.10 55 30 36 ];
+        %tmp.10 = getv function %tmp.9 :format;
+        %tmp.11 = "$1$:$2$";
+        %tmp.12 = newa 2;
+        %tmp.13 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.13 55 49 58 ];
+        symbol [ hour %tmp.14 55 59 63 ];
+        %tmp.14 = getv %tmp.13 :hour;
+        %tmp.15 = dup %tmp.12;
+        %tmp.16 = aputv %tmp.15 0 %tmp.14;
+        %tmp.17 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.17 55 65 74 ];
+        symbol [ min %tmp.18 55 75 78 ];
+        %tmp.18 = getv %tmp.17 :min;
+        symbol [ format %tmp.19 55 79 85 ];
+        %tmp.19 = getv function %tmp.18 :format;
+        %tmp.20 = "%02d";
+        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
+        %tmp.22 = dup %tmp.16;
+        %tmp.23 = aputv %tmp.22 1 %tmp.21;
+        %tmp.24 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.23);
+        lputv %timeString.2 %tmp.24;
+        symbol [ timeString %timeString.2 55 12 22 ];
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 56 8 ]
+        [ "C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_51_40_78_4_start" "C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_51_40_78_4_stop" ]
+        %timeView.3 = local;
+        symbol [ timeView %timeView.3 56 12 20 ];
+        %tmp.25 = self;
+        symbol [ findDrawableById %tmp.26 56 23 39 ];
+        %tmp.26 = getv function %tmp.25 :findDrawableById;
+        %tmp.27 = "time_label";
+        %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
+        %tmp.29 = as %tmp.28 WatchUi.Text;
+        symbol [ WatchUi %tmp.29 56 57 64 ];
+        symbol [ Text %tmp.29 56 65 69 ];
+        lputv %timeView.3 %tmp.29;
+        symbol [ timeView %timeView.3 56 12 20 ];
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 57 8 ]
+        %tmp.30 = lgetv %timeView.3;
+        symbol [ timeView %tmp.30 57 8 16 ];
+        symbol [ setText %tmp.31 57 17 24 ];
+        %tmp.31 = getv function %tmp.30 :setText;
+        %tmp.32 = lgetv %timeString.2;
+        symbol [ timeString %tmp.32 57 25 35 ];
+        invoke %tmp.30 %tmp.31(%tmp.32);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 58 8 ]
+        %tmp.33 = lgetv %dc;
+        symbol [ dc %tmp.33 58 8 10 ];
+        symbol [ setColor %tmp.34 58 11 19 ];
+        %tmp.34 = getv function %tmp.33 :setColor;
+        symbol [ Graphics %tmp.35 58 20 28 ];
+        %tmp.35 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.36 58 29 42 ];
+        %tmp.36 = getv %tmp.35 :COLOR_LT_GRAY;
+        symbol [ Graphics %tmp.37 58 44 52 ];
+        %tmp.37 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.38 58 53 66 ];
+        %tmp.38 = getv %tmp.37 :COLOR_LT_GRAY;
+        invoke %tmp.33 %tmp.34(%tmp.36, %tmp.38);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 59 8 ]
+        %tmp.39 = lgetv %dc;
+        symbol [ dc %tmp.39 59 8 10 ];
+        symbol [ setPenWidth %tmp.40 59 11 22 ];
+        %tmp.40 = getv function %tmp.39 :setPenWidth;
+        %tmp.41 = 2;
+        invoke %tmp.39 %tmp.40(%tmp.41);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 60 8 ]
+        %tmp.42 = lgetv %dc;
+        symbol [ dc %tmp.42 60 8 10 ];
+        symbol [ drawRoundedRectangle %tmp.43 60 11 31 ];
+        %tmp.43 = getv function %tmp.42 :drawRoundedRectangle;
+        %tmp.44 = 90;
+        %tmp.45 = 220;
+        %tmp.46 = 80;
+        %tmp.47 = 50;
+        %tmp.48 = 10;
+        invoke %tmp.42 %tmp.43(%tmp.44, %tmp.45, %tmp.46, %tmp.47, %tmp.48);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 62 8 ]
+        %tmp.49 = lgetv %dc;
+        symbol [ dc %tmp.49 62 8 10 ];
+        symbol [ drawLine %tmp.50 62 11 19 ];
+        %tmp.50 = getv function %tmp.49 :drawLine;
+        %tmp.51 = 41;
+        %tmp.52 = 129;
+        %tmp.53 = 79;
+        %tmp.54 = 129;
+        invoke %tmp.49 %tmp.50(%tmp.51, %tmp.52, %tmp.53, %tmp.54);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 63 8 ]
+        %tmp.55 = lgetv %dc;
+        symbol [ dc %tmp.55 63 8 10 ];
+        symbol [ drawLine %tmp.56 63 11 19 ];
+        %tmp.56 = getv function %tmp.55 :drawLine;
+        %tmp.57 = 179;
+        %tmp.58 = 129;
+        %tmp.59 = 217;
+        %tmp.60 = 129;
+        invoke %tmp.55 %tmp.56(%tmp.57, %tmp.58, %tmp.59, %tmp.60);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 65 8 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_65_8_76_8_if_stmt:
+        symbol [ _whoServes %tmp.62 65 12 22 ];
+        %tmp.62 = getv ? :_whoServes;
+        %tmp.63 = 1;
+        %tmp.64 = eq %tmp.62 %tmp.63;
+        bf %tmp.64 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_65_8_76_8_if_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_65_8_76_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_65_29_70_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 66 12 ]
+        %tmp.65 = lgetv %dc;
+        symbol [ dc %tmp.65 66 12 14 ];
+        symbol [ setColor %tmp.66 66 15 23 ];
+        %tmp.66 = getv function %tmp.65 :setColor;
+        symbol [ Graphics %tmp.67 66 24 32 ];
+        %tmp.67 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLUE %tmp.68 66 33 43 ];
+        %tmp.68 = getv %tmp.67 :COLOR_BLUE;
+        symbol [ Graphics %tmp.69 66 45 53 ];
+        %tmp.69 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLUE %tmp.70 66 54 64 ];
+        %tmp.70 = getv %tmp.69 :COLOR_BLUE;
+        invoke %tmp.65 %tmp.66(%tmp.68, %tmp.70);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 67 12 ]
+        %tmp.71 = lgetv %dc;
+        symbol [ dc %tmp.71 67 12 14 ];
+        symbol [ setPenWidth %tmp.72 67 15 26 ];
+        %tmp.72 = getv function %tmp.71 :setPenWidth;
+        %tmp.73 = 3;
+        invoke %tmp.71 %tmp.72(%tmp.73);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 68 12 ]
+        %tmp.74 = lgetv %dc;
+        symbol [ dc %tmp.74 68 12 14 ];
+        symbol [ drawRoundedRectangle %tmp.75 68 15 35 ];
+        %tmp.75 = getv function %tmp.74 :drawRoundedRectangle;
+        %tmp.76 = 28;
+        %tmp.77 = 90;
+        %tmp.78 = 64;
+        %tmp.79 = 92;
+        %tmp.80 = 7;
+        invoke %tmp.74 %tmp.75(%tmp.76, %tmp.77, %tmp.78, %tmp.79, %tmp.80);
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_65_29_70_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_65_8_76_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_65_8_76_8_if_false:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 70 15 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_70_15_76_8_if_stmt:
+        symbol [ _whoServes %tmp.82 70 19 29 ];
+        %tmp.82 = getv ? :_whoServes;
+        %tmp.83 = 2;
+        %tmp.84 = eq %tmp.82 %tmp.83;
+        bf %tmp.84 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_70_15_76_8_if_else_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_70_15_76_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_70_36_74_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 71 12 ]
+        %tmp.85 = lgetv %dc;
+        symbol [ dc %tmp.85 71 12 14 ];
+        symbol [ setColor %tmp.86 71 15 23 ];
+        %tmp.86 = getv function %tmp.85 :setColor;
+        symbol [ Graphics %tmp.87 71 24 32 ];
+        %tmp.87 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.88 71 33 42 ];
+        %tmp.88 = getv %tmp.87 :COLOR_RED;
+        symbol [ Graphics %tmp.89 71 44 52 ];
+        %tmp.89 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.90 71 53 62 ];
+        %tmp.90 = getv %tmp.89 :COLOR_RED;
+        invoke %tmp.85 %tmp.86(%tmp.88, %tmp.90);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 72 12 ]
+        %tmp.91 = lgetv %dc;
+        symbol [ dc %tmp.91 72 12 14 ];
+        symbol [ setPenWidth %tmp.92 72 15 26 ];
+        %tmp.92 = getv function %tmp.91 :setPenWidth;
+        %tmp.93 = 3;
+        invoke %tmp.91 %tmp.92(%tmp.93);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 73 12 ]
+        %tmp.94 = lgetv %dc;
+        symbol [ dc %tmp.94 73 12 14 ];
+        symbol [ drawRoundedRectangle %tmp.95 73 15 35 ];
+        %tmp.95 = getv function %tmp.94 :drawRoundedRectangle;
+        %tmp.96 = 167;
+        %tmp.97 = 90;
+        %tmp.98 = 64;
+        %tmp.99 = 92;
+        %tmp.100 = 7;
+        invoke %tmp.94 %tmp.95(%tmp.96, %tmp.97, %tmp.98, %tmp.99, %tmp.100);
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_70_36_74_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_70_15_76_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_70_15_76_8_if_else_false:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_74_15_76_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 75 12 ]
+        symbol [ System %tmp.102 75 12 18 ];
+        %tmp.102 = getv ? :System;
+        symbol [ println %tmp.103 75 19 26 ];
+        %tmp.103 = getv function %tmp.102 :println;
+        %tmp.104 = "No one is serving";
+        invoke %tmp.102 %tmp.103(%tmp.104);
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_74_15_76_8_stop:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_70_15_76_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_65_8_76_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_51_40_78_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 83; @symbol_functiondef = [onHide,83,13,19]; ]
+    function onHide() as Void {
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 86; @symbol_functiondef = [timerCallback,86,13,26]; ]
+    function timerCallback() as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_86_37_88_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 87 8 ]
+        symbol [ WatchUi %tmp.1 87 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.2 87 16 29 ];
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_86_37_88_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 91; @symbol_functiondef = [dynamicUpdate,91,13,26]; @symbol_param<0> = [keyEvent,91,27,35]; ]
+    function dynamicUpdate(keyEvent) as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_91_45_128_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 92 8 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_92_8_126_8_if_stmt:
+        %tmp.1 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.1 92 12 20 ];
+        symbol [ getKey %tmp.2 92 21 27 ];
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = 8;
+        %tmp.5 = eq %tmp.3 %tmp.4;
+        bf %tmp.5 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_92_8_126_8_if_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_92_8_126_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_92_36_103_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 95 12 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_95_12_102_12_if_stmt:
+        symbol [ _p1Score %tmp.7 95 16 24 ];
+        %tmp.7 = getv ? :_p1Score;
+        %tmp.8 = null;
+        %tmp.9 = ne %tmp.7 %tmp.8;
+        bf %tmp.9 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_95_12_102_12_if_else_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_95_12_102_12_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_95_34_100_12_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 96 16 ]
+        symbol [ _p1Score_ctr %tmp.12 96 16 28 ];
+        %tmp.12 = getv ? :_p1Score_ctr;
+        %tmp.13 = add %tmp.12 1;
+        symbol [ _p1Score_ctr ? 96 16 28 ];
+        putv self :_p1Score_ctr dup %tmp.13;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 97 16 ]
+        symbol [ _p1Score %tmp.15 97 16 24 ];
+        %tmp.15 = getv ? :_p1Score;
+        %tmp.16 = as %tmp.15 { (!Null) };
+        symbol [ setText %tmp.17 97 25 32 ];
+        %tmp.17 = getv function %tmp.16 :setText;
+        symbol [ _p1Score_ctr %tmp.19 97 33 45 ];
+        %tmp.19 = getv ? :_p1Score_ctr;
+        symbol [ toString %tmp.20 97 46 54 ];
+        %tmp.20 = getv function %tmp.19 :toString;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        invoke %tmp.16 %tmp.17(%tmp.21);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 99 16 ]
+        %tmp.22 = self;
+        symbol [ matchLogic %tmp.23 99 16 26 ];
+        %tmp.23 = getv function %tmp.22 :matchLogic;
+        invoke %tmp.22 %tmp.23();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_95_34_100_12_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_95_12_102_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_95_12_102_12_if_else_false:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_100_19_102_12_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 101 16 ]
+        symbol [ System %tmp.25 101 16 22 ];
+        %tmp.25 = getv ? :System;
+        symbol [ println %tmp.26 101 23 30 ];
+        %tmp.26 = getv function %tmp.25 :println;
+        %tmp.27 = "dynamicUpdate: view not found";
+        invoke %tmp.25 %tmp.26(%tmp.27);
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_100_19_102_12_stop:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_95_12_102_12_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_92_36_103_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_92_8_126_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_92_8_126_8_if_false:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 103 15 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_103_15_126_8_if_stmt:
+        %tmp.28 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.28 103 19 27 ];
+        symbol [ getKey %tmp.29 103 28 34 ];
+        %tmp.29 = getv function %tmp.28 :getKey;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        %tmp.31 = 5;
+        %tmp.32 = eq %tmp.30 %tmp.31;
+        bf %tmp.32 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_103_15_126_8_if_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_103_15_126_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_103_43_114_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 106 12 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_106_12_113_12_if_stmt:
+        symbol [ _p2Score %tmp.34 106 16 24 ];
+        %tmp.34 = getv ? :_p2Score;
+        %tmp.35 = null;
+        %tmp.36 = ne %tmp.34 %tmp.35;
+        bf %tmp.36 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_106_12_113_12_if_else_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_106_12_113_12_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_106_34_111_12_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 107 16 ]
+        symbol [ _p2Score_ctr %tmp.39 107 16 28 ];
+        %tmp.39 = getv ? :_p2Score_ctr;
+        %tmp.40 = add %tmp.39 1;
+        symbol [ _p2Score_ctr ? 107 16 28 ];
+        putv self :_p2Score_ctr dup %tmp.40;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 108 16 ]
+        symbol [ _p2Score %tmp.42 108 16 24 ];
+        %tmp.42 = getv ? :_p2Score;
+        %tmp.43 = as %tmp.42 { (!Null) };
+        symbol [ setText %tmp.44 108 25 32 ];
+        %tmp.44 = getv function %tmp.43 :setText;
+        symbol [ _p2Score_ctr %tmp.46 108 33 45 ];
+        %tmp.46 = getv ? :_p2Score_ctr;
+        symbol [ toString %tmp.47 108 46 54 ];
+        %tmp.47 = getv function %tmp.46 :toString;
+        %tmp.48 = invoke %tmp.46 %tmp.47();
+        invoke %tmp.43 %tmp.44(%tmp.48);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 110 16 ]
+        %tmp.49 = self;
+        symbol [ matchLogic %tmp.50 110 16 26 ];
+        %tmp.50 = getv function %tmp.49 :matchLogic;
+        invoke %tmp.49 %tmp.50();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_106_34_111_12_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_106_12_113_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_106_12_113_12_if_else_false:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_111_19_113_12_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 112 16 ]
+        symbol [ System %tmp.52 112 16 22 ];
+        %tmp.52 = getv ? :System;
+        symbol [ println %tmp.53 112 23 30 ];
+        %tmp.53 = getv function %tmp.52 :println;
+        %tmp.54 = "dynamicUpdate: view not found";
+        invoke %tmp.52 %tmp.53(%tmp.54);
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_111_19_113_12_stop:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_106_12_113_12_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_103_43_114_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_103_15_126_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_103_15_126_8_if_false:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 114 15 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_114_15_126_8_if_stmt:
+        %tmp.55 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.55 114 19 27 ];
+        symbol [ getKey %tmp.56 114 28 34 ];
+        %tmp.56 = getv function %tmp.55 :getKey;
+        %tmp.57 = invoke %tmp.55 %tmp.56();
+        %tmp.58 = 13;
+        %tmp.59 = eq %tmp.57 %tmp.58;
+        bf %tmp.59 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_114_15_126_8_if_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_114_15_126_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_114_44_120_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 116 12 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_12_119_12_if_stmt:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_15_116_70_begin:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_15_116_51_begin:
+        symbol [ _total_points %tmp.61 116 15 28 ];
+        %tmp.61 = getv ? :_total_points;
+        %tmp.62 = 0;
+        %tmp.63 = eq %tmp.61 %tmp.62;
+        bf %tmp.63 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_12_119_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_37_116_51_true:
+        symbol [ _p1Set_ctr %tmp.65 116 37 47 ];
+        %tmp.65 = getv ? :_p1Set_ctr;
+        %tmp.66 = 0;
+        %tmp.67 = eq %tmp.65 %tmp.66;
+        push %tmp.67;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_37_116_51_end:
+        %tmp.68 = phi [%tmp.63 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_15_116_51_begin] [%tmp.67 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_37_116_51_true] [%tmp.68 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_37_116_51_end];
+        bf %tmp.68 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_12_119_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_56_116_70_true:
+        symbol [ _p2Set_ctr %tmp.70 116 56 66 ];
+        %tmp.70 = getv ? :_p2Set_ctr;
+        %tmp.71 = 0;
+        %tmp.72 = eq %tmp.70 %tmp.71;
+        push %tmp.72;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_56_116_70_end:
+        %tmp.73 = phi [%tmp.68 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_15_116_70_begin] [%tmp.72 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_56_116_70_true] [%tmp.73 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_56_116_70_end];
+        bf %tmp.73 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_12_119_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_12_119_12_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_73_119_12_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 117 16 ]
+        %tmp.74 = self;
+        symbol [ switchServer %tmp.75 117 16 28 ];
+        %tmp.75 = getv function %tmp.74 :switchServer;
+        invoke %tmp.74 %tmp.75();
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 118 16 ]
+        symbol [ _whoServes %tmp.77 118 29 39 ];
+        %tmp.77 = getv ? :_whoServes;
+        symbol [ _setServer ? 118 16 26 ];
+        putv self :_setServer %tmp.77;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_73_119_12_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_12_119_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_116_12_119_12_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_114_44_120_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_114_15_126_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_114_15_126_8_if_false:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 120 15 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_120_15_126_8_if_stmt:
+        %tmp.78 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.78 120 19 27 ];
+        symbol [ getKey %tmp.79 120 28 34 ];
+        %tmp.79 = getv function %tmp.78 :getKey;
+        %tmp.80 = invoke %tmp.78 %tmp.79();
+        %tmp.81 = 4;
+        %tmp.82 = eq %tmp.80 %tmp.81;
+        bf %tmp.82 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_120_15_126_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_120_15_126_8_if_true:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_120_15_126_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_120_15_126_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_114_15_126_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_103_15_126_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_92_8_126_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_91_45_128_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 130; @symbol_functiondef = [matchLogic,130,13,23]; ]
+    function matchLogic() as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_130_34_169_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 131 8 ]
+        %tmp.1 = self;
+        symbol [ toggleServer %tmp.2 131 8 20 ];
+        %tmp.2 = getv function %tmp.1 :toggleServer;
+        invoke %tmp.1 %tmp.2();
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 132 8 ]
+        symbol [ _total_points %tmp.5 132 8 21 ];
+        %tmp.5 = getv ? :_total_points;
+        %tmp.6 = add %tmp.5 1;
+        symbol [ _total_points ? 132 8 21 ];
+        putv self :_total_points dup %tmp.6;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 134 8 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_134_8_142_8_if_stmt:
+        symbol [ _p1Set_ctr %tmp.8 134 12 22 ];
+        %tmp.8 = getv ? :_p1Set_ctr;
+        %tmp.9 = 2;
+        %tmp.10 = gte %tmp.8 %tmp.9;
+        bf %tmp.10 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_134_8_142_8_if_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_134_8_142_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_134_29_138_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 135 12 ]
+        symbol [ System %tmp.12 135 12 18 ];
+        %tmp.12 = getv ? :System;
+        symbol [ println %tmp.13 135 19 26 ];
+        %tmp.13 = getv function %tmp.12 :println;
+        %tmp.14 = "Player 1 wins the match";
+        invoke %tmp.12 %tmp.13(%tmp.14);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 137 12 ]
+        %tmp.15 = self;
+        symbol [ resetMatch %tmp.16 137 12 22 ];
+        %tmp.16 = getv function %tmp.15 :resetMatch;
+        invoke %tmp.15 %tmp.16();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_134_29_138_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_134_8_142_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_134_8_142_8_if_false:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 138 15 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_138_15_142_8_if_stmt:
+        symbol [ _p2Set_ctr %tmp.18 138 19 29 ];
+        %tmp.18 = getv ? :_p2Set_ctr;
+        %tmp.19 = 2;
+        %tmp.20 = gte %tmp.18 %tmp.19;
+        bf %tmp.20 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_138_15_142_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_138_15_142_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_138_36_142_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 139 12 ]
+        symbol [ System %tmp.22 139 12 18 ];
+        %tmp.22 = getv ? :System;
+        symbol [ println %tmp.23 139 19 26 ];
+        %tmp.23 = getv function %tmp.22 :println;
+        %tmp.24 = "Player 2 wins the match";
+        invoke %tmp.22 %tmp.23(%tmp.24);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 141 12 ]
+        %tmp.25 = self;
+        symbol [ resetMatch %tmp.26 141 12 22 ];
+        %tmp.26 = getv function %tmp.25 :resetMatch;
+        invoke %tmp.25 %tmp.26();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_138_36_142_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_138_15_142_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_138_15_142_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_134_8_142_8_if_end:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 144 8 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_144_8_168_8_if_stmt:
+        %tmp.27 = self;
+        symbol [ isDeuce %tmp.28 144 12 19 ];
+        %tmp.28 = getv function %tmp.27 :isDeuce;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        bf %tmp.29 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_144_8_168_8_if_else_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_144_8_168_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_144_23_156_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 145 12 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_145_12_155_12_if_stmt:
+        symbol [ _p1Score_ctr %tmp.31 145 16 28 ];
+        %tmp.31 = getv ? :_p1Score_ctr;
+        symbol [ _p2Score_ctr %tmp.33 145 31 43 ];
+        %tmp.33 = getv ? :_p2Score_ctr;
+        %tmp.34 = sub %tmp.31 %tmp.33;
+        %tmp.35 = 2;
+        %tmp.36 = eq %tmp.34 %tmp.35;
+        bf %tmp.36 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_145_12_155_12_if_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_145_12_155_12_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_145_50_150_12_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 146 16 ]
+        symbol [ System %tmp.38 146 16 22 ];
+        %tmp.38 = getv ? :System;
+        symbol [ println %tmp.39 146 23 30 ];
+        %tmp.39 = getv function %tmp.38 :println;
+        %tmp.40 = "Player 1 wins";
+        invoke %tmp.38 %tmp.39(%tmp.40);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 147 16 ]
+        symbol [ _p1Set_ctr %tmp.43 147 16 26 ];
+        %tmp.43 = getv ? :_p1Set_ctr;
+        %tmp.44 = add %tmp.43 1;
+        symbol [ _p1Set_ctr ? 147 16 26 ];
+        putv self :_p1Set_ctr dup %tmp.44;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 148 16 ]
+        symbol [ _p1Set %tmp.46 148 16 22 ];
+        %tmp.46 = getv ? :_p1Set;
+        symbol [ setText %tmp.47 148 23 30 ];
+        %tmp.47 = getv function %tmp.46 :setText;
+        symbol [ _p1Set_ctr %tmp.49 148 31 41 ];
+        %tmp.49 = getv ? :_p1Set_ctr;
+        symbol [ toString %tmp.50 148 42 50 ];
+        %tmp.50 = getv function %tmp.49 :toString;
+        %tmp.51 = invoke %tmp.49 %tmp.50();
+        invoke %tmp.46 %tmp.47(%tmp.51);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 149 16 ]
+        %tmp.52 = self;
+        symbol [ resetGame %tmp.53 149 16 25 ];
+        %tmp.53 = getv function %tmp.52 :resetGame;
+        invoke %tmp.52 %tmp.53();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_145_50_150_12_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_145_12_155_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_145_12_155_12_if_false:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 150 19 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_150_19_155_12_if_stmt:
+        symbol [ _p2Score_ctr %tmp.55 150 23 35 ];
+        %tmp.55 = getv ? :_p2Score_ctr;
+        symbol [ _p1Score_ctr %tmp.57 150 38 50 ];
+        %tmp.57 = getv ? :_p1Score_ctr;
+        %tmp.58 = sub %tmp.55 %tmp.57;
+        %tmp.59 = 2;
+        %tmp.60 = eq %tmp.58 %tmp.59;
+        bf %tmp.60 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_150_19_155_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_150_19_155_12_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_150_57_155_12_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 151 16 ]
+        symbol [ System %tmp.62 151 16 22 ];
+        %tmp.62 = getv ? :System;
+        symbol [ println %tmp.63 151 23 30 ];
+        %tmp.63 = getv function %tmp.62 :println;
+        %tmp.64 = "Player 2 wins";
+        invoke %tmp.62 %tmp.63(%tmp.64);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 152 16 ]
+        symbol [ _p2Set_ctr %tmp.67 152 16 26 ];
+        %tmp.67 = getv ? :_p2Set_ctr;
+        %tmp.68 = add %tmp.67 1;
+        symbol [ _p2Set_ctr ? 152 16 26 ];
+        putv self :_p2Set_ctr dup %tmp.68;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 153 16 ]
+        symbol [ _p2Set %tmp.70 153 16 22 ];
+        %tmp.70 = getv ? :_p2Set;
+        symbol [ setText %tmp.71 153 23 30 ];
+        %tmp.71 = getv function %tmp.70 :setText;
+        symbol [ _p2Set_ctr %tmp.73 153 31 41 ];
+        %tmp.73 = getv ? :_p2Set_ctr;
+        symbol [ toString %tmp.74 153 42 50 ];
+        %tmp.74 = getv function %tmp.73 :toString;
+        %tmp.75 = invoke %tmp.73 %tmp.74();
+        invoke %tmp.70 %tmp.71(%tmp.75);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 154 16 ]
+        %tmp.76 = self;
+        symbol [ resetGame %tmp.77 154 16 25 ];
+        %tmp.77 = getv function %tmp.76 :resetGame;
+        invoke %tmp.76 %tmp.77();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_150_57_155_12_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_150_19_155_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_150_19_155_12_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_145_12_155_12_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_144_23_156_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_144_8_168_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_144_8_168_8_if_else_false:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_156_15_168_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 157 12 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_157_12_167_12_if_stmt:
+        symbol [ _p1Score_ctr %tmp.79 157 16 28 ];
+        %tmp.79 = getv ? :_p1Score_ctr;
+        %tmp.80 = 11;
+        %tmp.81 = eq %tmp.79 %tmp.80;
+        bf %tmp.81 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_157_12_167_12_if_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_157_12_167_12_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_157_36_162_12_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 158 16 ]
+        symbol [ System %tmp.83 158 16 22 ];
+        %tmp.83 = getv ? :System;
+        symbol [ println %tmp.84 158 23 30 ];
+        %tmp.84 = getv function %tmp.83 :println;
+        %tmp.85 = "Player 1 wins";
+        invoke %tmp.83 %tmp.84(%tmp.85);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 159 16 ]
+        symbol [ _p1Set_ctr %tmp.88 159 16 26 ];
+        %tmp.88 = getv ? :_p1Set_ctr;
+        %tmp.89 = add %tmp.88 1;
+        symbol [ _p1Set_ctr ? 159 16 26 ];
+        putv self :_p1Set_ctr dup %tmp.89;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 160 16 ]
+        symbol [ _p1Set %tmp.91 160 16 22 ];
+        %tmp.91 = getv ? :_p1Set;
+        symbol [ setText %tmp.92 160 23 30 ];
+        %tmp.92 = getv function %tmp.91 :setText;
+        symbol [ _p1Set_ctr %tmp.94 160 31 41 ];
+        %tmp.94 = getv ? :_p1Set_ctr;
+        symbol [ toString %tmp.95 160 42 50 ];
+        %tmp.95 = getv function %tmp.94 :toString;
+        %tmp.96 = invoke %tmp.94 %tmp.95();
+        invoke %tmp.91 %tmp.92(%tmp.96);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 161 16 ]
+        %tmp.97 = self;
+        symbol [ resetGame %tmp.98 161 16 25 ];
+        %tmp.98 = getv function %tmp.97 :resetGame;
+        invoke %tmp.97 %tmp.98();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_157_36_162_12_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_157_12_167_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_157_12_167_12_if_false:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 162 19 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_162_19_167_12_if_stmt:
+        symbol [ _p2Score_ctr %tmp.100 162 23 35 ];
+        %tmp.100 = getv ? :_p2Score_ctr;
+        %tmp.101 = 11;
+        %tmp.102 = eq %tmp.100 %tmp.101;
+        bf %tmp.102 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_162_19_167_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_162_19_167_12_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_162_43_167_12_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 163 16 ]
+        symbol [ System %tmp.104 163 16 22 ];
+        %tmp.104 = getv ? :System;
+        symbol [ println %tmp.105 163 23 30 ];
+        %tmp.105 = getv function %tmp.104 :println;
+        %tmp.106 = "Player 2 wins";
+        invoke %tmp.104 %tmp.105(%tmp.106);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 164 16 ]
+        symbol [ _p2Set_ctr %tmp.109 164 16 26 ];
+        %tmp.109 = getv ? :_p2Set_ctr;
+        %tmp.110 = add %tmp.109 1;
+        symbol [ _p2Set_ctr ? 164 16 26 ];
+        putv self :_p2Set_ctr dup %tmp.110;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 165 16 ]
+        symbol [ _p2Set %tmp.112 165 16 22 ];
+        %tmp.112 = getv ? :_p2Set;
+        symbol [ setText %tmp.113 165 23 30 ];
+        %tmp.113 = getv function %tmp.112 :setText;
+        symbol [ _p2Set_ctr %tmp.115 165 31 41 ];
+        %tmp.115 = getv ? :_p2Set_ctr;
+        symbol [ toString %tmp.116 165 42 50 ];
+        %tmp.116 = getv function %tmp.115 :toString;
+        %tmp.117 = invoke %tmp.115 %tmp.116();
+        invoke %tmp.112 %tmp.113(%tmp.117);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 166 16 ]
+        %tmp.118 = self;
+        symbol [ resetGame %tmp.119 166 16 25 ];
+        %tmp.119 = getv function %tmp.118 :resetGame;
+        invoke %tmp.118 %tmp.119();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_162_43_167_12_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_162_19_167_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_162_19_167_12_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_157_12_167_12_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_156_15_168_8_stop:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_144_8_168_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_130_34_169_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 171; @symbol_functiondef = [isDeuce,171,13,20]; @symbol_return<0> = [Boolean,171,26,33]; ]
+    function isDeuce() as Boolean {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_171_34_177_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 172 8 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_8_176_8_if_stmt:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_12_172_50_begin:
+        symbol [ _p1Score_ctr %tmp.2 172 12 24 ];
+        %tmp.2 = getv ? :_p1Score_ctr;
+        %tmp.3 = 10;
+        %tmp.4 = gte %tmp.2 %tmp.3;
+        bf %tmp.4 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_8_176_8_if_else_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_34_172_50_true:
+        symbol [ _p2Score_ctr %tmp.6 172 34 46 ];
+        %tmp.6 = getv ? :_p2Score_ctr;
+        %tmp.7 = 10;
+        %tmp.8 = gte %tmp.6 %tmp.7;
+        push %tmp.8;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_34_172_50_end:
+        %tmp.9 = phi [%tmp.4 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_12_172_50_begin] [%tmp.8 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_34_172_50_true] [%tmp.9 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_34_172_50_end];
+        bf %tmp.9 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_8_176_8_if_else_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_8_176_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_54_174_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 173 12 ]
+        %tmp.10 = true;
+        ret %tmp.10;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_54_174_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_8_176_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_8_176_8_if_else_false:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_174_15_176_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 175 12 ]
+        %tmp.11 = false;
+        ret %tmp.11;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_174_15_176_8_stop:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_172_8_176_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_171_34_177_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 180; @symbol_functiondef = [switchServer,180,13,25]; ]
+    function switchServer() as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_180_36_186_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 181 8 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_181_8_185_8_if_stmt:
+        symbol [ _whoServes %tmp.2 181 12 22 ];
+        %tmp.2 = getv ? :_whoServes;
+        %tmp.3 = 1;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_181_8_185_8_if_else_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_181_8_185_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_181_29_183_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 182 12 ]
+        %tmp.5 = 2;
+        symbol [ _whoServes ? 182 12 22 ];
+        putv self :_whoServes %tmp.5;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_181_29_183_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_181_8_185_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_181_8_185_8_if_else_false:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_183_15_185_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 184 12 ]
+        %tmp.6 = 1;
+        symbol [ _whoServes ? 184 12 22 ];
+        putv self :_whoServes %tmp.6;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_183_15_185_8_stop:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_181_8_185_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_180_36_186_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 188; @symbol_functiondef = [setServer,188,13,22]; ]
+    function setServer() as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_188_33_195_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 189 8 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_189_8_193_8_if_stmt:
+        symbol [ _setServer %tmp.2 189 12 22 ];
+        %tmp.2 = getv ? :_setServer;
+        %tmp.3 = 1;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_189_8_193_8_if_else_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_189_8_193_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_189_29_191_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 190 12 ]
+        %tmp.5 = 2;
+        symbol [ _setServer ? 190 12 22 ];
+        putv self :_setServer %tmp.5;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_189_29_191_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_189_8_193_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_189_8_193_8_if_else_false:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_191_15_193_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 192 12 ]
+        %tmp.6 = 1;
+        symbol [ _setServer ? 192 12 22 ];
+        putv self :_setServer %tmp.6;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_191_15_193_8_stop:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_189_8_193_8_if_end:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 194 8 ]
+        symbol [ _setServer %tmp.8 194 21 31 ];
+        %tmp.8 = getv ? :_setServer;
+        symbol [ _whoServes ? 194 8 18 ];
+        putv self :_whoServes %tmp.8;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_188_33_195_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 198; @symbol_functiondef = [toggleServer,198,13,25]; ]
+    function toggleServer() as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_198_36_206_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 199 8 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_199_8_205_8_if_stmt:
+        %tmp.1 = self;
+        symbol [ isDeuce %tmp.2 199 13 20 ];
+        %tmp.2 = getv function %tmp.1 :isDeuce;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        bf %tmp.3 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_199_8_205_8_if_else_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_199_8_205_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_199_24_201_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 200 12 ]
+        %tmp.4 = self;
+        symbol [ switchServer %tmp.5 200 12 24 ];
+        %tmp.5 = getv function %tmp.4 :switchServer;
+        invoke %tmp.4 %tmp.5();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_199_24_201_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_199_8_205_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_199_8_205_8_if_else_false:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_201_15_205_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 202 12 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_202_12_204_12_if_stmt:
+        symbol [ _total_points %tmp.7 202 16 29 ];
+        %tmp.7 = getv ? :_total_points;
+        %tmp.8 = 2;
+        %tmp.9 = mod %tmp.7 %tmp.8;
+        %tmp.10 = 1;
+        %tmp.11 = eq %tmp.9 %tmp.10;
+        bf %tmp.11 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_202_12_204_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_202_12_204_12_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_202_40_204_12_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 203 16 ]
+        %tmp.12 = self;
+        symbol [ switchServer %tmp.13 203 16 28 ];
+        %tmp.13 = getv function %tmp.12 :switchServer;
+        invoke %tmp.12 %tmp.13();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_202_40_204_12_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_202_12_204_12_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_202_12_204_12_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_201_15_205_8_stop:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_199_8_205_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_198_36_206_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 208; @symbol_functiondef = [resetGame,208,13,22]; ]
+    function resetGame() as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_208_33_215_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 209 8 ]
+        %tmp.1 = 0;
+        symbol [ _p1Score_ctr ? 209 8 20 ];
+        putv self :_p1Score_ctr %tmp.1;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 210 8 ]
+        %tmp.2 = 0;
+        symbol [ _p2Score_ctr ? 210 8 20 ];
+        putv self :_p2Score_ctr %tmp.2;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 211 8 ]
+        %tmp.3 = 0;
+        symbol [ _total_points ? 211 8 21 ];
+        putv self :_total_points %tmp.3;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 212 8 ]
+        symbol [ _p1Score %tmp.5 212 8 16 ];
+        %tmp.5 = getv ? :_p1Score;
+        symbol [ setText %tmp.6 212 17 24 ];
+        %tmp.6 = getv function %tmp.5 :setText;
+        symbol [ _p1Score_ctr %tmp.8 212 25 37 ];
+        %tmp.8 = getv ? :_p1Score_ctr;
+        symbol [ toString %tmp.9 212 38 46 ];
+        %tmp.9 = getv function %tmp.8 :toString;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        invoke %tmp.5 %tmp.6(%tmp.10);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 213 8 ]
+        symbol [ _p2Score %tmp.12 213 8 16 ];
+        %tmp.12 = getv ? :_p2Score;
+        symbol [ setText %tmp.13 213 17 24 ];
+        %tmp.13 = getv function %tmp.12 :setText;
+        symbol [ _p2Score_ctr %tmp.15 213 25 37 ];
+        %tmp.15 = getv ? :_p2Score_ctr;
+        symbol [ toString %tmp.16 213 38 46 ];
+        %tmp.16 = getv function %tmp.15 :toString;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        invoke %tmp.12 %tmp.13(%tmp.17);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 214 8 ]
+        %tmp.18 = self;
+        symbol [ setServer %tmp.19 214 8 17 ];
+        %tmp.19 = getv function %tmp.18 :setServer;
+        invoke %tmp.18 %tmp.19();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_208_33_215_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 217; @symbol_functiondef = [resetMatch,217,13,23]; ]
+    function resetMatch() as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_217_34_223_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 218 8 ]
+        %tmp.1 = self;
+        symbol [ resetGame %tmp.2 218 8 17 ];
+        %tmp.2 = getv function %tmp.1 :resetGame;
+        invoke %tmp.1 %tmp.2();
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 219 8 ]
+        %tmp.3 = 0;
+        symbol [ _p1Set_ctr ? 219 8 18 ];
+        putv self :_p1Set_ctr %tmp.3;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 220 8 ]
+        %tmp.4 = 0;
+        symbol [ _p2Set_ctr ? 220 8 18 ];
+        putv self :_p2Set_ctr %tmp.4;
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 221 8 ]
+        symbol [ _p1Set %tmp.6 221 8 14 ];
+        %tmp.6 = getv ? :_p1Set;
+        symbol [ setText %tmp.7 221 15 22 ];
+        %tmp.7 = getv function %tmp.6 :setText;
+        symbol [ _p1Set_ctr %tmp.9 221 23 33 ];
+        %tmp.9 = getv ? :_p1Set_ctr;
+        symbol [ toString %tmp.10 221 34 42 ];
+        %tmp.10 = getv function %tmp.9 :toString;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        invoke %tmp.6 %tmp.7(%tmp.11);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 222 8 ]
+        symbol [ _p2Set %tmp.13 222 8 14 ];
+        %tmp.13 = getv ? :_p2Set;
+        symbol [ setText %tmp.14 222 15 22 ];
+        %tmp.14 = getv function %tmp.13 :setText;
+        symbol [ _p2Set_ctr %tmp.16 222 23 33 ];
+        %tmp.16 = getv ? :_p2Set_ctr;
+        symbol [ toString %tmp.17 222 34 42 ];
+        %tmp.17 = getv function %tmp.16 :toString;
+        %tmp.18 = invoke %tmp.16 %tmp.17();
+        invoke %tmp.13 %tmp.14(%tmp.18);
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterView_mc_217_34_223_4_stop:
+    }
+}
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc"; @line = 1; ]
+<init> {
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterView.mc" 19 4 ]
+    symbol [ _whoServes %tmp.20 19 17 27 ];
+    %tmp.20 = getv ? :_whoServes;
+    putv self :_setServer %tmp.20;
+}

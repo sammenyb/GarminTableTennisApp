@@ -1,0 +1,13 @@
+<resources>
+    <string id="AppName">PingPongCounter</string>
+
+    <string id="prompt">Click the menu button</string>
+
+    <string id="p1">P1</string>
+    <!-- <string id="p1_score">00</string> -->
+
+    <string id="p2">P2</string>
+    <!-- <string id="p2_score">00</string> -->
+
+    <string id="menu_label_1">Reset Match</string>
+</resources>

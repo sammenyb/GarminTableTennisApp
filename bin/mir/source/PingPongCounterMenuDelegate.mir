@@ -1,0 +1,83 @@
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc"; @line = 5; @symbol_classdef = [PingPongCounterMenuDelegate,5,6,33]; @symbol_extends<0> = [WatchUi,5,42,49]; @symbol_extends<1> = [MenuInputDelegate,5,50,67]; ]
+class PingPongCounterMenuDelegate extends WatchUi.MenuInputDelegate {
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_7_26_9_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc" 8 8 ]
+        symbol [ MenuInputDelegate %tmp.2 8 8 25 ];
+        %tmp.2 = getv ? :MenuInputDelegate;
+        symbol [ initialize %tmp.3 8 26 36 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc"; @line = 11; @symbol_functiondef = [onMenuItem,11,13,23]; @symbol_param<0> = [item,11,24,28]; @symbol_param<0>_type<0> = [Symbol,11,32,38]; ]
+    function onMenuItem(item as Symbol) as Void {
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_11_48_18_4_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc" 12 8 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_12_8_17_8_if_stmt:
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 12 12 16 ];
+        %tmp.3 = const :item_1;
+        symbol [ item_1 %tmp.3 12 21 27 const ];
+        %tmp.4 = eq %tmp.1 %tmp.3;
+        bf %tmp.4 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_12_8_17_8_if_false;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_12_8_17_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_12_29_15_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc" 13 12 ]
+        symbol [ System %tmp.5 13 12 18 ];
+        %tmp.5 = getm $.Toybox.System;
+        symbol [ println %tmp.6 13 19 26 ];
+        %tmp.6 = getv function %tmp.5 :println;
+        %tmp.7 = "item 1";
+        invoke %tmp.5 %tmp.6(%tmp.7);
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc" 14 12 ]
+        symbol [ PingPongCounterView %tmp.11 14 16 35 ];
+        %tmp.11 = getv ? :PingPongCounterView;
+        %tmp.8 = newc %tmp.11 ();
+        symbol [ resetMatch %tmp.12 14 38 48 ];
+        %tmp.12 = getv function %tmp.8 :resetMatch;
+        invoke %tmp.8 %tmp.12();
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_12_29_15_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_12_8_17_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_12_8_17_8_if_false:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc" 15 15 ]
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_15_15_17_8_if_stmt:
+        %tmp.13 = lgetv %item;
+        symbol [ item %tmp.13 15 19 23 ];
+        %tmp.15 = const :item_2;
+        symbol [ item_2 %tmp.15 15 28 34 const ];
+        %tmp.16 = eq %tmp.13 %tmp.15;
+        bf %tmp.16 @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_15_15_17_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_15_15_17_8_if_true:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_15_36_17_8_start:
+[ "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc" 16 12 ]
+        symbol [ System %tmp.17 16 12 18 ];
+        %tmp.17 = getm $.Toybox.System;
+        symbol [ println %tmp.18 16 19 26 ];
+        %tmp.18 = getv function %tmp.17 :println;
+        %tmp.19 = "item 2";
+        invoke %tmp.17 %tmp.18(%tmp.19);
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_15_36_17_8_stop:
+        goto @C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_15_15_17_8_if_end;
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_15_15_17_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_12_8_17_8_if_end:
+C_Users_Samuel_Documents_dev_GarminProjects_PingPongCounter_source_PingPongCounterMenuDelegate_mc_11_48_18_4_stop:
+    }
+}
+[ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\PingPongCounter\source\PingPongCounterMenuDelegate.mc"; @line = 1; ]
+<init> {
+}
