@@ -59,7 +59,7 @@ c_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_bin_gen_006_B39
             %tmp.18 = aputv %tmp.17 %tmp.12 %tmp.16;
             %tmp.20 = const :locX;
             symbol [ locX %tmp.20 15 128 132 const ];
-            %tmp.21 = 100;
+            %tmp.21 = 110;
             %tmp.22 = dup %tmp.18;
             %tmp.23 = aputv %tmp.22 %tmp.20 %tmp.21;
             %tmp.25 = const :locY;

@@ -1,7 +1,7 @@
 <resources>
     <layout id="MainLayout">
         
-        <bitmap id="pingpong" filename="../drawables/ping-pong-racket-and-ball.png" x="100" y="20"/>
+        <bitmap id="pingpong" filename="../drawables/ping-pong-racket-and-ball.png" x="110" y="20"/>
         
         <label x="45" y="90" text="@Strings.p1" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE"/>
         <label id="p1_score" x="60" y="119" text="00" font="Gfx.FONT_NUMBER_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>

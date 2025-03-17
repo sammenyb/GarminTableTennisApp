@@ -12,7 +12,7 @@ module Rez {
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_bitmap_pingpong = new WatchUi.Bitmap({:identifier=>"pingpong", :rezId=>$.Rez.Drawables.pingpong, :locX=>100, :locY=>20});
+            var rez_cmp_local_bitmap_pingpong = new WatchUi.Bitmap({:identifier=>"pingpong", :rezId=>$.Rez.Drawables.pingpong, :locX=>110, :locY=>20});
 
             var rez_cmp_local_text_1193959466 = new WatchUi.Text({:color=>Gfx.COLOR_WHITE, :locX=>45, :locY=>90, :text=>$.Rez.Strings.p1, :font=>Gfx.FONT_MEDIUM});
 
