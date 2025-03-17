@@ -118,9 +118,9 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
 <init> {
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc" 5 4 ]
     %tmp.24 = newa 1;
-    symbol [ Attention %tmp.27 5 24 33 ];
+    symbol [ Attention %tmp.27 5 23 32 ];
     %tmp.27 = getm $.Toybox.Attention;
-    symbol [ VibeProfile %tmp.28 5 34 45 ];
+    symbol [ VibeProfile %tmp.28 5 33 44 ];
     %tmp.28 = getv function ? %tmp.27 :VibeProfile;
     %tmp.29 = 50;
     %tmp.30 = 100;

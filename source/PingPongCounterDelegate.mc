@@ -2,7 +2,7 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.Attention;
 
-var vibeProfile = [ new Attention.VibeProfile(50, 100)];
+var vibeProfile = [new Attention.VibeProfile(50, 100)];
 
 class PingPongCounterDelegate extends WatchUi.BehaviorDelegate {
 
