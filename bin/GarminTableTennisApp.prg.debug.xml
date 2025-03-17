@@ -44,172 +44,177 @@
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterSettings.mc" id="24" lineNum="15" parent="globals/PingPongSettingsView" pc="268436031" symbol="onLayout"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterSettings.mc" id="25" lineNum="10" parent="globals/PingPongSettingsView" pc="268436065" symbol="initialize"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterSettings.mc" id="25" lineNum="11" parent="globals/PingPongSettingsView" pc="268436067" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="67" parent="globals/PingPongCounterView" pc="268436080" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="68" parent="globals/PingPongCounterView" pc="268436083" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="70" parent="globals/PingPongCounterView" pc="268436096" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="71" parent="globals/PingPongCounterView" pc="268436105" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="72" parent="globals/PingPongCounterView" pc="268436149" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="73" parent="globals/PingPongCounterView" pc="268436164" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="74" parent="globals/PingPongCounterView" pc="268436189" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="76" parent="globals/PingPongCounterView" pc="268436202" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="78" parent="globals/PingPongCounterView" pc="268436215" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="79" parent="globals/PingPongCounterView" pc="268436224" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="80" parent="globals/PingPongCounterView" pc="268436268" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="81" parent="globals/PingPongCounterView" pc="268436283" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="82" parent="globals/PingPongCounterView" pc="268436308" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="84" parent="globals/PingPongCounterView" pc="268436321" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="86" parent="globals/PingPongCounterView" pc="268436334" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="87" parent="globals/PingPongCounterView" pc="268436364" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="88" parent="globals/PingPongCounterView" pc="268436371" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="90" parent="globals/PingPongCounterView" pc="268436389" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="92" parent="globals/PingPongCounterView" pc="268436402" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="93" parent="globals/PingPongCounterView" pc="268436415" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="94" parent="globals/PingPongCounterView" pc="268436421" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="95" parent="globals/PingPongCounterView" pc="268436435" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="96" parent="globals/PingPongCounterView" pc="268436449" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="97" parent="globals/PingPongCounterView" pc="268436463" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="98" parent="globals/PingPongCounterView" pc="268436477" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="99" parent="globals/PingPongCounterView" pc="268436491" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="100" parent="globals/PingPongCounterView" pc="268436505" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="101" parent="globals/PingPongCounterView" pc="268436530" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="102" parent="globals/PingPongCounterView" pc="268436555" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="103" parent="globals/PingPongCounterView" pc="268436580" symbol="dynamicUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="27" lineNum="143" parent="globals/PingPongCounterView" pc="268436612" symbol="isDeuce"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="27" lineNum="144" parent="globals/PingPongCounterView" pc="268436614" symbol="isDeuce"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="28" lineNum="151" parent="globals/PingPongCounterView" pc="268436637" symbol="settingServer"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="28" lineNum="152" parent="globals/PingPongCounterView" pc="268436639" symbol="settingServer"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="28" lineNum="153" parent="globals/PingPongCounterView" pc="268436664" symbol="settingServer"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="71" parent="globals/PingPongCounterView" pc="268436080" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="72" parent="globals/PingPongCounterView" pc="268436083" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="74" parent="globals/PingPongCounterView" pc="268436096" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="75" parent="globals/PingPongCounterView" pc="268436105" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="76" parent="globals/PingPongCounterView" pc="268436149" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="77" parent="globals/PingPongCounterView" pc="268436164" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="78" parent="globals/PingPongCounterView" pc="268436189" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="80" parent="globals/PingPongCounterView" pc="268436202" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="82" parent="globals/PingPongCounterView" pc="268436215" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="83" parent="globals/PingPongCounterView" pc="268436224" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="84" parent="globals/PingPongCounterView" pc="268436268" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="85" parent="globals/PingPongCounterView" pc="268436283" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="86" parent="globals/PingPongCounterView" pc="268436308" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="88" parent="globals/PingPongCounterView" pc="268436321" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="90" parent="globals/PingPongCounterView" pc="268436334" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="91" parent="globals/PingPongCounterView" pc="268436364" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="92" parent="globals/PingPongCounterView" pc="268436371" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="94" parent="globals/PingPongCounterView" pc="268436389" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="96" parent="globals/PingPongCounterView" pc="268436402" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="97" parent="globals/PingPongCounterView" pc="268436415" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="98" parent="globals/PingPongCounterView" pc="268436421" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="99" parent="globals/PingPongCounterView" pc="268436435" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="100" parent="globals/PingPongCounterView" pc="268436449" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="101" parent="globals/PingPongCounterView" pc="268436463" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="102" parent="globals/PingPongCounterView" pc="268436477" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="103" parent="globals/PingPongCounterView" pc="268436491" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="104" parent="globals/PingPongCounterView" pc="268436505" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="105" parent="globals/PingPongCounterView" pc="268436530" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="106" parent="globals/PingPongCounterView" pc="268436555" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="26" lineNum="107" parent="globals/PingPongCounterView" pc="268436580" symbol="dynamicUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="27" lineNum="147" parent="globals/PingPongCounterView" pc="268436612" symbol="isDeuce"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="27" lineNum="148" parent="globals/PingPongCounterView" pc="268436614" symbol="isDeuce"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="28" lineNum="155" parent="globals/PingPongCounterView" pc="268436637" symbol="settingServer"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="28" lineNum="156" parent="globals/PingPongCounterView" pc="268436639" symbol="settingServer"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="28" lineNum="157" parent="globals/PingPongCounterView" pc="268436664" symbol="settingServer"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="29" lineNum="37" parent="globals/PingPongCounterView" pc="268436677" symbol="onLayout"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="29" lineNum="38" parent="globals/PingPongCounterView" pc="268436679" symbol="onLayout"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="29" lineNum="39" parent="globals/PingPongCounterView" pc="268436712" symbol="onLayout"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="29" lineNum="40" parent="globals/PingPongCounterView" pc="268436732" symbol="onLayout"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="29" lineNum="41" parent="globals/PingPongCounterView" pc="268436752" symbol="onLayout"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="29" lineNum="42" parent="globals/PingPongCounterView" pc="268436772" symbol="onLayout"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="108" parent="globals/PingPongCounterView" pc="268436793" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="109" parent="globals/PingPongCounterView" pc="268436795" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="110" parent="globals/PingPongCounterView" pc="268436802" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="112" parent="globals/PingPongCounterView" pc="268436817" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="113" parent="globals/PingPongCounterView" pc="268436828" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="114" parent="globals/PingPongCounterView" pc="268436846" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="115" parent="globals/PingPongCounterView" pc="268436856" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="116" parent="globals/PingPongCounterView" pc="268436867" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="117" parent="globals/PingPongCounterView" pc="268436885" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="120" parent="globals/PingPongCounterView" pc="268436895" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="121" parent="globals/PingPongCounterView" pc="268436904" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="122" parent="globals/PingPongCounterView" pc="268436921" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="123" parent="globals/PingPongCounterView" pc="268436936" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="124" parent="globals/PingPongCounterView" pc="268436961" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="125" parent="globals/PingPongCounterView" pc="268436971" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="126" parent="globals/PingPongCounterView" pc="268436988" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="127" parent="globals/PingPongCounterView" pc="268437003" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="128" parent="globals/PingPongCounterView" pc="268437028" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="131" parent="globals/PingPongCounterView" pc="268437041" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="132" parent="globals/PingPongCounterView" pc="268437052" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="133" parent="globals/PingPongCounterView" pc="268437067" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="134" parent="globals/PingPongCounterView" pc="268437092" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="135" parent="globals/PingPongCounterView" pc="268437102" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="136" parent="globals/PingPongCounterView" pc="268437113" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="137" parent="globals/PingPongCounterView" pc="268437128" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="138" parent="globals/PingPongCounterView" pc="268437153" symbol="matchLogic"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="31" lineNum="147" parent="globals/PingPongCounterView" pc="268437164" symbol="switchServer"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="31" lineNum="148" parent="globals/PingPongCounterView" pc="268437166" symbol="switchServer"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="112" parent="globals/PingPongCounterView" pc="268436793" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="113" parent="globals/PingPongCounterView" pc="268436795" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="114" parent="globals/PingPongCounterView" pc="268436802" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="116" parent="globals/PingPongCounterView" pc="268436817" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="117" parent="globals/PingPongCounterView" pc="268436828" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="118" parent="globals/PingPongCounterView" pc="268436846" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="119" parent="globals/PingPongCounterView" pc="268436856" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="120" parent="globals/PingPongCounterView" pc="268436867" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="121" parent="globals/PingPongCounterView" pc="268436885" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="124" parent="globals/PingPongCounterView" pc="268436895" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="125" parent="globals/PingPongCounterView" pc="268436904" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="126" parent="globals/PingPongCounterView" pc="268436921" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="127" parent="globals/PingPongCounterView" pc="268436936" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="128" parent="globals/PingPongCounterView" pc="268436961" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="129" parent="globals/PingPongCounterView" pc="268436971" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="130" parent="globals/PingPongCounterView" pc="268436988" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="131" parent="globals/PingPongCounterView" pc="268437003" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="132" parent="globals/PingPongCounterView" pc="268437028" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="135" parent="globals/PingPongCounterView" pc="268437041" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="136" parent="globals/PingPongCounterView" pc="268437052" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="137" parent="globals/PingPongCounterView" pc="268437067" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="138" parent="globals/PingPongCounterView" pc="268437092" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="139" parent="globals/PingPongCounterView" pc="268437102" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="140" parent="globals/PingPongCounterView" pc="268437113" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="141" parent="globals/PingPongCounterView" pc="268437128" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="30" lineNum="142" parent="globals/PingPongCounterView" pc="268437153" symbol="matchLogic"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="31" lineNum="151" parent="globals/PingPongCounterView" pc="268437164" symbol="switchServer"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="31" lineNum="152" parent="globals/PingPongCounterView" pc="268437166" symbol="switchServer"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="32" lineNum="28" parent="globals/PingPongCounterView" pc="268437192" symbol="initialize"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="32" lineNum="29" parent="globals/PingPongCounterView" pc="268437194" symbol="initialize"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="32" lineNum="30" parent="globals/PingPongCounterView" pc="268437206" symbol="initialize"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="32" lineNum="31" parent="globals/PingPongCounterView" pc="268437215" symbol="initialize"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="32" lineNum="33" parent="globals/PingPongCounterView" pc="268437230" symbol="initialize"/>
 <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="32" lineNum="34" parent="globals/PingPongCounterView" pc="268437259" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="166" parent="globals/PingPongCounterView" pc="268437291" symbol="resetGame"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="167" parent="globals/PingPongCounterView" pc="268437293" symbol="resetGame"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="168" parent="globals/PingPongCounterView" pc="268437301" symbol="resetGame"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="169" parent="globals/PingPongCounterView" pc="268437309" symbol="resetGame"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="170" parent="globals/PingPongCounterView" pc="268437317" symbol="resetGame"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="171" parent="globals/PingPongCounterView" pc="268437342" symbol="resetGame"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="172" parent="globals/PingPongCounterView" pc="268437367" symbol="resetGame"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="175" parent="globals/PingPongCounterView" pc="268437375" symbol="resetMatch"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="176" parent="globals/PingPongCounterView" pc="268437377" symbol="resetMatch"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="177" parent="globals/PingPongCounterView" pc="268437384" symbol="resetMatch"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="178" parent="globals/PingPongCounterView" pc="268437392" symbol="resetMatch"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="179" parent="globals/PingPongCounterView" pc="268437400" symbol="resetMatch"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="180" parent="globals/PingPongCounterView" pc="268437425" symbol="resetMatch"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="45" parent="globals/PingPongCounterView" pc="268437451" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="46" parent="globals/PingPongCounterView" pc="268437454" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="47" parent="globals/PingPongCounterView" pc="268437470" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="48" parent="globals/PingPongCounterView" pc="268437482" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="49" parent="globals/PingPongCounterView" pc="268437536" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="50" parent="globals/PingPongCounterView" pc="268437551" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="52" parent="globals/PingPongCounterView" pc="268437563" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="53" parent="globals/PingPongCounterView" pc="268437574" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="54" parent="globals/PingPongCounterView" pc="268437592" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="55" parent="globals/PingPongCounterView" pc="268437604" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="56" parent="globals/PingPongCounterView" pc="268437627" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="57" parent="globals/PingPongCounterView" pc="268437638" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="58" parent="globals/PingPongCounterView" pc="268437658" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="59" parent="globals/PingPongCounterView" pc="268437670" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="36" lineNum="156" parent="globals/PingPongCounterView" pc="268437695" symbol="toggleServer"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="36" lineNum="157" parent="globals/PingPongCounterView" pc="268437697" symbol="toggleServer"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="36" lineNum="158" parent="globals/PingPongCounterView" pc="268437706" symbol="toggleServer"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="36" lineNum="160" parent="globals/PingPongCounterView" pc="268437716" symbol="toggleServer"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="36" lineNum="161" parent="globals/PingPongCounterView" pc="268437730" symbol="toggleServer"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="37" lineNum="63" parent="globals/PingPongCounterView" pc="268437741" symbol="timerCallback"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="37" lineNum="64" parent="globals/PingPongCounterView" pc="268437743" symbol="timerCallback"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="38" lineNum="15" parent="globals/PingPongCounterApp" pc="268437755" symbol="onStart"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="38" lineNum="16" parent="globals/PingPongCounterApp" pc="268437758" symbol="onStart"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="38" lineNum="17" parent="globals/PingPongCounterApp" pc="268437782" symbol="onStart"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="39" lineNum="25" parent="globals/PingPongCounterApp" pc="268437822" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="39" lineNum="26" parent="globals/PingPongCounterApp" pc="268437824" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="40" lineNum="10" parent="globals/PingPongCounterApp" pc="268437879" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="40" lineNum="11" parent="globals/PingPongCounterApp" pc="268437881" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="41" lineNum="21" parent="globals/PingPongCounterApp" pc="268437894" symbol="onStop"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="48" parent="globals/Stack" pc="268437897" symbol="pop"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="49" parent="globals/Stack" pc="268437900" symbol="pop"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="50" parent="globals/Stack" pc="268437910" symbol="pop"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="54" parent="globals/Stack" pc="268437915" symbol="pop"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="57" parent="globals/Stack" pc="268437931" symbol="pop"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="58" parent="globals/Stack" pc="268437960" symbol="pop"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="60" parent="globals/Stack" pc="268437975" symbol="pop"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="43" lineNum="69" parent="globals/Stack" pc="268437978" symbol="getSize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="43" lineNum="70" parent="globals/Stack" pc="268437980" symbol="getSize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="44" lineNum="64" parent="globals/Stack" pc="268437986" symbol="isEmpty"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="44" lineNum="65" parent="globals/Stack" pc="268437988" symbol="isEmpty"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="45" lineNum="32" parent="globals/Stack" pc="268437996" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="45" lineNum="33" parent="globals/Stack" pc="268437998" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="45" lineNum="34" parent="globals/Stack" pc="268438007" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="46" lineNum="38" parent="globals/Stack" pc="268438016" symbol="push"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="46" lineNum="40" parent="globals/Stack" pc="268438019" symbol="push"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="46" lineNum="43" parent="globals/Stack" pc="268438051" symbol="push"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="46" lineNum="44" parent="globals/Stack" pc="268438066" symbol="push"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="47" lineNum="42" parent="globals/Rez/Layouts" pc="268438089" symbol="AboutLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="47" lineNum="43" parent="globals/Rez/Layouts" pc="268438100" symbol="AboutLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="47" lineNum="45" parent="globals/Rez/Layouts" pc="268438197" symbol="AboutLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="47" lineNum="47" parent="globals/Rez/Layouts" pc="268438293" symbol="AboutLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="48" lineNum="36" parent="globals/Rez/Layouts" pc="268438308" symbol="SettingsLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="48" lineNum="37" parent="globals/Rez/Layouts" pc="268438319" symbol="SettingsLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="48" lineNum="39" parent="globals/Rez/Layouts" pc="268438394" symbol="SettingsLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="14" parent="globals/Rez/Layouts" pc="268438404" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="15" parent="globals/Rez/Layouts" pc="268438415" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="17" parent="globals/Rez/Layouts" pc="268438496" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="19" parent="globals/Rez/Layouts" pc="268438585" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="21" parent="globals/Rez/Layouts" pc="268438679" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="23" parent="globals/Rez/Layouts" pc="268438773" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="25" parent="globals/Rez/Layouts" pc="268438863" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="27" parent="globals/Rez/Layouts" pc="268438958" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="29" parent="globals/Rez/Layouts" pc="268439053" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="31" parent="globals/Rez/Layouts" pc="268439148" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="33" parent="globals/Rez/Layouts" pc="268439244" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="50" lineNum="52" parent="globals/Rez/Menus/MainMenu" pc="268439294" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="21" parent="globals/Stack/StackEntry" pc="268439306" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="22" parent="globals/Stack/StackEntry" pc="268439308" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="23" parent="globals/Stack/StackEntry" pc="268439317" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="24" parent="globals/Stack/StackEntry" pc="268439326" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="25" parent="globals/Stack/StackEntry" pc="268439335" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="26" parent="globals/Stack/StackEntry" pc="268439344" symbol="initialize"/>
-<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="27" parent="globals/Stack/StackEntry" pc="268439353" symbol="initialize"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="53" parent="globals/Rez/Menus/MainMenu" pc="268439363" symbol="initialize"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="54" parent="globals/Rez/Menus/MainMenu" pc="268439365" symbol="initialize"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="55" parent="globals/Rez/Menus/MainMenu" pc="268439377" symbol="initialize"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="56" parent="globals/Rez/Menus/MainMenu" pc="268439422" symbol="initialize"/>
-<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="57" parent="globals/Rez/Menus/MainMenu" pc="268439467" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="170" parent="globals/PingPongCounterView" pc="268437291" symbol="resetGame"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="171" parent="globals/PingPongCounterView" pc="268437293" symbol="resetGame"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="172" parent="globals/PingPongCounterView" pc="268437301" symbol="resetGame"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="173" parent="globals/PingPongCounterView" pc="268437309" symbol="resetGame"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="174" parent="globals/PingPongCounterView" pc="268437317" symbol="resetGame"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="175" parent="globals/PingPongCounterView" pc="268437342" symbol="resetGame"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="33" lineNum="176" parent="globals/PingPongCounterView" pc="268437367" symbol="resetGame"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="179" parent="globals/PingPongCounterView" pc="268437375" symbol="resetMatch"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="180" parent="globals/PingPongCounterView" pc="268437377" symbol="resetMatch"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="181" parent="globals/PingPongCounterView" pc="268437384" symbol="resetMatch"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="182" parent="globals/PingPongCounterView" pc="268437413" symbol="resetMatch"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="183" parent="globals/PingPongCounterView" pc="268437421" symbol="resetMatch"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="184" parent="globals/PingPongCounterView" pc="268437429" symbol="resetMatch"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="34" lineNum="185" parent="globals/PingPongCounterView" pc="268437454" symbol="resetMatch"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="45" parent="globals/PingPongCounterView" pc="268437480" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="46" parent="globals/PingPongCounterView" pc="268437483" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="47" parent="globals/PingPongCounterView" pc="268437499" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="48" parent="globals/PingPongCounterView" pc="268437511" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="49" parent="globals/PingPongCounterView" pc="268437565" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="50" parent="globals/PingPongCounterView" pc="268437580" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="51" parent="globals/PingPongCounterView" pc="268437592" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="52" parent="globals/PingPongCounterView" pc="268437612" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="53" parent="globals/PingPongCounterView" pc="268437624" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="54" parent="globals/PingPongCounterView" pc="268437671" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="56" parent="globals/PingPongCounterView" pc="268437683" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="57" parent="globals/PingPongCounterView" pc="268437694" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="58" parent="globals/PingPongCounterView" pc="268437712" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="59" parent="globals/PingPongCounterView" pc="268437724" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="60" parent="globals/PingPongCounterView" pc="268437747" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="61" parent="globals/PingPongCounterView" pc="268437758" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="62" parent="globals/PingPongCounterView" pc="268437778" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="35" lineNum="63" parent="globals/PingPongCounterView" pc="268437790" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="36" lineNum="160" parent="globals/PingPongCounterView" pc="268437815" symbol="toggleServer"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="36" lineNum="161" parent="globals/PingPongCounterView" pc="268437817" symbol="toggleServer"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="36" lineNum="162" parent="globals/PingPongCounterView" pc="268437826" symbol="toggleServer"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="36" lineNum="164" parent="globals/PingPongCounterView" pc="268437836" symbol="toggleServer"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="36" lineNum="165" parent="globals/PingPongCounterView" pc="268437850" symbol="toggleServer"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="37" lineNum="67" parent="globals/PingPongCounterView" pc="268437861" symbol="timerCallback"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterView.mc" id="37" lineNum="68" parent="globals/PingPongCounterView" pc="268437863" symbol="timerCallback"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="38" lineNum="15" parent="globals/PingPongCounterApp" pc="268437875" symbol="onStart"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="38" lineNum="16" parent="globals/PingPongCounterApp" pc="268437878" symbol="onStart"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="38" lineNum="17" parent="globals/PingPongCounterApp" pc="268437902" symbol="onStart"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="39" lineNum="25" parent="globals/PingPongCounterApp" pc="268437942" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="39" lineNum="26" parent="globals/PingPongCounterApp" pc="268437944" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="40" lineNum="10" parent="globals/PingPongCounterApp" pc="268437999" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="40" lineNum="11" parent="globals/PingPongCounterApp" pc="268438001" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\PingPongCounterApp.mc" id="41" lineNum="21" parent="globals/PingPongCounterApp" pc="268438014" symbol="onStop"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="48" parent="globals/Stack" pc="268438017" symbol="pop"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="49" parent="globals/Stack" pc="268438020" symbol="pop"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="50" parent="globals/Stack" pc="268438030" symbol="pop"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="54" parent="globals/Stack" pc="268438035" symbol="pop"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="57" parent="globals/Stack" pc="268438051" symbol="pop"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="58" parent="globals/Stack" pc="268438080" symbol="pop"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="42" lineNum="60" parent="globals/Stack" pc="268438095" symbol="pop"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="43" lineNum="69" parent="globals/Stack" pc="268438098" symbol="getSize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="43" lineNum="70" parent="globals/Stack" pc="268438100" symbol="getSize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="44" lineNum="64" parent="globals/Stack" pc="268438106" symbol="isEmpty"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="44" lineNum="65" parent="globals/Stack" pc="268438108" symbol="isEmpty"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="45" lineNum="32" parent="globals/Stack" pc="268438116" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="45" lineNum="33" parent="globals/Stack" pc="268438118" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="45" lineNum="34" parent="globals/Stack" pc="268438127" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="46" lineNum="38" parent="globals/Stack" pc="268438136" symbol="push"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="46" lineNum="40" parent="globals/Stack" pc="268438139" symbol="push"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="46" lineNum="43" parent="globals/Stack" pc="268438171" symbol="push"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="46" lineNum="44" parent="globals/Stack" pc="268438186" symbol="push"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="47" lineNum="42" parent="globals/Rez/Layouts" pc="268438209" symbol="AboutLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="47" lineNum="43" parent="globals/Rez/Layouts" pc="268438220" symbol="AboutLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="47" lineNum="45" parent="globals/Rez/Layouts" pc="268438317" symbol="AboutLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="47" lineNum="47" parent="globals/Rez/Layouts" pc="268438413" symbol="AboutLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="48" lineNum="36" parent="globals/Rez/Layouts" pc="268438428" symbol="SettingsLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="48" lineNum="37" parent="globals/Rez/Layouts" pc="268438439" symbol="SettingsLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="48" lineNum="39" parent="globals/Rez/Layouts" pc="268438514" symbol="SettingsLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="14" parent="globals/Rez/Layouts" pc="268438524" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="15" parent="globals/Rez/Layouts" pc="268438535" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="17" parent="globals/Rez/Layouts" pc="268438616" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="19" parent="globals/Rez/Layouts" pc="268438705" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="21" parent="globals/Rez/Layouts" pc="268438799" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="23" parent="globals/Rez/Layouts" pc="268438893" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="25" parent="globals/Rez/Layouts" pc="268438983" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="27" parent="globals/Rez/Layouts" pc="268439078" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="29" parent="globals/Rez/Layouts" pc="268439173" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="31" parent="globals/Rez/Layouts" pc="268439268" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="49" lineNum="33" parent="globals/Rez/Layouts" pc="268439364" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="50" lineNum="52" parent="globals/Rez/Menus/MainMenu" pc="268439414" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="21" parent="globals/Stack/StackEntry" pc="268439426" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="22" parent="globals/Stack/StackEntry" pc="268439428" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="23" parent="globals/Stack/StackEntry" pc="268439437" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="24" parent="globals/Stack/StackEntry" pc="268439446" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="25" parent="globals/Stack/StackEntry" pc="268439455" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="26" parent="globals/Stack/StackEntry" pc="268439464" symbol="initialize"/>
+<entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="51" lineNum="27" parent="globals/Stack/StackEntry" pc="268439473" symbol="initialize"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="53" parent="globals/Rez/Menus/MainMenu" pc="268439483" symbol="initialize"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="54" parent="globals/Rez/Menus/MainMenu" pc="268439485" symbol="initialize"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="55" parent="globals/Rez/Menus/MainMenu" pc="268439497" symbol="initialize"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="56" parent="globals/Rez/Menus/MainMenu" pc="268439542" symbol="initialize"/>
+<entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="57" parent="globals/Rez/Menus/MainMenu" pc="268439587" symbol="initialize"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -246,6 +251,7 @@
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="14" symbol="matchStack"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
 <entry id="8389630" method="true" symbol="getSize"/>
@@ -269,7 +275,6 @@
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
 <entry id="50" object="true" symbol="MainMenu"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="14" symbol="myStack"/>
 <entry id="47" method="true" symbol="AboutLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="38" method="true" symbol="timerCallback"/>
@@ -322,41 +327,41 @@
 <entry arg="true" endPc="268436611" name="keyEvent" stackId="1" startPc="268436080"/>
 <entry endPc="268436607" name="lastEntry" stackId="2" startPc="268436402"/>
 <entry arg="true" endPc="268436792" name="dc" stackId="1" startPc="268436677"/>
-<entry arg="true" endPc="268437694" name="dc" stackId="1" startPc="268437451"/>
-<entry endPc="268437693" name="clockTime" stackId="2" startPc="268437454"/>
-<entry endPc="268437693" name="timeString" stackId="3" startPc="268437454"/>
-<entry endPc="268437693" name="timeView" stackId="4" startPc="268437454"/>
-<entry arg="true" endPc="268437821" name="state" stackId="1" startPc="268437755"/>
-<entry endPc="268437820" name="view" stackId="2" startPc="268437758"/>
-<entry endPc="268437977" name="topEntry" stackId="1" startPc="268437900"/>
-<entry arg="true" endPc="268438088" name="p1_val" stackId="1" startPc="268438016"/>
-<entry arg="true" endPc="268438088" name="p1Sets" stackId="2" startPc="268438016"/>
-<entry arg="true" endPc="268438088" name="p2_val" stackId="3" startPc="268438016"/>
-<entry arg="true" endPc="268438088" name="p2Sets" stackId="4" startPc="268438016"/>
-<entry arg="true" endPc="268438088" name="points_val" stackId="5" startPc="268438016"/>
-<entry arg="true" endPc="268438088" name="serving_val" stackId="6" startPc="268438016"/>
-<entry endPc="268438087" name="entry" stackId="7" startPc="268438019"/>
-<entry arg="true" endPc="268438307" name="dc" stackId="1" startPc="268438089"/>
-<entry endPc="268438307" name="rez_cmp_local_text_1429538713" stackId="2" startPc="268438100"/>
-<entry endPc="268438307" name="rez_cmp_local_text_1182493329" stackId="3" startPc="268438100"/>
-<entry arg="true" endPc="268438403" name="dc" stackId="1" startPc="268438308"/>
-<entry endPc="268438403" name="rez_cmp_local_text_8374157491" stackId="2" startPc="268438319"/>
-<entry arg="true" endPc="268439293" name="dc" stackId="1" startPc="268438404"/>
-<entry endPc="268439293" name="rez_cmp_local_bitmap_pingpong" stackId="2" startPc="268438415"/>
-<entry endPc="268439293" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268438415"/>
-<entry endPc="268439293" name="rez_cmp_local_text_p1_score" stackId="4" startPc="268438415"/>
-<entry endPc="268439293" name="rez_cmp_local_text_p1_set" stackId="5" startPc="268438415"/>
-<entry endPc="268439293" name="rez_cmp_local_text_1139614796" stackId="6" startPc="268438415"/>
-<entry endPc="268439293" name="rez_cmp_local_text_p2_score" stackId="7" startPc="268438415"/>
-<entry endPc="268439293" name="rez_cmp_local_text_p2_set" stackId="8" startPc="268438415"/>
-<entry endPc="268439293" name="rez_cmp_local_text_binding" stackId="9" startPc="268438415"/>
-<entry endPc="268439293" name="rez_cmp_local_text_time_label" stackId="10" startPc="268438415"/>
-<entry arg="true" endPc="268439362" name="p1_val" stackId="1" startPc="268439306"/>
-<entry arg="true" endPc="268439362" name="p1Sets_val" stackId="2" startPc="268439306"/>
-<entry arg="true" endPc="268439362" name="p2_val" stackId="3" startPc="268439306"/>
-<entry arg="true" endPc="268439362" name="p2Sets_val" stackId="4" startPc="268439306"/>
-<entry arg="true" endPc="268439362" name="points_val" stackId="5" startPc="268439306"/>
-<entry arg="true" endPc="268439362" name="serving_val" stackId="6" startPc="268439306"/>
+<entry arg="true" endPc="268437814" name="dc" stackId="1" startPc="268437480"/>
+<entry endPc="268437813" name="clockTime" stackId="2" startPc="268437483"/>
+<entry endPc="268437813" name="timeString" stackId="3" startPc="268437483"/>
+<entry endPc="268437813" name="timeView" stackId="4" startPc="268437483"/>
+<entry arg="true" endPc="268437941" name="state" stackId="1" startPc="268437875"/>
+<entry endPc="268437940" name="view" stackId="2" startPc="268437878"/>
+<entry endPc="268438097" name="topEntry" stackId="1" startPc="268438020"/>
+<entry arg="true" endPc="268438208" name="p1_val" stackId="1" startPc="268438136"/>
+<entry arg="true" endPc="268438208" name="p1Sets" stackId="2" startPc="268438136"/>
+<entry arg="true" endPc="268438208" name="p2_val" stackId="3" startPc="268438136"/>
+<entry arg="true" endPc="268438208" name="p2Sets" stackId="4" startPc="268438136"/>
+<entry arg="true" endPc="268438208" name="points_val" stackId="5" startPc="268438136"/>
+<entry arg="true" endPc="268438208" name="serving_val" stackId="6" startPc="268438136"/>
+<entry endPc="268438207" name="entry" stackId="7" startPc="268438139"/>
+<entry arg="true" endPc="268438427" name="dc" stackId="1" startPc="268438209"/>
+<entry endPc="268438427" name="rez_cmp_local_text_1429538713" stackId="2" startPc="268438220"/>
+<entry endPc="268438427" name="rez_cmp_local_text_1182493329" stackId="3" startPc="268438220"/>
+<entry arg="true" endPc="268438523" name="dc" stackId="1" startPc="268438428"/>
+<entry endPc="268438523" name="rez_cmp_local_text_8374157491" stackId="2" startPc="268438439"/>
+<entry arg="true" endPc="268439413" name="dc" stackId="1" startPc="268438524"/>
+<entry endPc="268439413" name="rez_cmp_local_bitmap_pingpong" stackId="2" startPc="268438535"/>
+<entry endPc="268439413" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268438535"/>
+<entry endPc="268439413" name="rez_cmp_local_text_p1_score" stackId="4" startPc="268438535"/>
+<entry endPc="268439413" name="rez_cmp_local_text_p1_set" stackId="5" startPc="268438535"/>
+<entry endPc="268439413" name="rez_cmp_local_text_1139614796" stackId="6" startPc="268438535"/>
+<entry endPc="268439413" name="rez_cmp_local_text_p2_score" stackId="7" startPc="268438535"/>
+<entry endPc="268439413" name="rez_cmp_local_text_p2_set" stackId="8" startPc="268438535"/>
+<entry endPc="268439413" name="rez_cmp_local_text_binding" stackId="9" startPc="268438535"/>
+<entry endPc="268439413" name="rez_cmp_local_text_time_label" stackId="10" startPc="268438535"/>
+<entry arg="true" endPc="268439482" name="p1_val" stackId="1" startPc="268439426"/>
+<entry arg="true" endPc="268439482" name="p1Sets_val" stackId="2" startPc="268439426"/>
+<entry arg="true" endPc="268439482" name="p2_val" stackId="3" startPc="268439426"/>
+<entry arg="true" endPc="268439482" name="p2Sets_val" stackId="4" startPc="268439426"/>
+<entry arg="true" endPc="268439482" name="points_val" stackId="5" startPc="268439426"/>
+<entry arg="true" endPc="268439482" name="serving_val" stackId="6" startPc="268439426"/>
 </localVars>
 <deviceInfo deviceVersion="de121dfa604491767422db2c3063530f8fd6465b" partNumber="006-B3906-00"/>
 <annotations>
@@ -487,49 +492,49 @@
 <functionEntry accessMode="public" endPc="268437374" name="resetGame" parent="PingPongCounterView" startPc="268437291">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437450" name="resetMatch" parent="PingPongCounterView" startPc="268437375">
+<functionEntry accessMode="public" endPc="268437479" name="resetMatch" parent="PingPongCounterView" startPc="268437375">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437694" name="onUpdate" parent="PingPongCounterView" startPc="268437451">
+<functionEntry accessMode="public" endPc="268437814" name="onUpdate" parent="PingPongCounterView" startPc="268437480">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437740" name="toggleServer" parent="PingPongCounterView" startPc="268437695">
+<functionEntry accessMode="public" endPc="268437860" name="toggleServer" parent="PingPongCounterView" startPc="268437815">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437754" name="timerCallback" parent="PingPongCounterView" startPc="268437741">
+<functionEntry accessMode="public" endPc="268437874" name="timerCallback" parent="PingPongCounterView" startPc="268437861">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437821" name="onStart" parent="PingPongCounterApp" startPc="268437755">
+<functionEntry accessMode="public" endPc="268437941" name="onStart" parent="PingPongCounterApp" startPc="268437875">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437878" name="getInitialView" parent="PingPongCounterApp" startPc="268437822">
+<functionEntry accessMode="public" endPc="268437998" name="getInitialView" parent="PingPongCounterApp" startPc="268437942">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437893" name="initialize" parent="PingPongCounterApp" startPc="268437879">
+<functionEntry accessMode="public" endPc="268438013" name="initialize" parent="PingPongCounterApp" startPc="268437999">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437896" name="onStop" parent="PingPongCounterApp" startPc="268437894">
+<functionEntry accessMode="public" endPc="268438016" name="onStop" parent="PingPongCounterApp" startPc="268438014">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437977" name="pop" parent="Stack" startPc="268437897">
+<functionEntry accessMode="public" endPc="268438097" name="pop" parent="Stack" startPc="268438017">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437985" name="getSize" parent="Stack" startPc="268437978">
+<functionEntry accessMode="public" endPc="268438105" name="getSize" parent="Stack" startPc="268438098">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437995" name="isEmpty" parent="Stack" startPc="268437986">
+<functionEntry accessMode="public" endPc="268438115" name="isEmpty" parent="Stack" startPc="268438106">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="StackEntry">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438015" name="initialize" parent="Stack" startPc="268437996">
+<functionEntry accessMode="public" endPc="268438135" name="initialize" parent="Stack" startPc="268438116">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438088" name="push" parent="Stack" startPc="268438016">
+<functionEntry accessMode="public" endPc="268438208" name="push" parent="Stack" startPc="268438136">
 <param id="p1_val"/>
 <param id="p1Sets"/>
 <param id="p2_val"/>
@@ -538,22 +543,22 @@
 <param id="serving_val"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438307" name="AboutLayout" parent="Layouts" startPc="268438089">
+<functionEntry accessMode="public" endPc="268438427" name="AboutLayout" parent="Layouts" startPc="268438209">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438403" name="SettingsLayout" parent="Layouts" startPc="268438308">
+<functionEntry accessMode="public" endPc="268438523" name="SettingsLayout" parent="Layouts" startPc="268438428">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439293" name="MainLayout" parent="Layouts" startPc="268438404">
+<functionEntry accessMode="public" endPc="268439413" name="MainLayout" parent="Layouts" startPc="268438524">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439305" name="&lt;init&gt;" parent="MainMenu" startPc="268439294">
+<functionEntry accessMode="public" endPc="268439425" name="&lt;init&gt;" parent="MainMenu" startPc="268439414">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439362" name="initialize" parent="StackEntry" startPc="268439306">
+<functionEntry accessMode="public" endPc="268439482" name="initialize" parent="StackEntry" startPc="268439426">
 <param id="p1_val"/>
 <param id="p1Sets_val"/>
 <param id="p2_val"/>
@@ -562,7 +567,7 @@
 <param id="serving_val"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439512" name="initialize" parent="MainMenu" startPc="268439363">
+<functionEntry accessMode="public" endPc="268439632" name="initialize" parent="MainMenu" startPc="268439483">
 <documentation/>
 </functionEntry>
 </functions>

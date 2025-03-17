@@ -21,7 +21,7 @@ var updateTimer = null;
 
 
 
-var myStack = new Stack();
+var matchStack = new Stack();
 
 class PingPongCounterView extends WatchUi.View {
 
@@ -48,6 +48,10 @@ class PingPongCounterView extends WatchUi.View {
         var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
         var timeView = findDrawableById("time_label") as WatchUi.Text;
         timeView.setText(timeString);
+        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_LT_GRAY); // Set border color
+        dc.setPenWidth(1); // Set border width
+        dc.drawRoundedRectangle((dc.getWidth() / 2) - 40 , dc.getHeight() - (dc.getHeight()/7), 80, 60, 10);
+        dc.setPenWidth(2); 
 
         if (whoServes == 1) {
             dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLUE);
@@ -68,7 +72,7 @@ class PingPongCounterView extends WatchUi.View {
         if (keyEvent.getKey() == 8) { // Player 1 scores
             // DOWN_KEY
             if (p1Score != null) {
-                myStack.push(p1Score_ctr, p1Set_ctr, p2Score_ctr, p2Set_ctr, total_points, whoServes);
+                matchStack.push(p1Score_ctr, p1Set_ctr, p2Score_ctr, p2Set_ctr, total_points, whoServes);
                 p1Score_ctr++;
                 p1Score.setText(p1Score_ctr.toString());
                 matchLogic();
@@ -76,7 +80,7 @@ class PingPongCounterView extends WatchUi.View {
         } else if (keyEvent.getKey() == 5) { // Player 2 scores
             // BACK_KEY
             if (p2Score != null) {
-                myStack.push(p1Score_ctr, p1Set_ctr, p2Score_ctr, p2Set_ctr, total_points, whoServes);
+                matchStack.push(p1Score_ctr, p1Set_ctr, p2Score_ctr, p2Set_ctr, total_points, whoServes);
                 p2Score_ctr++;
                 p2Score.setText(p2Score_ctr.toString());
                 matchLogic();
@@ -89,7 +93,7 @@ class PingPongCounterView extends WatchUi.View {
             }
         } else if (keyEvent.getKey() == 4) { // Undo last action
             // START_KEY
-            var lastEntry = myStack.pop();
+            var lastEntry = matchStack.pop();
             if (lastEntry != null) {
                 p1Score_ctr = lastEntry.p1;
                 p1Set_ctr = lastEntry.p1Sets;
@@ -174,6 +178,7 @@ class PingPongCounterView extends WatchUi.View {
 
     function resetMatch() as Void {
         resetGame();
+        matchStack = new Stack();
         p1Set_ctr = 0;
         p2Set_ctr = 0;
         p1Set.setText(p1Set_ctr.toString());
