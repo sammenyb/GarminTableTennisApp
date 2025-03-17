@@ -11,11 +11,17 @@ The published app can be found at [Garmin Connect IQ Store](https://apps.garmin.
 
 ## Usage
 
+## How to Use
+
+
+
 1. Initially, when the match starts, press the **up button** to switch who serves.
 2. Press the **down button** to give a point to player 1.
 3. Press the **back button** to give a point to player 2.
 4. Press the **start button** to undo the previous point; this can be repeated indefinitely.
 5. Hold down the **up button** to enter the menu where the match can be restarted and the application can be exited.
+
+![How to Use the App](resources/drawables/Tabletennis.drawio.compressed.png)
 
 ## Supported devices
  
