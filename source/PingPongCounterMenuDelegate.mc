@@ -10,10 +10,16 @@ class PingPongCounterMenuDelegate extends WatchUi.MenuInputDelegate {
 
     function onMenuItem(item as Symbol) as Void {
         if (item == :item_1) {
-            System.println("item 1");
             new PingPongCounterView().resetMatch();
-        } else if (item == :item_2) {
-            System.println("item 2");
+        // } else if (item == :item_2) {
+        //     // Settings
+
+        } else if (item == :item_3) {
+            // About
+            WatchUi.pushView(new PingPongAboutView(), null, WatchUi.SLIDE_UP);
+        } else if (item == :item_4) {
+            // Exit
+            WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
         }
     }
 
