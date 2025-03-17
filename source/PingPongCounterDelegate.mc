@@ -1,5 +1,8 @@
 import Toybox.Lang;
 import Toybox.WatchUi;
+import Toybox.Attention;
+
+var vibeProfile = [ new Attention.VibeProfile(50, 100)];
 
 class PingPongCounterDelegate extends WatchUi.BehaviorDelegate {
 
@@ -14,22 +17,15 @@ class PingPongCounterDelegate extends WatchUi.BehaviorDelegate {
 
     function onKey(keyEvent as KeyEvent) as Boolean {
         // System.println("PingPongCounterDelegate.onKey: " + keyEvent.getKey());
-        // if (keyEvent.getKey() == 8) {
-        //     System.println("PingPongCounterDelegate.onKey: KEY_DOWN");
+        if (keyEvent.getKey() == 22) {
+            // Exit the application on holding the down key
+            WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
+            return true;
             
-        //     return true;
-        // } else if (keyEvent.getKey() == 13) {
-        //     System.println("PingPongCounterDelegate.onKey: KEY_UP");
-        //     return true;
-        // } else if (keyEvent.getKey() == 4) {
-        //     System.println("PingPongCounterDelegate.onKey: KEY_START");
-        //     return true;
-        // } else if (keyEvent.getKey() == 5) {
-        //     System.println("PingPongCounterDelegate.onKey: KEY_BACK");
-        //     return true;
-        // }
+        }
 
         new PingPongCounterView().dynamicUpdate(keyEvent);
+        Attention.vibrate(vibeProfile);
         WatchUi.requestUpdate();
 
         return true;

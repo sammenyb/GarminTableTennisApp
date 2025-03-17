@@ -3,6 +3,8 @@ import Toybox.Application.Properties;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
+public var settingsVibration = true;
+
 class PingPongCounterApp extends Application.AppBase {
 
     function initialize() {

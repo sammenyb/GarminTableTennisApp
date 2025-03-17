@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string id="AppName">PingPongCounter</string>
 
@@ -10,4 +11,13 @@
     <!-- <string id="p2_score">00</string> -->
 
     <string id="menu_label_1">Reset Match</string>
+    <string id="menu_label_2">Settings</string>
+    <string id="menu_label_3">About</string>
+    <string id="menu_label_4">Exit</string>
+
+    <string id="About">PingPongCounter v1.0</string>
+    <string id="AboutText"> &#32; &#32; &#32; Created by:
+        Samuel Nyberg \n
+        Icons by icons8.com
+    </string>
 </resources>
