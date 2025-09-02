@@ -5,9 +5,6 @@ import Toybox.Lang;
 import Toybox.Timer;
 
 class Stack {
-    // Array to hold our stack elements
-    private var stackArray;
-    private var size;
 
     // Structure definition using a class
     class StackEntry {
@@ -28,45 +25,65 @@ class Stack {
         }
     }
 
+    // Array to hold our stack elements
+    private var stackArray as Array<StackEntry>;
+
+
     // Constructor
     function initialize() {
-        stackArray = new [0];  // Initialize empty array
-        size = 0;
+        stackArray = [];  // Initialize empty array
     }
 
-    // Push a new entry onto the stack
+    // // Push a new entry onto the stack
+    // function push(p1_val, p1Sets, p2_val, p2Sets, points_val, serving_val) {
+    //     // Create new entry
+    //     var entry = new StackEntry(p1_val, p1Sets, p2_val, p2Sets, points_val, serving_val);
+        
+    //     // Increase array size and add new entry
+    //     size++;
+    //     stackArray = stackArray.add(entry);
+    // }
+
     function push(p1_val, p1Sets, p2_val, p2Sets, points_val, serving_val) {
         // Create new entry
         var entry = new StackEntry(p1_val, p1Sets, p2_val, p2Sets, points_val, serving_val);
-        
-        // Increase array size and add new entry
-        size++;
         stackArray = stackArray.add(entry);
     }
 
-    // Pop an entry from the stack and return it
-    function pop() {
-        if (size == 0) {
-            return null;  // Stack is empty
-        }
+    // // Pop an entry from the stack and return it
+    // function pop() {
+    //     if (size == 0) {
+    //         return null;  // Stack is empty
+    //     }
 
-        // Get the top entry
-        var topEntry = stackArray[size - 1];
+    //     // Get the top entry
+    //     var topEntry = stackArray[size - 1];
         
-        // Remove it from the array
-        stackArray = stackArray.slice(0, size - 1);
-        size--;
+    //     // Remove it from the array
+    //     stackArray = stackArray.slice(0, size - 1);
+    //     size--;
 
+    //     return topEntry;
+    // }
+
+    function pop() {
+        var currentSize = stackArray.size();
+        if (currentSize == 0) {
+            return null;
+        }
+        var topEntry = stackArray[currentSize - 1];
+        stackArray = stackArray.slice(0, currentSize - 1);
         return topEntry;
     }
 
+
     // Check if stack is empty
     function isEmpty() {
-        return size == 0;
+        return stackArray.size() == 0;
     }
 
     // Get current size of stack
     function getSize() {
-        return size;
+        return stackArray.size();
     }
 }

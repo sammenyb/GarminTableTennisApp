@@ -5,7 +5,7 @@ import Toybox.WatchUi;
 
 public var settingsVibration = true;
 
-class PingPongCounterApp extends Application.AppBase {
+class App extends Application.AppBase {
 
     function initialize() {
         AppBase.initialize();
@@ -13,8 +13,8 @@ class PingPongCounterApp extends Application.AppBase {
 
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
-        var view = new PingPongCounterView();
-        WatchUi.pushView(view, new PingPongCounterDelegate(), WatchUi.SLIDE_UP);
+        var view = new MainView();
+        WatchUi.pushView(view, new MainDelegate(), WatchUi.SLIDE_UP);
     }
 
     // onStop() is called when your application is exiting
@@ -23,11 +23,11 @@ class PingPongCounterApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new PingPongCounterView(), new PingPongCounterDelegate() ];
+        return [ new MainView(), new MainDelegate() ];
     }
 
 }
 
-function getApp() as PingPongCounterApp {
-    return Application.getApp() as PingPongCounterApp;
+function getApp() as App {
+    return Application.getApp() as App;
 }

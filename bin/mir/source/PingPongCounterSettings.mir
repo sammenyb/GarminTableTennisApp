@@ -21,18 +21,18 @@ class PingPongSettingsView extends WatchUi.View {
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterSettings.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; ]
     function initialize() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterSettings_mc_10_26_12_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterSettings_mc_10_26_12_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterSettings.mc" 11 8 ]
         symbol [ View %tmp.2 11 8 12 ];
         %tmp.2 = getv ? :View;
         symbol [ initialize %tmp.3 11 13 23 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterSettings_mc_10_26_12_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterSettings_mc_10_26_12_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterSettings.mc"; @line = 14; @symbol_functiondef = [onLayout,14,13,21]; @symbol_param<0> = [dc,14,22,24]; @symbol_param<0>_type<0> = [Dc,14,28,30]; ]
     function onLayout(dc as Dc) as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterSettings_mc_14_40_16_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterSettings_mc_14_40_16_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterSettings.mc" 15 8 ]
         %tmp.1 = self;
         symbol [ setLayout %tmp.2 15 8 17 ];
@@ -47,7 +47,7 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ dc %tmp.7 15 45 47 ];
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         invoke %tmp.1 %tmp.2(%tmp.8);
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterSettings_mc_14_40_16_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterSettings_mc_14_40_16_4_stop:
     }
 }
 [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterSettings.mc"; @line = 1; ]

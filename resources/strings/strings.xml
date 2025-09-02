@@ -4,16 +4,20 @@
 
     <string id="prompt">Click the menu button</string>
 
-    <string id="p1">P1</string>
-    <!-- <string id="p1_score">00</string> -->
-
-    <string id="p2">P2</string>
-    <!-- <string id="p2_score">00</string> -->
+    <string id="GameOver">Game Over</string>
+    <string id="winner_p1">Winner: P1</string>
+    <string id="winner_p2">Winner: P2</string>
+    <string id="NewGamePrompt">Press BACK to restart</string>
 
     <string id="menu_label_1">Reset Match</string>
     <string id="menu_label_2">Settings</string>
-    <string id="menu_label_3">About</string>
-    <string id="menu_label_4">Exit</string>
+    <string id="menu_label_3">Exit</string>
+
+    <string id="settings_label_1">Match Length</string>
+
+    <string id="best_of_3">Best of 3</string>
+    <string id="best_of_5">Best of 5</string>
+    <string id="best_of_7">Best of 7</string>
 
     <string id="About">PingPongCounter v1.0</string>
     <string id="AboutText"> &#32; &#32; &#32; Created by:

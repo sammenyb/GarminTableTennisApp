@@ -1,19 +1,26 @@
 <resources>
     <layout id="MainLayout">
         
-        <bitmap id="pingpong" filename="../drawables/ping-pong-racket-and-ball.png" x="110" y="20"/>
-        
-        <label x="45" y="90" text="@Strings.p1" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE"/>
-        <label id="p1_score" x="60" y="119" text="00" font="Gfx.FONT_NUMBER_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+        <label id="match_length_label" x="125" y="105" text="Best of " font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+        <label id="match_length_number" x="155" y="105" text="" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+
+        <label id="p1_label" x="45" y="90" text="P1" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE"/>
+        <label id="p1_score" x="60" y="119" text="0" font="Gfx.FONT_NUMBER_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
         <label id="p1_set" x="114" y="125" text="0" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
 
-        <label x="182" y="90" text="@Strings.p2" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE"/>
-        <label id="p2_score" x="198" y="119" text="00" font="Gfx.FONT_NUMBER_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+        <label id="p2_label" x="182" y="90" text="P2" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE"/>
+        <label id="p2_score" x="198" y="119" text="0" font="Gfx.FONT_NUMBER_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
         <label id="p2_set" x="144" y="125" text="0" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
         <label id="binding" x="129" y="125" text="-" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
 
         <label id="time_label" x="130" y="225" text="00:00" font="Gfx.FONT_SMALL" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
 
+    </layout>
+
+    <layout id="GameOverLayout">
+        <label x="130" y="70" text="@Strings.GameOver" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+        <label id="winning_player" x="130" y="110" text="" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+        <label x="130" y="150" text="@Strings.NewGamePrompt" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
     </layout>
 
     <layout id="SettingsLayout">

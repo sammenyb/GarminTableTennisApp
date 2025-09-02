@@ -19,20 +19,20 @@ class PingPongCounterApp extends Application.AppBase {
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterApp.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; ]
     function initialize() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_10_26_12_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_10_26_12_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterApp.mc" 11 8 ]
         symbol [ AppBase %tmp.2 11 8 15 ];
         %tmp.2 = getv ? :AppBase;
         symbol [ initialize %tmp.3 11 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_10_26_12_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_10_26_12_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterApp.mc"; @line = 15; @symbol_functiondef = [onStart,15,13,20]; @symbol_param<0> = [state,15,21,26]; @symbol_param<0>_type<0> = [Dictionary,15,30,40]; ]
     function onStart(state as Dictionary or Null) as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_15_51_18_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_15_51_18_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterApp.mc" 16 8 ]
-        [ "C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_15_51_18_4_start" "C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_15_51_18_4_stop" ]
+        [ "C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_15_51_18_4_start" "C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_15_51_18_4_stop" ]
         %view.1 = local;
         symbol [ view %view.1 16 12 16 ];
         symbol [ PingPongCounterView %tmp.4 16 23 42 ];
@@ -55,14 +55,14 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ SLIDE_UP %tmp.13 17 70 78 ];
         %tmp.13 = getv %tmp.12 :SLIDE_UP;
         invoke %tmp.5 %tmp.6(%tmp.7, %tmp.8, %tmp.13);
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_15_51_18_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_15_51_18_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterApp.mc"; @line = 21; @symbol_functiondef = [onStop,21,13,19]; @symbol_param<0> = [state,21,20,25]; @symbol_param<0>_type<0> = [Dictionary,21,29,39]; ]
     function onStop(state as Dictionary or Null) as Void {
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterApp.mc"; @line = 25; @symbol_functiondef = [getInitialView,25,13,27]; @symbol_return<0> = [Views,25,34,39]; @symbol_return<1> = [Views,25,45,50]; @symbol_return<2> = [InputDelegates,25,52,66]; ]
     function getInitialView() as [Views] or [Views, InputDelegates] {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_25_68_27_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_25_68_27_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterApp.mc" 26 8 ]
         %tmp.1 = newa 2;
         symbol [ PingPongCounterView %tmp.5 26 21 40 ];
@@ -76,12 +76,12 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.12 = dup %tmp.7;
         %tmp.13 = aputv %tmp.12 1 %tmp.8;
         ret %tmp.13;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_25_68_27_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_25_68_27_4_stop:
     }
 }
 [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterApp.mc"; @line = 31; @symbol_functiondef = [getApp,31,9,15]; @symbol_return<0> = [PingPongCounterApp,31,21,39]; ]
 function getApp() as PingPongCounterApp {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_31_40_33_0_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_31_40_33_0_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterApp.mc" 32 4 ]
     symbol [ Application %tmp.1 32 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
@@ -91,7 +91,7 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
     %tmp.4 = as %tmp.3 PingPongCounterApp;
     symbol [ PingPongCounterApp %tmp.4 32 35 53 ];
     ret %tmp.4;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_31_40_33_0_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterApp_mc_31_40_33_0_stop:
 }
 [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterApp.mc"; @line = 1; ]
 <init> {

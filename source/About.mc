@@ -5,7 +5,7 @@ import Toybox.Lang;
 import Toybox.Timer;
 
 
-class PingPongAboutView extends WatchUi.View {
+class AboutView extends WatchUi.View {
 
     function initialize() {
         View.initialize();

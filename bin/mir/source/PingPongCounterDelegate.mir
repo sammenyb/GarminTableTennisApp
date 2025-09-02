@@ -17,18 +17,18 @@ class PingPongCounterDelegate extends WatchUi.BehaviorDelegate {
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
     function initialize() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_9_26_11_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_9_26_11_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc" 10 8 ]
         symbol [ BehaviorDelegate %tmp.2 10 8 24 ];
         %tmp.2 = getv ? :BehaviorDelegate;
         symbol [ initialize %tmp.3 10 25 35 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_9_26_11_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_9_26_11_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc"; @line = 13; @symbol_functiondef = [onMenu,13,13,19]; @symbol_return<0> = [Boolean,13,25,32]; ]
     function onMenu() as Boolean {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_13_33_16_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_13_33_16_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc" 14 8 ]
         symbol [ WatchUi %tmp.1 14 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
@@ -52,13 +52,13 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc" 15 8 ]
         %tmp.15 = true;
         ret %tmp.15;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_13_33_16_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_13_33_16_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc"; @line = 18; @symbol_functiondef = [onKey,18,13,18]; @symbol_param<0> = [keyEvent,18,19,27]; @symbol_param<0>_type<0> = [KeyEvent,18,31,39]; @symbol_return<0> = [Boolean,18,44,51]; ]
     function onKey(keyEvent as KeyEvent) as Boolean {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_18_52_32_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_18_52_32_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc" 20 8 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_8_25_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_8_25_8_if_stmt:
         %tmp.1 = lgetv %keyEvent;
         symbol [ keyEvent %tmp.1 20 12 20 ];
         symbol [ getKey %tmp.2 20 21 27 ];
@@ -66,9 +66,9 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = 22;
         %tmp.5 = eq %tmp.3 %tmp.4;
-        bf %tmp.5 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_8_25_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_8_25_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_37_25_8_start:
+        bf %tmp.5 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_8_25_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_8_25_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_37_25_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc" 22 12 ]
         symbol [ WatchUi %tmp.6 22 12 19 ];
         %tmp.6 = getm $.Toybox.WatchUi;
@@ -82,9 +82,9 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc" 23 12 ]
         %tmp.10 = true;
         ret %tmp.10;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_37_25_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_8_25_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_8_25_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_37_25_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_8_25_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_20_8_25_8_if_end:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc" 27 8 ]
         symbol [ PingPongCounterView %tmp.14 27 12 31 ];
         %tmp.14 = getv ? :PingPongCounterView;
@@ -111,7 +111,7 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc" 31 8 ]
         %tmp.23 = true;
         ret %tmp.23;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_18_52_32_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterDelegate_mc_18_52_32_4_stop:
     }
 }
 [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterDelegate.mc"; @line = 1; ]

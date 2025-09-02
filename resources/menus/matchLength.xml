@@ -1,0 +1,5 @@
+<menu id="MatchLengthMenu">
+    <menu-item id="item_1" label="@Strings.best_of_3" />
+    <menu-item id="item_2" label="@Strings.best_of_5" />
+    <menu-item id="item_3" label="@Strings.best_of_7" />
+</menu>

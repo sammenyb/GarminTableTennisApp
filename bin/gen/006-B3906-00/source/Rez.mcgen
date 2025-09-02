@@ -12,17 +12,19 @@ module Rez {
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_bitmap_pingpong = new WatchUi.Bitmap({:identifier=>"pingpong", :rezId=>$.Rez.Drawables.pingpong, :locX=>110, :locY=>20});
+            var rez_cmp_local_text_match_length_label = new WatchUi.Text({:identifier=>"match_length_label", :color=>Gfx.COLOR_WHITE, :locX=>125, :locY=>105, :text=>"Best of ", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
 
-            var rez_cmp_local_text_1193959466 = new WatchUi.Text({:color=>Gfx.COLOR_WHITE, :locX=>45, :locY=>90, :text=>$.Rez.Strings.p1, :font=>Gfx.FONT_MEDIUM});
+            var rez_cmp_local_text_match_length_number = new WatchUi.Text({:identifier=>"match_length_number", :color=>Gfx.COLOR_WHITE, :locX=>155, :locY=>105, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
 
-            var rez_cmp_local_text_p1_score = new WatchUi.Text({:identifier=>"p1_score", :color=>Gfx.COLOR_WHITE, :locX=>60, :locY=>119, :text=>"00", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_NUMBER_MEDIUM});
+            var rez_cmp_local_text_p1_label = new WatchUi.Text({:identifier=>"p1_label", :color=>Gfx.COLOR_WHITE, :locX=>45, :locY=>90, :text=>"P1", :font=>Gfx.FONT_MEDIUM});
+
+            var rez_cmp_local_text_p1_score = new WatchUi.Text({:identifier=>"p1_score", :color=>Gfx.COLOR_WHITE, :locX=>60, :locY=>119, :text=>"0", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_NUMBER_MEDIUM});
 
             var rez_cmp_local_text_p1_set = new WatchUi.Text({:identifier=>"p1_set", :color=>Gfx.COLOR_WHITE, :locX=>114, :locY=>125, :text=>"0", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
-            var rez_cmp_local_text_1139614796 = new WatchUi.Text({:color=>Gfx.COLOR_WHITE, :locX=>182, :locY=>90, :text=>$.Rez.Strings.p2, :font=>Gfx.FONT_MEDIUM});
+            var rez_cmp_local_text_p2_label = new WatchUi.Text({:identifier=>"p2_label", :color=>Gfx.COLOR_WHITE, :locX=>182, :locY=>90, :text=>"P2", :font=>Gfx.FONT_MEDIUM});
 
-            var rez_cmp_local_text_p2_score = new WatchUi.Text({:identifier=>"p2_score", :color=>Gfx.COLOR_WHITE, :locX=>198, :locY=>119, :text=>"00", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_NUMBER_MEDIUM});
+            var rez_cmp_local_text_p2_score = new WatchUi.Text({:identifier=>"p2_score", :color=>Gfx.COLOR_WHITE, :locX=>198, :locY=>119, :text=>"0", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_NUMBER_MEDIUM});
 
             var rez_cmp_local_text_p2_set = new WatchUi.Text({:identifier=>"p2_set", :color=>Gfx.COLOR_WHITE, :locX=>144, :locY=>125, :text=>"0", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
@@ -30,7 +32,17 @@ module Rez {
 
             var rez_cmp_local_text_time_label = new WatchUi.Text({:identifier=>"time_label", :color=>Gfx.COLOR_LT_GRAY, :locX=>130, :locY=>225, :text=>"00:00", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
-            return [rez_cmp_local_bitmap_pingpong, rez_cmp_local_text_1193959466, rez_cmp_local_text_p1_score, rez_cmp_local_text_p1_set, rez_cmp_local_text_1139614796, rez_cmp_local_text_p2_score, rez_cmp_local_text_p2_set, rez_cmp_local_text_binding, rez_cmp_local_text_time_label] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_match_length_label, rez_cmp_local_text_match_length_number, rez_cmp_local_text_p1_label, rez_cmp_local_text_p1_score, rez_cmp_local_text_p1_set, rez_cmp_local_text_p2_label, rez_cmp_local_text_p2_score, rez_cmp_local_text_p2_set, rez_cmp_local_text_binding, rez_cmp_local_text_time_label] as Array<WatchUi.Drawable>;
+        }
+
+        function GameOverLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_1193959466 = new WatchUi.Text({:color=>Gfx.COLOR_WHITE, :locX=>130, :locY=>70, :text=>$.Rez.Strings.GameOver, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
+
+            var rez_cmp_local_text_winning_player = new WatchUi.Text({:identifier=>"winning_player", :color=>Gfx.COLOR_WHITE, :locX=>130, :locY=>110, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            var rez_cmp_local_text_1139614796 = new WatchUi.Text({:color=>Gfx.COLOR_WHITE, :locX=>130, :locY=>150, :text=>$.Rez.Strings.NewGamePrompt, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
+
+            return [rez_cmp_local_text_1193959466, rez_cmp_local_text_winning_player, rez_cmp_local_text_1139614796] as Array<WatchUi.Drawable>;
         }
 
         function SettingsLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
@@ -49,27 +61,48 @@ module Rez {
     } // Layouts
 
     module Menus {
+        class MatchLengthMenu extends WatchUi.Menu {
+            function initialize() {
+                Menu.initialize();
+                addItem((WatchUi.loadResource($.Rez.Strings.best_of_3) as String), :item_1);
+                addItem((WatchUi.loadResource($.Rez.Strings.best_of_5) as String), :item_2);
+                addItem((WatchUi.loadResource($.Rez.Strings.best_of_7) as String), :item_3);
+            }
+        }
+
         class MainMenu extends WatchUi.Menu {
             function initialize() {
                 Menu.initialize();
                 addItem((WatchUi.loadResource($.Rez.Strings.menu_label_1) as String), :item_1);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_2) as String), :item_2);
                 addItem((WatchUi.loadResource($.Rez.Strings.menu_label_3) as String), :item_3);
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_4) as String), :item_4);
+            }
+        }
+
+        class SettingsMenu extends WatchUi.Menu {
+            function initialize() {
+                Menu.initialize();
+                addItem((WatchUi.loadResource($.Rez.Strings.settings_label_1) as String), :item_1);
             }
         }
     } // Menus
 
     module Strings {
-        (:initialized) var p1 as ResourceId;
-        (:initialized) var p2 as ResourceId;
         (:initialized) var AboutText as ResourceId;
-        (:initialized) var menu_label_3 as ResourceId;
-        (:initialized) var menu_label_4 as ResourceId;
-        (:initialized) var menu_label_1 as ResourceId;
-        (:initialized) var menu_label_2 as ResourceId;
-        (:initialized) var prompt as ResourceId;
+        (:initialized) var GameOver as ResourceId;
+        (:initialized) var NewGamePrompt as ResourceId;
+        (:initialized) var settings_label_1 as ResourceId;
         (:initialized) var AppName as ResourceId;
         (:initialized) var About as ResourceId;
+        (:initialized) var winner_p2 as ResourceId;
+        (:initialized) var best_of_3 as ResourceId;
+        (:initialized) var winner_p1 as ResourceId;
+        (:initialized) var menu_label_3 as ResourceId;
+        (:initialized) var menu_label_1 as ResourceId;
+        (:initialized) var menu_label_2 as ResourceId;
+        (:initialized) var best_of_7 as ResourceId;
+        (:initialized) var prompt as ResourceId;
+        (:initialized) var best_of_5 as ResourceId;
     } // Strings
 
     module Styles {

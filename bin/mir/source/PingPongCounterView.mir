@@ -47,7 +47,7 @@ class PingPongCounterView extends WatchUi.View {
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 28; @symbol_functiondef = [initialize,28,13,23]; ]
     function initialize() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_28_26_35_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_28_26_35_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 29 8 ]
         symbol [ View %tmp.2 29 8 12 ];
         %tmp.2 = getv ? :View;
@@ -55,14 +55,14 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 30 8 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_8_32_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_8_32_8_if_stmt:
         symbol [ updateTimer %tmp.5 30 12 23 ];
         %tmp.5 = getv ? :updateTimer;
         %tmp.6 = null;
         %tmp.7 = ne %tmp.5 %tmp.6;
-        bf %tmp.7 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_8_32_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_8_32_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_33_32_8_start:
+        bf %tmp.7 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_8_32_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_8_32_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_33_32_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 31 12 ]
         symbol [ updateTimer %tmp.9 31 12 23 ];
         %tmp.9 = getv ? :updateTimer;
@@ -70,9 +70,9 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ stop %tmp.11 31 24 28 ];
         %tmp.11 = getv function %tmp.10 :stop;
         invoke %tmp.10 %tmp.11();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_33_32_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_8_32_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_8_32_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_33_32_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_8_32_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_30_8_32_8_if_end:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 33 8 ]
         symbol [ Timer %tmp.14 33 26 31 ];
         %tmp.14 = getm $.Toybox.Timer;
@@ -95,11 +95,11 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.24 = 1000;
         %tmp.25 = true;
         invoke %tmp.17 %tmp.18(%tmp.23, %tmp.24, %tmp.25);
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_28_26_35_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_28_26_35_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 37; @symbol_functiondef = [onLayout,37,13,21]; @symbol_param<0> = [dc,37,22,24]; @symbol_param<0>_type<0> = [Dc,37,28,30]; ]
     function onLayout(dc as Dc) as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_37_40_43_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_37_40_43_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 38 8 ]
         %tmp.1 = self;
         symbol [ setLayout %tmp.2 38 8 17 ];
@@ -158,11 +158,11 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ Text %tmp.28 42 54 58 ];
         symbol [ p2Set ? 42 8 13 ];
         putv self :p2Set %tmp.28;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_37_40_43_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_37_40_43_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 45; @symbol_functiondef = [onUpdate,45,13,21]; @symbol_param<0> = [dc,45,22,24]; @symbol_param<0>_type<0> = [Dc,45,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 46 8 ]
         symbol [ View %tmp.2 46 8 12 ];
         %tmp.2 = getv ? :View;
@@ -172,7 +172,7 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ dc %tmp.4 46 22 24 ];
         invoke %tmp.2 %tmp.3(%tmp.4);
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 47 8 ]
-        [ "C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_start" "C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_stop" ]
+        [ "C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_start" "C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_stop" ]
         %clockTime.1 = local;
         symbol [ clockTime %clockTime.1 47 12 21 ];
         symbol [ System %tmp.6 47 24 30 ];
@@ -183,7 +183,7 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         lputv %clockTime.1 %tmp.8;
         symbol [ clockTime %clockTime.1 47 12 21 ];
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 48 8 ]
-        [ "C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_start" "C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_stop" ]
+        [ "C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_start" "C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_stop" ]
         %timeString.2 = local;
         symbol [ timeString %timeString.2 48 12 22 ];
         symbol [ Lang %tmp.9 48 25 29 ];
@@ -212,7 +212,7 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         lputv %timeString.2 %tmp.24;
         symbol [ timeString %timeString.2 48 12 22 ];
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 49 8 ]
-        [ "C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_start" "C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_stop" ]
+        [ "C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_start" "C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_stop" ]
         %timeView.3 = local;
         symbol [ timeView %timeView.3 49 12 20 ];
         %tmp.25 = self;
@@ -293,14 +293,14 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.65 = 2;
         invoke %tmp.63 %tmp.64(%tmp.65);
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 56 8 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_stmt:
         symbol [ whoServes %tmp.67 56 12 21 ];
         %tmp.67 = getv ? :whoServes;
         %tmp.68 = 1;
         %tmp.69 = eq %tmp.67 %tmp.68;
-        bf %tmp.69 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_28_60_8_start:
+        bf %tmp.69 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_28_60_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 57 12 ]
         %tmp.70 = lgetv %dc;
         symbol [ dc %tmp.70 57 12 14 ];
@@ -333,18 +333,18 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.84 = 92;
         %tmp.85 = 7;
         invoke %tmp.79 %tmp.80(%tmp.81, %tmp.82, %tmp.83, %tmp.84, %tmp.85);
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_28_60_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_false:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_28_60_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_false:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 60 15 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_15_64_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_15_64_8_if_stmt:
         symbol [ whoServes %tmp.87 60 19 28 ];
         %tmp.87 = getv ? :whoServes;
         %tmp.88 = 2;
         %tmp.89 = eq %tmp.87 %tmp.88;
-        bf %tmp.89 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_15_64_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_15_64_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_35_64_8_start:
+        bf %tmp.89 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_15_64_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_15_64_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_35_64_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 61 12 ]
         %tmp.90 = lgetv %dc;
         symbol [ dc %tmp.90 61 12 14 ];
@@ -377,28 +377,28 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.104 = 92;
         %tmp.105 = 7;
         invoke %tmp.99 %tmp.100(%tmp.101, %tmp.102, %tmp.103, %tmp.104, %tmp.105);
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_35_64_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_15_64_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_15_64_8_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_35_64_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_15_64_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_60_15_64_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_56_8_64_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_45_40_65_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 67; @symbol_functiondef = [timerCallback,67,13,26]; ]
     function timerCallback() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_67_37_69_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_67_37_69_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 68 8 ]
         symbol [ WatchUi %tmp.1 68 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
         symbol [ requestUpdate %tmp.2 68 16 29 ];
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_67_37_69_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_67_37_69_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 71; @symbol_functiondef = [dynamicUpdate,71,13,26]; @symbol_param<0> = [keyEvent,71,27,35]; ]
     function dynamicUpdate(keyEvent) as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_71_45_110_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_71_45_110_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 72 8 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_stmt:
         %tmp.1 = lgetv %keyEvent;
         symbol [ keyEvent %tmp.1 72 12 20 ];
         symbol [ getKey %tmp.2 72 21 27 ];
@@ -406,18 +406,18 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = 8;
         %tmp.5 = eq %tmp.3 %tmp.4;
-        bf %tmp.5 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_36_80_8_start:
+        bf %tmp.5 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_36_80_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 74 12 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_12_79_12_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_12_79_12_if_stmt:
         symbol [ p1Score %tmp.7 74 16 23 ];
         %tmp.7 = getv ? :p1Score;
         %tmp.8 = null;
         %tmp.9 = ne %tmp.7 %tmp.8;
-        bf %tmp.9 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_12_79_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_12_79_12_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_33_79_12_start:
+        bf %tmp.9 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_12_79_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_12_79_12_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_33_79_12_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 75 16 ]
         symbol [ matchStack %tmp.11 75 16 26 ];
         %tmp.11 = getv ? :matchStack;
@@ -458,14 +458,14 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ matchLogic %tmp.37 78 16 26 ];
         %tmp.37 = getv function %tmp.36 :matchLogic;
         invoke %tmp.36 %tmp.37();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_33_79_12_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_12_79_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_12_79_12_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_36_80_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_false:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_33_79_12_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_12_79_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_74_12_79_12_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_36_80_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_false:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 80 15 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_stmt:
         %tmp.38 = lgetv %keyEvent;
         symbol [ keyEvent %tmp.38 80 19 27 ];
         symbol [ getKey %tmp.39 80 28 34 ];
@@ -473,18 +473,18 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.40 = invoke %tmp.38 %tmp.39();
         %tmp.41 = 5;
         %tmp.42 = eq %tmp.40 %tmp.41;
-        bf %tmp.42 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_43_88_8_start:
+        bf %tmp.42 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_43_88_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 82 12 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_12_87_12_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_12_87_12_if_stmt:
         symbol [ p2Score %tmp.44 82 16 23 ];
         %tmp.44 = getv ? :p2Score;
         %tmp.45 = null;
         %tmp.46 = ne %tmp.44 %tmp.45;
-        bf %tmp.46 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_12_87_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_12_87_12_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_33_87_12_start:
+        bf %tmp.46 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_12_87_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_12_87_12_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_33_87_12_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 83 16 ]
         symbol [ matchStack %tmp.48 83 16 26 ];
         %tmp.48 = getv ? :matchStack;
@@ -525,14 +525,14 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ matchLogic %tmp.74 86 16 26 ];
         %tmp.74 = getv function %tmp.73 :matchLogic;
         invoke %tmp.73 %tmp.74();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_33_87_12_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_12_87_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_12_87_12_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_43_88_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_false:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_33_87_12_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_12_87_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_82_12_87_12_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_43_88_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_false:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 88 15 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_stmt:
         %tmp.75 = lgetv %keyEvent;
         symbol [ keyEvent %tmp.75 88 19 27 ];
         symbol [ getKey %tmp.76 88 28 34 ];
@@ -540,38 +540,38 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.77 = invoke %tmp.75 %tmp.76();
         %tmp.78 = 13;
         %tmp.79 = eq %tmp.77 %tmp.78;
-        bf %tmp.79 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_44_94_8_start:
+        bf %tmp.79 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_44_94_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 90 12 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_stmt:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_16_90_68_begin:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_16_90_50_begin:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_16_90_68_begin:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_16_90_50_begin:
         symbol [ total_points %tmp.81 90 16 28 ];
         %tmp.81 = getv ? :total_points;
         %tmp.82 = 0;
         %tmp.83 = eq %tmp.81 %tmp.82;
-        bf %tmp.83 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_37_90_50_true:
+        bf %tmp.83 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_37_90_50_true:
         symbol [ p1Set_ctr %tmp.85 90 37 46 ];
         %tmp.85 = getv ? :p1Set_ctr;
         %tmp.86 = 0;
         %tmp.87 = eq %tmp.85 %tmp.86;
         push %tmp.87;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_37_90_50_end:
-        %tmp.88 = phi [%tmp.83 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_16_90_50_begin] [%tmp.87 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_37_90_50_true] [%tmp.88 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_37_90_50_end];
-        bf %tmp.88 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_55_90_68_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_37_90_50_end:
+        %tmp.88 = phi [%tmp.83 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_16_90_50_begin] [%tmp.87 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_37_90_50_true] [%tmp.88 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_37_90_50_end];
+        bf %tmp.88 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_55_90_68_true:
         symbol [ p2Set_ctr %tmp.90 90 55 64 ];
         %tmp.90 = getv ? :p2Set_ctr;
         %tmp.91 = 0;
         %tmp.92 = eq %tmp.90 %tmp.91;
         push %tmp.92;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_55_90_68_end:
-        %tmp.93 = phi [%tmp.88 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_16_90_68_begin] [%tmp.92 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_55_90_68_true] [%tmp.93 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_55_90_68_end];
-        bf %tmp.93 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_71_93_12_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_55_90_68_end:
+        %tmp.93 = phi [%tmp.88 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_16_90_68_begin] [%tmp.92 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_55_90_68_true] [%tmp.93 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_55_90_68_end];
+        bf %tmp.93 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_71_93_12_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 91 16 ]
         %tmp.94 = self;
         symbol [ switchServer %tmp.95 91 16 28 ];
@@ -582,14 +582,14 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.97 = getv ? :whoServes;
         symbol [ setServer ? 92 16 25 ];
         putv self :setServer %tmp.97;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_71_93_12_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_44_94_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_false:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_71_93_12_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_90_12_93_12_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_44_94_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_false:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 94 15 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_15_109_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_15_109_8_if_stmt:
         %tmp.98 = lgetv %keyEvent;
         symbol [ keyEvent %tmp.98 94 19 27 ];
         symbol [ getKey %tmp.99 94 28 34 ];
@@ -597,11 +597,11 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.100 = invoke %tmp.98 %tmp.99();
         %tmp.101 = 4;
         %tmp.102 = eq %tmp.100 %tmp.101;
-        bf %tmp.102 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_15_109_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_15_109_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_43_109_8_start:
+        bf %tmp.102 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_15_109_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_15_109_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_43_109_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 96 12 ]
-        [ "C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_43_109_8_start" "C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_43_109_8_stop" ]
+        [ "C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_43_109_8_start" "C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_43_109_8_stop" ]
         %lastEntry.1 = local;
         symbol [ lastEntry %lastEntry.1 96 16 25 ];
         symbol [ matchStack %tmp.104 96 28 38 ];
@@ -612,14 +612,14 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         lputv %lastEntry.1 %tmp.106;
         symbol [ lastEntry %lastEntry.1 96 16 25 ];
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 97 12 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_12_108_12_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_12_108_12_if_stmt:
         %tmp.107 = lgetv %lastEntry.1;
         symbol [ lastEntry %tmp.107 97 16 25 ];
         %tmp.108 = null;
         %tmp.109 = ne %tmp.107 %tmp.108;
-        bf %tmp.109 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_12_108_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_12_108_12_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_35_108_12_start:
+        bf %tmp.109 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_12_108_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_12_108_12_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_35_108_12_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 98 16 ]
         %tmp.110 = lgetv %lastEntry.1;
         symbol [ lastEntry %tmp.110 98 30 39 ];
@@ -712,20 +712,20 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.154 = getv function %tmp.153 :toString;
         %tmp.155 = invoke %tmp.153 %tmp.154();
         invoke %tmp.150 %tmp.151(%tmp.155);
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_35_108_12_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_12_108_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_12_108_12_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_43_109_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_15_109_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_15_109_8_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_71_45_110_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_35_108_12_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_12_108_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_97_12_108_12_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_43_109_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_15_109_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_94_15_109_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_88_15_109_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_80_15_109_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_72_8_109_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_71_45_110_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 112; @symbol_functiondef = [matchLogic,112,13,23]; ]
     function matchLogic() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_112_34_145_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_112_34_145_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 113 8 ]
         %tmp.1 = self;
         symbol [ toggleServer %tmp.2 113 8 20 ];
@@ -738,14 +738,14 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ total_points ? 114 8 20 ];
         putv self :total_points dup %tmp.6;
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 116 8 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_stmt:
         symbol [ p1Set_ctr %tmp.8 116 12 21 ];
         %tmp.8 = getv ? :p1Set_ctr;
         %tmp.9 = 2;
         %tmp.10 = gte %tmp.8 %tmp.9;
-        bf %tmp.10 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_28_119_8_start:
+        bf %tmp.10 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_28_119_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 117 12 ]
         symbol [ System %tmp.12 117 12 18 ];
         %tmp.12 = getv ? :System;
@@ -758,18 +758,18 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ resetMatch %tmp.16 118 12 22 ];
         %tmp.16 = getv function %tmp.15 :resetMatch;
         invoke %tmp.15 %tmp.16();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_28_119_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_false:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_28_119_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_false:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 119 15 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_15_122_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_15_122_8_if_stmt:
         symbol [ p2Set_ctr %tmp.18 119 19 28 ];
         %tmp.18 = getv ? :p2Set_ctr;
         %tmp.19 = 2;
         %tmp.20 = gte %tmp.18 %tmp.19;
-        bf %tmp.20 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_15_122_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_15_122_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_35_122_8_start:
+        bf %tmp.20 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_15_122_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_15_122_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_35_122_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 120 12 ]
         symbol [ System %tmp.22 120 12 18 ];
         %tmp.22 = getv ? :System;
@@ -782,21 +782,21 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ resetMatch %tmp.26 121 12 22 ];
         %tmp.26 = getv function %tmp.25 :resetMatch;
         invoke %tmp.25 %tmp.26();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_35_122_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_15_122_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_15_122_8_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_35_122_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_15_122_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_119_15_122_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_116_8_122_8_if_end:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 124 8 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_stmt:
         %tmp.27 = self;
         symbol [ isDeuce %tmp.28 124 12 19 ];
         %tmp.28 = getv function %tmp.27 :isDeuce;
         %tmp.29 = invoke %tmp.27 %tmp.28();
-        bf %tmp.29 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_else_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_23_134_8_start:
+        bf %tmp.29 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_else_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_23_134_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 125 12 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_stmt:
         symbol [ p1Score_ctr %tmp.31 125 16 27 ];
         %tmp.31 = getv ? :p1Score_ctr;
         symbol [ p2Score_ctr %tmp.33 125 30 41 ];
@@ -804,9 +804,9 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.34 = sub %tmp.31 %tmp.33;
         %tmp.35 = 2;
         %tmp.36 = eq %tmp.34 %tmp.35;
-        bf %tmp.36 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_48_129_12_start:
+        bf %tmp.36 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_48_129_12_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 126 16 ]
         symbol [ p1Set_ctr %tmp.39 126 16 25 ];
         %tmp.39 = getv ? :p1Set_ctr;
@@ -829,11 +829,11 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ resetGame %tmp.49 128 16 25 ];
         %tmp.49 = getv function %tmp.48 :resetGame;
         invoke %tmp.48 %tmp.49();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_48_129_12_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_false:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_48_129_12_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_false:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 129 19 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_19_133_12_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_19_133_12_if_stmt:
         symbol [ p2Score_ctr %tmp.51 129 23 34 ];
         %tmp.51 = getv ? :p2Score_ctr;
         symbol [ p1Score_ctr %tmp.53 129 37 48 ];
@@ -841,9 +841,9 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.54 = sub %tmp.51 %tmp.53;
         %tmp.55 = 2;
         %tmp.56 = eq %tmp.54 %tmp.55;
-        bf %tmp.56 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_19_133_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_19_133_12_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_55_133_12_start:
+        bf %tmp.56 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_19_133_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_19_133_12_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_55_133_12_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 130 16 ]
         symbol [ p2Set_ctr %tmp.59 130 16 25 ];
         %tmp.59 = getv ? :p2Set_ctr;
@@ -866,23 +866,23 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ resetGame %tmp.69 132 16 25 ];
         %tmp.69 = getv function %tmp.68 :resetGame;
         invoke %tmp.68 %tmp.69();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_55_133_12_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_19_133_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_19_133_12_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_23_134_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_else_false:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_134_15_144_8_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_55_133_12_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_19_133_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_129_19_133_12_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_125_12_133_12_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_23_134_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_else_false:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_134_15_144_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 135 12 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_stmt:
         symbol [ p1Score_ctr %tmp.71 135 16 27 ];
         %tmp.71 = getv ? :p1Score_ctr;
         %tmp.72 = 11;
         %tmp.73 = eq %tmp.71 %tmp.72;
-        bf %tmp.73 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_35_139_12_start:
+        bf %tmp.73 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_35_139_12_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 136 16 ]
         symbol [ p1Set_ctr %tmp.76 136 16 25 ];
         %tmp.76 = getv ? :p1Set_ctr;
@@ -905,18 +905,18 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ resetGame %tmp.86 138 16 25 ];
         %tmp.86 = getv function %tmp.85 :resetGame;
         invoke %tmp.85 %tmp.86();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_35_139_12_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_false:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_35_139_12_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_false:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 139 19 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_19_143_12_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_19_143_12_if_stmt:
         symbol [ p2Score_ctr %tmp.88 139 23 34 ];
         %tmp.88 = getv ? :p2Score_ctr;
         %tmp.89 = 11;
         %tmp.90 = eq %tmp.88 %tmp.89;
-        bf %tmp.90 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_19_143_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_19_143_12_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_42_143_12_start:
+        bf %tmp.90 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_19_143_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_19_143_12_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_42_143_12_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 140 16 ]
         symbol [ p2Set_ctr %tmp.93 140 16 25 ];
         %tmp.93 = getv ? :p2Set_ctr;
@@ -939,79 +939,79 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ resetGame %tmp.103 142 16 25 ];
         %tmp.103 = getv function %tmp.102 :resetGame;
         invoke %tmp.102 %tmp.103();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_42_143_12_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_19_143_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_19_143_12_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_134_15_144_8_stop:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_112_34_145_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_42_143_12_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_19_143_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_139_19_143_12_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_135_12_143_12_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_134_15_144_8_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_124_8_144_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_112_34_145_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 147; @symbol_functiondef = [isDeuce,147,13,20]; @symbol_return<0> = [Boolean,147,26,33]; ]
     function isDeuce() as Boolean {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_147_34_149_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_147_34_149_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 148 8 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_16_148_52_begin:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_16_148_52_begin:
         symbol [ p1Score_ctr %tmp.2 148 16 27 ];
         %tmp.2 = getv ? :p1Score_ctr;
         %tmp.3 = 10;
         %tmp.4 = gte %tmp.2 %tmp.3;
         %tmp.5 = dup %tmp.4;
-        bf %tmp.5 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_37_148_52_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_37_148_52_true:
+        bf %tmp.5 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_37_148_52_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_37_148_52_true:
         symbol [ p2Score_ctr %tmp.7 148 37 48 ];
         %tmp.7 = getv ? :p2Score_ctr;
         %tmp.8 = 10;
         %tmp.9 = gte %tmp.7 %tmp.8;
         %tmp.10 = and %tmp.4 %tmp.9;
         push %tmp.10;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_37_148_52_end:
-        %tmp.11 = phi [%tmp.5 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_16_148_52_begin] [%tmp.10 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_37_148_52_true] [%tmp.11 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_37_148_52_end];
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_37_148_52_end:
+        %tmp.11 = phi [%tmp.5 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_16_148_52_begin] [%tmp.10 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_37_148_52_true] [%tmp.11 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_148_37_148_52_end];
         ret %tmp.11;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_147_34_149_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_147_34_149_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 151; @symbol_functiondef = [switchServer,151,13,25]; ]
     function switchServer() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_151_36_153_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_151_36_153_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 152 8 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_begin:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_begin:
         symbol [ whoServes %tmp.2 152 21 30 ];
         %tmp.2 = getv ? :whoServes;
         %tmp.3 = 1;
         %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_true:
+        bf %tmp.4 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_true:
         %tmp.5 = 2;
         push %tmp.5;
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_false:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_false:
         %tmp.6 = 1;
         push %tmp.6;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_end:
-        %tmp.7 = phi [%tmp.4 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_begin] [%tmp.5 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_true] [%tmp.6 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_false] [%tmp.7 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_end];
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_end:
+        %tmp.7 = phi [%tmp.4 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_begin] [%tmp.5 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_true] [%tmp.6 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_false] [%tmp.7 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_152_20_152_43_end];
         symbol [ whoServes ? 152 8 17 ];
         putv self :whoServes %tmp.7;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_151_36_153_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_151_36_153_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 155; @symbol_functiondef = [settingServer,155,13,26]; ]
     function settingServer() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_155_37_158_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_155_37_158_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 156 8 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_begin:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_begin:
         symbol [ setServer %tmp.2 156 21 30 ];
         %tmp.2 = getv ? :setServer;
         %tmp.3 = 1;
         %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_true:
+        bf %tmp.4 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_true:
         %tmp.5 = 2;
         push %tmp.5;
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_false:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_false:
         %tmp.6 = 1;
         push %tmp.6;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_end:
-        %tmp.7 = phi [%tmp.4 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_begin] [%tmp.5 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_true] [%tmp.6 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_false] [%tmp.7 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_end];
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_end:
+        %tmp.7 = phi [%tmp.4 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_begin] [%tmp.5 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_true] [%tmp.6 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_false] [%tmp.7 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_156_20_156_43_end];
         symbol [ setServer ? 156 8 17 ];
         putv self :setServer %tmp.7;
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 157 8 ]
@@ -1019,55 +1019,55 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.9 = getv ? :setServer;
         symbol [ whoServes ? 157 8 17 ];
         putv self :whoServes %tmp.9;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_155_37_158_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_155_37_158_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 160; @symbol_functiondef = [toggleServer,160,13,25]; ]
     function toggleServer() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_160_36_168_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_160_36_168_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 161 8 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_stmt:
         %tmp.1 = self;
         symbol [ isDeuce %tmp.2 161 12 19 ];
         %tmp.2 = getv function %tmp.1 :isDeuce;
         %tmp.3 = invoke %tmp.1 %tmp.2();
-        bf %tmp.3 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_else_false;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_23_163_8_start:
+        bf %tmp.3 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_else_false;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_23_163_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 162 12 ]
         %tmp.4 = self;
         symbol [ switchServer %tmp.5 162 12 24 ];
         %tmp.5 = getv function %tmp.4 :switchServer;
         invoke %tmp.4 %tmp.5();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_23_163_8_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_else_false:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_163_15_167_8_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_23_163_8_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_else_false:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_163_15_167_8_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 164 12 ]
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_12_166_12_if_stmt:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_12_166_12_if_stmt:
         symbol [ total_points %tmp.7 164 16 28 ];
         %tmp.7 = getv ? :total_points;
         %tmp.8 = 2;
         %tmp.9 = mod %tmp.7 %tmp.8;
         %tmp.10 = 1;
         %tmp.11 = eq %tmp.9 %tmp.10;
-        bf %tmp.11 @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_12_166_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_12_166_12_if_true:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_39_166_12_start:
+        bf %tmp.11 @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_12_166_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_12_166_12_if_true:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_39_166_12_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 165 16 ]
         %tmp.12 = self;
         symbol [ switchServer %tmp.13 165 16 28 ];
         %tmp.13 = getv function %tmp.12 :switchServer;
         invoke %tmp.12 %tmp.13();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_39_166_12_stop:
-        goto @C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_12_166_12_if_end;
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_12_166_12_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_163_15_167_8_stop:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_end:
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_160_36_168_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_39_166_12_stop:
+        goto @C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_12_166_12_if_end;
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_164_12_166_12_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_163_15_167_8_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_161_8_167_8_if_end:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_160_36_168_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 170; @symbol_functiondef = [resetGame,170,13,22]; ]
     function resetGame() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_170_33_177_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_170_33_177_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 171 8 ]
         %tmp.1 = 0;
         symbol [ p1Score_ctr ? 171 8 19 ];
@@ -1107,11 +1107,11 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         symbol [ settingServer %tmp.19 176 8 21 ];
         %tmp.19 = getv function %tmp.18 :settingServer;
         invoke %tmp.18 %tmp.19();
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_170_33_177_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_170_33_177_4_stop:
     }
     [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 179; @symbol_functiondef = [resetMatch,179,13,23]; ]
     function resetMatch() as Void {
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_179_34_186_4_start:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_179_34_186_4_start:
 [ "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc" 180 8 ]
         %tmp.1 = self;
         symbol [ resetGame %tmp.2 180 8 17 ];
@@ -1153,7 +1153,7 @@ C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPong
         %tmp.21 = getv function %tmp.20 :toString;
         %tmp.22 = invoke %tmp.20 %tmp.21();
         invoke %tmp.17 %tmp.18(%tmp.22);
-C_Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_179_34_186_4_stop:
+C__Users_Samuel_Documents_dev_GarminProjects_GarminTableTennisApp_source_PingPongCounterView_mc_179_34_186_4_stop:
     }
 }
 [ @file = "C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\source\PingPongCounterView.mc"; @line = 1; ]

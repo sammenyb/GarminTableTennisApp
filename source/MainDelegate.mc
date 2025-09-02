@@ -4,14 +4,20 @@ import Toybox.Attention;
 
 var vibeProfile = [new Attention.VibeProfile(50, 100)];
 
-class PingPongCounterDelegate extends WatchUi.BehaviorDelegate {
+class MainDelegate extends WatchUi.BehaviorDelegate {
 
     function initialize() {
         BehaviorDelegate.initialize();
     }
 
     function onMenu() as Boolean {
-        WatchUi.pushView(new Rez.Menus.MainMenu(), new PingPongCounterMenuDelegate(), WatchUi.SLIDE_UP);
+        // WatchUi.pushView(new Rez.Menus.MainMenu(), new Menu2Delegate(), WatchUi.SLIDE_UP);
+        var menu = new WatchUi.Menu2({:title=>"Menu"});
+        menu.addItem(new WatchUi.MenuItem("Reset Match", null, "reset_match", null));
+        menu.addItem(new WatchUi.MenuItem("Settings", null, "settings", null));
+        menu.addItem(new WatchUi.MenuItem("Exit", null, "exit", null));
+        WatchUi.pushView(menu, new $.Menu2Delegate(), WatchUi.SLIDE_UP);
+        // WatchUi.requestUpdate();
         return true;
     }
 
@@ -24,7 +30,7 @@ class PingPongCounterDelegate extends WatchUi.BehaviorDelegate {
             
         }
 
-        new PingPongCounterView().dynamicUpdate(keyEvent);
+        new MainView().dynamicUpdate(keyEvent);
         Attention.vibrate(vibeProfile);
         WatchUi.requestUpdate();
 
