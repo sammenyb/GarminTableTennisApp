@@ -3,16 +3,16 @@
     <manifest filename="C:\Users\Samuel\Documents\dev\GarminProjects\GarminTableTennisApp\manifest.xml"/>
     <pcToLineNum>
         <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="3" lineNum="5" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="4" lineNum="25" parent="globals" pc="268435500" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="4" lineNum="32" parent="globals" pc="268435512" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="4" lineNum="27" parent="globals" pc="268435500" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="4" lineNum="34" parent="globals" pc="268435512" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\App.mc" id="10" lineNum="8" parent="globals/App" pc="268435538" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="11" lineNum="7" parent="globals/SettingsMenuDelegate" pc="268435550" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="12" lineNum="34" parent="globals/MainView" pc="268435562" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="12" lineNum="36" parent="globals/MainView" pc="268435562" symbol="&lt;init&gt;"/>
         <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="13" lineNum="7" parent="globals/Rez" pc="268435574" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="14" lineNum="269" parent="globals/WinningView" pc="268435594" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="15" lineNum="108" parent="globals/DividerTitle" pc="268435606" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="14" lineNum="294" parent="globals/WinningView" pc="268435594" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="15" lineNum="111" parent="globals/DividerTitle" pc="268435606" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="16" lineNum="7" parent="globals/Menu2Delegate" pc="268435618" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="17" lineNum="49" parent="globals/Menu2SubMenuDelegate" pc="268435630" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="17" lineNum="52" parent="globals/Menu2SubMenuDelegate" pc="268435630" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\App.mc" id="18" lineNum="31" parent="globals" pc="268435642" symbol="getApp"/>
         <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\App.mc" id="18" lineNum="32" parent="globals" pc="268435652" symbol="getApp"/>
         <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\About.mc" id="19" lineNum="8" parent="globals/AboutView" pc="268435663" symbol="&lt;init&gt;"/>
@@ -65,460 +65,483 @@
         <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="29" lineNum="61" parent="globals/SettingsMenuDelegate" pc="268436515" symbol="onSelect"/>
         <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="29" lineNum="62" parent="globals/SettingsMenuDelegate" pc="268436527" symbol="onSelect"/>
         <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="29" lineNum="72" parent="globals/SettingsMenuDelegate" pc="268436571" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="120" parent="globals/MainView" pc="268436583" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="121" parent="globals/MainView" pc="268436586" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="123" parent="globals/MainView" pc="268436599" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="124" parent="globals/MainView" pc="268436608" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="125" parent="globals/MainView" pc="268436652" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="126" parent="globals/MainView" pc="268436667" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="127" parent="globals/MainView" pc="268436692" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="129" parent="globals/MainView" pc="268436705" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="131" parent="globals/MainView" pc="268436718" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="132" parent="globals/MainView" pc="268436727" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="133" parent="globals/MainView" pc="268436771" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="134" parent="globals/MainView" pc="268436786" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="135" parent="globals/MainView" pc="268436811" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="137" parent="globals/MainView" pc="268436824" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="139" parent="globals/MainView" pc="268436837" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="140" parent="globals/MainView" pc="268436867" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="141" parent="globals/MainView" pc="268436874" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="143" parent="globals/MainView" pc="268436892" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="145" parent="globals/MainView" pc="268436905" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="146" parent="globals/MainView" pc="268436918" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="147" parent="globals/MainView" pc="268436924" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="148" parent="globals/MainView" pc="268436938" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="149" parent="globals/MainView" pc="268436952" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="150" parent="globals/MainView" pc="268436966" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="151" parent="globals/MainView" pc="268436980" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="152" parent="globals/MainView" pc="268436994" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="153" parent="globals/MainView" pc="268437008" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="154" parent="globals/MainView" pc="268437033" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="155" parent="globals/MainView" pc="268437058" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="156" parent="globals/MainView" pc="268437083" symbol="dynamicUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="31" lineNum="233" parent="globals/MainView" pc="268437115" symbol="settingServer"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="31" lineNum="234" parent="globals/MainView" pc="268437117" symbol="settingServer"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="31" lineNum="235" parent="globals/MainView" pc="268437142" symbol="settingServer"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="62" parent="globals/MainView" pc="268437155" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="63" parent="globals/MainView" pc="268437157" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="64" parent="globals/MainView" pc="268437190" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="65" parent="globals/MainView" pc="268437210" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="66" parent="globals/MainView" pc="268437235" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="67" parent="globals/MainView" pc="268437255" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="68" parent="globals/MainView" pc="268437275" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="69" parent="globals/MainView" pc="268437295" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="70" parent="globals/MainView" pc="268437315" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="71" parent="globals/MainView" pc="268437335" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="161" parent="globals/MainView" pc="268437356" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="170" parent="globals/MainView" pc="268437358" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="171" parent="globals/MainView" pc="268437365" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="173" parent="globals/MainView" pc="268437380" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="174" parent="globals/MainView" pc="268437389" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="175" parent="globals/MainView" pc="268437406" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="176" parent="globals/MainView" pc="268437421" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="177" parent="globals/MainView" pc="268437446" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="178" parent="globals/MainView" pc="268437453" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="179" parent="globals/MainView" pc="268437463" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="180" parent="globals/MainView" pc="268437480" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="181" parent="globals/MainView" pc="268437495" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="182" parent="globals/MainView" pc="268437520" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="183" parent="globals/MainView" pc="268437527" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="186" parent="globals/MainView" pc="268437540" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="187" parent="globals/MainView" pc="268437551" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="188" parent="globals/MainView" pc="268437566" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="189" parent="globals/MainView" pc="268437591" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="190" parent="globals/MainView" pc="268437598" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="191" parent="globals/MainView" pc="268437608" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="192" parent="globals/MainView" pc="268437619" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="193" parent="globals/MainView" pc="268437634" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="194" parent="globals/MainView" pc="268437659" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="195" parent="globals/MainView" pc="268437666" symbol="matchLogic"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="34" lineNum="238" parent="globals/MainView" pc="268437677" symbol="toggleServer"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="34" lineNum="239" parent="globals/MainView" pc="268437679" symbol="toggleServer"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="34" lineNum="240" parent="globals/MainView" pc="268437688" symbol="toggleServer"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="34" lineNum="242" parent="globals/MainView" pc="268437698" symbol="toggleServer"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="34" lineNum="243" parent="globals/MainView" pc="268437712" symbol="toggleServer"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="35" lineNum="116" parent="globals/MainView" pc="268437723" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="35" lineNum="117" parent="globals/MainView" pc="268437725" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="36" lineNum="200" parent="globals/MainView" pc="268437737" symbol="isDeuce"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="36" lineNum="201" parent="globals/MainView" pc="268437739" symbol="isDeuce"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="37" lineNum="229" parent="globals/MainView" pc="268437762" symbol="switchServer"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="37" lineNum="230" parent="globals/MainView" pc="268437764" symbol="switchServer"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="204" parent="globals/MainView" pc="268437790" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="206" parent="globals/MainView" pc="268437793" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="208" parent="globals/MainView" pc="268437818" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="209" parent="globals/MainView" pc="268437839" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="210" parent="globals/MainView" pc="268437846" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="212" parent="globals/MainView" pc="268437856" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="213" parent="globals/MainView" pc="268437863" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="216" parent="globals/MainView" pc="268437870" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="217" parent="globals/MainView" pc="268437881" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="218" parent="globals/MainView" pc="268437902" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="219" parent="globals/MainView" pc="268437930" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="220" parent="globals/MainView" pc="268437948" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="221" parent="globals/MainView" pc="268437958" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="222" parent="globals/MainView" pc="268437969" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="223" parent="globals/MainView" pc="268437990" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="224" parent="globals/MainView" pc="268438018" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="225" parent="globals/MainView" pc="268438036" symbol="isOver"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="36" parent="globals/MainView" pc="268438047" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="37" parent="globals/MainView" pc="268438049" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="39" parent="globals/MainView" pc="268438061" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="40" parent="globals/MainView" pc="268438082" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="42" parent="globals/MainView" pc="268438109" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="43" parent="globals/MainView" pc="268438118" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="46" parent="globals/MainView" pc="268438141" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="47" parent="globals/MainView" pc="268438162" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="49" parent="globals/MainView" pc="268438189" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="50" parent="globals/MainView" pc="268438201" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="55" parent="globals/MainView" pc="268438224" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="56" parent="globals/MainView" pc="268438233" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="58" parent="globals/MainView" pc="268438248" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="59" parent="globals/MainView" pc="268438277" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="248" parent="globals/MainView" pc="268438309" symbol="resetGame"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="249" parent="globals/MainView" pc="268438311" symbol="resetGame"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="250" parent="globals/MainView" pc="268438319" symbol="resetGame"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="251" parent="globals/MainView" pc="268438327" symbol="resetGame"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="252" parent="globals/MainView" pc="268438335" symbol="resetGame"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="253" parent="globals/MainView" pc="268438360" symbol="resetGame"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="254" parent="globals/MainView" pc="268438385" symbol="resetGame"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="257" parent="globals/MainView" pc="268438393" symbol="resetMatch"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="258" parent="globals/MainView" pc="268438395" symbol="resetMatch"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="259" parent="globals/MainView" pc="268438402" symbol="resetMatch"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="260" parent="globals/MainView" pc="268438427" symbol="resetMatch"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="261" parent="globals/MainView" pc="268438435" symbol="resetMatch"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="262" parent="globals/MainView" pc="268438443" symbol="resetMatch"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="263" parent="globals/MainView" pc="268438468" symbol="resetMatch"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="74" parent="globals/MainView" pc="268438494" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="75" parent="globals/MainView" pc="268438497" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="76" parent="globals/MainView" pc="268438513" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="77" parent="globals/MainView" pc="268438525" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="78" parent="globals/MainView" pc="268438579" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="79" parent="globals/MainView" pc="268438594" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="80" parent="globals/MainView" pc="268438606" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="81" parent="globals/MainView" pc="268438631" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="82" parent="globals/MainView" pc="268438651" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="83" parent="globals/MainView" pc="268438663" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="84" parent="globals/MainView" pc="268438710" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="87" parent="globals/MainView" pc="268438722" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="88" parent="globals/MainView" pc="268438743" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="89" parent="globals/MainView" pc="268438762" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="91" parent="globals/MainView" pc="268438781" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="92" parent="globals/MainView" pc="268438792" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="93" parent="globals/MainView" pc="268438810" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="94" parent="globals/MainView" pc="268438822" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="95" parent="globals/MainView" pc="268438845" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="96" parent="globals/MainView" pc="268438856" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="97" parent="globals/MainView" pc="268438876" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="98" parent="globals/MainView" pc="268438888" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="101" parent="globals/MainView" pc="268438915" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="102" parent="globals/MainView" pc="268438934" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="104" parent="globals/MainView" pc="268438953" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="105" parent="globals/MainView" pc="268438964" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="106" parent="globals/MainView" pc="268438982" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="107" parent="globals/MainView" pc="268438994" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="108" parent="globals/MainView" pc="268439018" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="109" parent="globals/MainView" pc="268439029" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="110" parent="globals/MainView" pc="268439049" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="111" parent="globals/MainView" pc="268439061" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="43" lineNum="277" parent="globals/WinningView" pc="268439085" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="43" lineNum="278" parent="globals/WinningView" pc="268439088" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="43" lineNum="279" parent="globals/WinningView" pc="268439121" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="43" lineNum="280" parent="globals/WinningView" pc="268439136" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="43" lineNum="281" parent="globals/WinningView" pc="268439142" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="44" lineNum="272" parent="globals/WinningView" pc="268439162" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="44" lineNum="273" parent="globals/WinningView" pc="268439164" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="44" lineNum="274" parent="globals/WinningView" pc="268439176" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="45" lineNum="111" parent="globals/DividerTitle" pc="268439186" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="45" lineNum="112" parent="globals/DividerTitle" pc="268439188" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="46" lineNum="117" parent="globals/DividerTitle" pc="268439205" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="46" lineNum="118" parent="globals/DividerTitle" pc="268439207" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="46" lineNum="119" parent="globals/DividerTitle" pc="268439222" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="46" lineNum="121" parent="globals/DividerTitle" pc="268439230" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="47" lineNum="10" parent="globals/Menu2Delegate" pc="268439269" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="47" lineNum="11" parent="globals/Menu2Delegate" pc="268439271" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="18" parent="globals/Menu2Delegate" pc="268439284" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="19" parent="globals/Menu2Delegate" pc="268439287" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="20" parent="globals/Menu2Delegate" pc="268439307" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="21" parent="globals/Menu2Delegate" pc="268439316" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="23" parent="globals/Menu2Delegate" pc="268439340" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="24" parent="globals/Menu2Delegate" pc="268439357" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="25" parent="globals/Menu2Delegate" pc="268439364" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="27" parent="globals/Menu2Delegate" pc="268439375" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="29" parent="globals/Menu2Delegate" pc="268439392" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="30" parent="globals/Menu2Delegate" pc="268439411" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="32" parent="globals/Menu2Delegate" pc="268439421" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="33" parent="globals/Menu2Delegate" pc="268439458" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="34" parent="globals/Menu2Delegate" pc="268439502" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="35" parent="globals/Menu2Delegate" pc="268439546" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="36" parent="globals/Menu2Delegate" pc="268439590" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="37" parent="globals/Menu2Delegate" pc="268439627" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="39" parent="globals/Menu2Delegate" pc="268439641" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="41" parent="globals/Menu2Delegate" pc="268439658" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="42" parent="globals/Menu2Delegate" pc="268439672" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="49" lineNum="98" parent="globals/Menu2SubMenuDelegate" pc="268439687" symbol="onBack"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="49" lineNum="99" parent="globals/Menu2SubMenuDelegate" pc="268439689" symbol="onBack"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="49" lineNum="100" parent="globals/Menu2SubMenuDelegate" pc="268439704" symbol="onBack"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="50" lineNum="54" parent="globals/Menu2SubMenuDelegate" pc="268439716" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="50" lineNum="55" parent="globals/Menu2SubMenuDelegate" pc="268439718" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="50" lineNum="56" parent="globals/Menu2SubMenuDelegate" pc="268439727" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="61" parent="globals/Menu2SubMenuDelegate" pc="268439740" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="65" parent="globals/Menu2SubMenuDelegate" pc="268439743" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="67" parent="globals/Menu2SubMenuDelegate" pc="268439812" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="68" parent="globals/Menu2SubMenuDelegate" pc="268439823" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="69" parent="globals/Menu2SubMenuDelegate" pc="268439840" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="70" parent="globals/Menu2SubMenuDelegate" pc="268439855" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="74" parent="globals/Menu2SubMenuDelegate" pc="268439883" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="75" parent="globals/Menu2SubMenuDelegate" pc="268439897" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="76" parent="globals/Menu2SubMenuDelegate" pc="268439920" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="77" parent="globals/Menu2SubMenuDelegate" pc="268439943" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="78" parent="globals/Menu2SubMenuDelegate" pc="268439966" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="79" parent="globals/Menu2SubMenuDelegate" pc="268439989" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="80" parent="globals/Menu2SubMenuDelegate" pc="268440012" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="83" parent="globals/Menu2SubMenuDelegate" pc="268440035" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="85" parent="globals/Menu2SubMenuDelegate" pc="268440062" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="86" parent="globals/Menu2SubMenuDelegate" pc="268440108" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="87" parent="globals/Menu2SubMenuDelegate" pc="268440135" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="89" parent="globals/Menu2SubMenuDelegate" pc="268440163" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="91" parent="globals/Menu2SubMenuDelegate" pc="268440177" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="92" parent="globals/Menu2SubMenuDelegate" pc="268440202" symbol="onSelect"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\About.mc" id="52" lineNum="14" parent="globals/AboutView" pc="268440230" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\About.mc" id="52" lineNum="15" parent="globals/AboutView" pc="268440232" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\About.mc" id="53" lineNum="10" parent="globals/AboutView" pc="268440266" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\About.mc" id="53" lineNum="11" parent="globals/AboutView" pc="268440268" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Settings.mc" id="54" lineNum="14" parent="globals/PingPongSettingsView" pc="268440281" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Settings.mc" id="54" lineNum="15" parent="globals/PingPongSettingsView" pc="268440283" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Settings.mc" id="55" lineNum="10" parent="globals/PingPongSettingsView" pc="268440317" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Settings.mc" id="55" lineNum="11" parent="globals/PingPongSettingsView" pc="268440319" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="56" lineNum="103" parent="globals/CustomIcon" pc="268440332" symbol="uncheckBool"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="56" lineNum="104" parent="globals/CustomIcon" pc="268440334" symbol="uncheckBool"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="57" lineNum="94" parent="globals/CustomIcon" pc="268440343" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="57" lineNum="95" parent="globals/CustomIcon" pc="268440345" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="57" lineNum="96" parent="globals/CustomIcon" pc="268440361" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="58" lineNum="99" parent="globals/CustomIcon" pc="268440370" symbol="checkBool"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="58" lineNum="100" parent="globals/CustomIcon" pc="268440372" symbol="checkBool"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="110" parent="globals/CustomIcon" pc="268440381" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="111" parent="globals/CustomIcon" pc="268440383" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="112" parent="globals/CustomIcon" pc="268440391" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="113" parent="globals/CustomIcon" pc="268440408" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="114" parent="globals/CustomIcon" pc="268440424" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="115" parent="globals/CustomIcon" pc="268440440" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="117" parent="globals/CustomIcon" pc="268440459" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="118" parent="globals/CustomIcon" pc="268440476" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="120" parent="globals/CustomIcon" pc="268440492" symbol="draw"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="69" parent="globals/Stack" pc="268440501" symbol="pop"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="70" parent="globals/Stack" pc="268440504" symbol="pop"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="71" parent="globals/Stack" pc="268440517" symbol="pop"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="72" parent="globals/Stack" pc="268440524" symbol="pop"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="74" parent="globals/Stack" pc="268440529" symbol="pop"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="75" parent="globals/Stack" pc="268440542" symbol="pop"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="76" parent="globals/Stack" pc="268440568" symbol="pop"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="61" lineNum="86" parent="globals/Stack" pc="268440571" symbol="getSize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="61" lineNum="87" parent="globals/Stack" pc="268440573" symbol="getSize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="62" lineNum="81" parent="globals/Stack" pc="268440585" symbol="isEmpty"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="62" lineNum="82" parent="globals/Stack" pc="268440587" symbol="isEmpty"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="63" lineNum="33" parent="globals/Stack" pc="268440601" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="63" lineNum="34" parent="globals/Stack" pc="268440603" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="64" lineNum="47" parent="globals/Stack" pc="268440613" symbol="push"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="64" lineNum="49" parent="globals/Stack" pc="268440616" symbol="push"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="64" lineNum="50" parent="globals/Stack" pc="268440648" symbol="push"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="13" parent="globals/MainDelegate" pc="268440671" symbol="onMenu"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="15" parent="globals/MainDelegate" pc="268440674" symbol="onMenu"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="16" parent="globals/MainDelegate" pc="268440714" symbol="onMenu"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="17" parent="globals/MainDelegate" pc="268440758" symbol="onMenu"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="18" parent="globals/MainDelegate" pc="268440802" symbol="onMenu"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="19" parent="globals/MainDelegate" pc="268440846" symbol="onMenu"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="21" parent="globals/MainDelegate" pc="268440885" symbol="onMenu"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="66" lineNum="9" parent="globals/MainDelegate" pc="268440887" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="66" lineNum="10" parent="globals/MainDelegate" pc="268440889" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="24" parent="globals/MainDelegate" pc="268440902" symbol="onKey"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="26" parent="globals/MainDelegate" pc="268440904" symbol="onKey"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="28" parent="globals/MainDelegate" pc="268440917" symbol="onKey"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="29" parent="globals/MainDelegate" pc="268440931" symbol="onKey"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="33" parent="globals/MainDelegate" pc="268440936" symbol="onKey"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="34" parent="globals/MainDelegate" pc="268440965" symbol="onKey"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="35" parent="globals/MainDelegate" pc="268440983" symbol="onKey"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="37" parent="globals/MainDelegate" pc="268440994" symbol="onKey"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="68" lineNum="54" parent="globals/Rez/Layouts" pc="268440996" symbol="AboutLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="68" lineNum="55" parent="globals/Rez/Layouts" pc="268441007" symbol="AboutLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="68" lineNum="57" parent="globals/Rez/Layouts" pc="268441104" symbol="AboutLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="68" lineNum="59" parent="globals/Rez/Layouts" pc="268441200" symbol="AboutLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="69" lineNum="38" parent="globals/Rez/Layouts" pc="268441215" symbol="GameOverLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="69" lineNum="39" parent="globals/Rez/Layouts" pc="268441226" symbol="GameOverLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="69" lineNum="41" parent="globals/Rez/Layouts" pc="268441324" symbol="GameOverLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="69" lineNum="43" parent="globals/Rez/Layouts" pc="268441408" symbol="GameOverLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="69" lineNum="45" parent="globals/Rez/Layouts" pc="268441506" symbol="GameOverLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="70" lineNum="48" parent="globals/Rez/Layouts" pc="268441526" symbol="SettingsLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="70" lineNum="49" parent="globals/Rez/Layouts" pc="268441537" symbol="SettingsLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="70" lineNum="51" parent="globals/Rez/Layouts" pc="268441612" symbol="SettingsLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="14" parent="globals/Rez/Layouts" pc="268441622" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="15" parent="globals/Rez/Layouts" pc="268441633" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="17" parent="globals/Rez/Layouts" pc="268441726" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="19" parent="globals/Rez/Layouts" pc="268441809" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="21" parent="globals/Rez/Layouts" pc="268441895" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="23" parent="globals/Rez/Layouts" pc="268441989" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="25" parent="globals/Rez/Layouts" pc="268442083" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="27" parent="globals/Rez/Layouts" pc="268442170" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="29" parent="globals/Rez/Layouts" pc="268442265" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="31" parent="globals/Rez/Layouts" pc="268442360" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="33" parent="globals/Rez/Layouts" pc="268442455" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="35" parent="globals/Rez/Layouts" pc="268442551" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="72" lineNum="82" parent="globals/Rez/Menus/SettingsMenu" pc="268442606" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="73" lineNum="64" parent="globals/Rez/Menus/MatchLengthMenu" pc="268442618" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="74" lineNum="73" parent="globals/Rez/Menus/MainMenu" pc="268442630" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="18" parent="globals/Stack/StackEntry" pc="268442642" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="19" parent="globals/Stack/StackEntry" pc="268442644" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="20" parent="globals/Stack/StackEntry" pc="268442653" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="21" parent="globals/Stack/StackEntry" pc="268442662" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="22" parent="globals/Stack/StackEntry" pc="268442671" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="23" parent="globals/Stack/StackEntry" pc="268442680" symbol="initialize"/>
-        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="24" parent="globals/Stack/StackEntry" pc="268442689" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="76" lineNum="83" parent="globals/Rez/Menus/SettingsMenu" pc="268442699" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="76" lineNum="84" parent="globals/Rez/Menus/SettingsMenu" pc="268442701" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="76" lineNum="85" parent="globals/Rez/Menus/SettingsMenu" pc="268442713" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="77" lineNum="65" parent="globals/Rez/Menus/MatchLengthMenu" pc="268442759" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="77" lineNum="66" parent="globals/Rez/Menus/MatchLengthMenu" pc="268442761" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="77" lineNum="67" parent="globals/Rez/Menus/MatchLengthMenu" pc="268442773" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="77" lineNum="68" parent="globals/Rez/Menus/MatchLengthMenu" pc="268442818" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="77" lineNum="69" parent="globals/Rez/Menus/MatchLengthMenu" pc="268442863" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="78" lineNum="74" parent="globals/Rez/Menus/MainMenu" pc="268442909" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="78" lineNum="75" parent="globals/Rez/Menus/MainMenu" pc="268442911" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="78" lineNum="76" parent="globals/Rez/Menus/MainMenu" pc="268442923" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="78" lineNum="77" parent="globals/Rez/Menus/MainMenu" pc="268442968" symbol="initialize"/>
-        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="78" lineNum="78" parent="globals/Rez/Menus/MainMenu" pc="268443013" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="143" parent="globals/MainView" pc="268436583" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="144" parent="globals/MainView" pc="268436586" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="146" parent="globals/MainView" pc="268436599" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="147" parent="globals/MainView" pc="268436608" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="148" parent="globals/MainView" pc="268436652" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="149" parent="globals/MainView" pc="268436667" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="150" parent="globals/MainView" pc="268436692" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="152" parent="globals/MainView" pc="268436705" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="154" parent="globals/MainView" pc="268436718" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="155" parent="globals/MainView" pc="268436727" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="156" parent="globals/MainView" pc="268436771" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="157" parent="globals/MainView" pc="268436786" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="158" parent="globals/MainView" pc="268436811" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="160" parent="globals/MainView" pc="268436824" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="162" parent="globals/MainView" pc="268436837" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="163" parent="globals/MainView" pc="268436867" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="164" parent="globals/MainView" pc="268436874" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="166" parent="globals/MainView" pc="268436892" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="168" parent="globals/MainView" pc="268436905" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="169" parent="globals/MainView" pc="268436918" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="170" parent="globals/MainView" pc="268436924" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="171" parent="globals/MainView" pc="268436938" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="172" parent="globals/MainView" pc="268436952" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="173" parent="globals/MainView" pc="268436966" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="174" parent="globals/MainView" pc="268436980" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="175" parent="globals/MainView" pc="268436994" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="176" parent="globals/MainView" pc="268437008" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="177" parent="globals/MainView" pc="268437033" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="178" parent="globals/MainView" pc="268437058" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="30" lineNum="179" parent="globals/MainView" pc="268437083" symbol="dynamicUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="31" lineNum="256" parent="globals/MainView" pc="268437115" symbol="settingServer"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="31" lineNum="257" parent="globals/MainView" pc="268437117" symbol="settingServer"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="31" lineNum="258" parent="globals/MainView" pc="268437142" symbol="settingServer"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="64" parent="globals/MainView" pc="268437155" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="65" parent="globals/MainView" pc="268437157" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="66" parent="globals/MainView" pc="268437190" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="67" parent="globals/MainView" pc="268437210" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="68" parent="globals/MainView" pc="268437235" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="69" parent="globals/MainView" pc="268437255" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="70" parent="globals/MainView" pc="268437275" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="71" parent="globals/MainView" pc="268437295" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="72" parent="globals/MainView" pc="268437315" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="73" parent="globals/MainView" pc="268437335" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="32" lineNum="74" parent="globals/MainView" pc="268437355" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="184" parent="globals/MainView" pc="268437376" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="193" parent="globals/MainView" pc="268437378" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="194" parent="globals/MainView" pc="268437385" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="196" parent="globals/MainView" pc="268437400" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="197" parent="globals/MainView" pc="268437409" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="198" parent="globals/MainView" pc="268437426" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="199" parent="globals/MainView" pc="268437441" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="200" parent="globals/MainView" pc="268437466" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="201" parent="globals/MainView" pc="268437473" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="202" parent="globals/MainView" pc="268437483" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="203" parent="globals/MainView" pc="268437500" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="204" parent="globals/MainView" pc="268437515" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="205" parent="globals/MainView" pc="268437540" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="206" parent="globals/MainView" pc="268437547" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="209" parent="globals/MainView" pc="268437560" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="210" parent="globals/MainView" pc="268437571" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="211" parent="globals/MainView" pc="268437586" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="212" parent="globals/MainView" pc="268437611" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="213" parent="globals/MainView" pc="268437618" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="214" parent="globals/MainView" pc="268437628" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="215" parent="globals/MainView" pc="268437639" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="216" parent="globals/MainView" pc="268437654" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="217" parent="globals/MainView" pc="268437679" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="33" lineNum="218" parent="globals/MainView" pc="268437686" symbol="matchLogic"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="34" lineNum="261" parent="globals/MainView" pc="268437697" symbol="toggleServer"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="34" lineNum="262" parent="globals/MainView" pc="268437699" symbol="toggleServer"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="34" lineNum="263" parent="globals/MainView" pc="268437708" symbol="toggleServer"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="34" lineNum="265" parent="globals/MainView" pc="268437718" symbol="toggleServer"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="34" lineNum="266" parent="globals/MainView" pc="268437732" symbol="toggleServer"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="35" lineNum="139" parent="globals/MainView" pc="268437743" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="35" lineNum="140" parent="globals/MainView" pc="268437745" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="36" lineNum="223" parent="globals/MainView" pc="268437757" symbol="isDeuce"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="36" lineNum="224" parent="globals/MainView" pc="268437759" symbol="isDeuce"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="37" lineNum="252" parent="globals/MainView" pc="268437782" symbol="switchServer"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="37" lineNum="253" parent="globals/MainView" pc="268437784" symbol="switchServer"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="227" parent="globals/MainView" pc="268437810" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="229" parent="globals/MainView" pc="268437813" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="231" parent="globals/MainView" pc="268437838" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="232" parent="globals/MainView" pc="268437859" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="233" parent="globals/MainView" pc="268437866" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="235" parent="globals/MainView" pc="268437876" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="236" parent="globals/MainView" pc="268437883" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="239" parent="globals/MainView" pc="268437890" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="240" parent="globals/MainView" pc="268437901" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="241" parent="globals/MainView" pc="268437922" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="242" parent="globals/MainView" pc="268437950" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="243" parent="globals/MainView" pc="268437968" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="244" parent="globals/MainView" pc="268437978" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="245" parent="globals/MainView" pc="268437989" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="246" parent="globals/MainView" pc="268438010" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="247" parent="globals/MainView" pc="268438038" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="38" lineNum="248" parent="globals/MainView" pc="268438056" symbol="isOver"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="38" parent="globals/MainView" pc="268438067" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="39" parent="globals/MainView" pc="268438069" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="41" parent="globals/MainView" pc="268438081" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="42" parent="globals/MainView" pc="268438102" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="44" parent="globals/MainView" pc="268438129" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="45" parent="globals/MainView" pc="268438138" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="48" parent="globals/MainView" pc="268438161" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="49" parent="globals/MainView" pc="268438182" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="51" parent="globals/MainView" pc="268438209" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="52" parent="globals/MainView" pc="268438221" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="57" parent="globals/MainView" pc="268438244" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="58" parent="globals/MainView" pc="268438253" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="60" parent="globals/MainView" pc="268438268" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="39" lineNum="61" parent="globals/MainView" pc="268438297" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="271" parent="globals/MainView" pc="268438329" symbol="resetGame"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="272" parent="globals/MainView" pc="268438331" symbol="resetGame"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="273" parent="globals/MainView" pc="268438339" symbol="resetGame"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="274" parent="globals/MainView" pc="268438347" symbol="resetGame"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="275" parent="globals/MainView" pc="268438355" symbol="resetGame"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="276" parent="globals/MainView" pc="268438380" symbol="resetGame"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="40" lineNum="277" parent="globals/MainView" pc="268438405" symbol="resetGame"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="280" parent="globals/MainView" pc="268438413" symbol="resetMatch"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="281" parent="globals/MainView" pc="268438415" symbol="resetMatch"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="282" parent="globals/MainView" pc="268438422" symbol="resetMatch"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="283" parent="globals/MainView" pc="268438447" symbol="resetMatch"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="284" parent="globals/MainView" pc="268438455" symbol="resetMatch"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="285" parent="globals/MainView" pc="268438463" symbol="resetMatch"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="286" parent="globals/MainView" pc="268438488" symbol="resetMatch"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="287" parent="globals/MainView" pc="268438513" symbol="resetMatch"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="41" lineNum="288" parent="globals/MainView" pc="268438522" symbol="resetMatch"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="77" parent="globals/MainView" pc="268438535" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="78" parent="globals/MainView" pc="268438538" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="79" parent="globals/MainView" pc="268438554" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="80" parent="globals/MainView" pc="268438566" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="81" parent="globals/MainView" pc="268438620" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="82" parent="globals/MainView" pc="268438635" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="83" parent="globals/MainView" pc="268438647" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="84" parent="globals/MainView" pc="268438672" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="85" parent="globals/MainView" pc="268438692" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="86" parent="globals/MainView" pc="268438704" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="87" parent="globals/MainView" pc="268438751" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="88" parent="globals/MainView" pc="268438782" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="90" parent="globals/MainView" pc="268438794" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="92" parent="globals/MainView" pc="268438817" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="94" parent="globals/MainView" pc="268438832" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="96" parent="globals/MainView" pc="268438865" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="97" parent="globals/MainView" pc="268438873" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="98" parent="globals/MainView" pc="268438887" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="99" parent="globals/MainView" pc="268438908" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="100" parent="globals/MainView" pc="268438916" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="101" parent="globals/MainView" pc="268438930" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="103" parent="globals/MainView" pc="268438951" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="104" parent="globals/MainView" pc="268438965" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="110" parent="globals/MainView" pc="268438983" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="111" parent="globals/MainView" pc="268439004" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="112" parent="globals/MainView" pc="268439023" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="114" parent="globals/MainView" pc="268439042" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="115" parent="globals/MainView" pc="268439053" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="116" parent="globals/MainView" pc="268439071" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="117" parent="globals/MainView" pc="268439083" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="118" parent="globals/MainView" pc="268439106" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="119" parent="globals/MainView" pc="268439117" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="120" parent="globals/MainView" pc="268439137" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="121" parent="globals/MainView" pc="268439149" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="124" parent="globals/MainView" pc="268439176" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="125" parent="globals/MainView" pc="268439195" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="127" parent="globals/MainView" pc="268439214" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="128" parent="globals/MainView" pc="268439225" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="129" parent="globals/MainView" pc="268439243" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="130" parent="globals/MainView" pc="268439255" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="131" parent="globals/MainView" pc="268439279" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="132" parent="globals/MainView" pc="268439290" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="133" parent="globals/MainView" pc="268439310" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="42" lineNum="134" parent="globals/MainView" pc="268439322" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="43" lineNum="302" parent="globals/WinningView" pc="268439346" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="43" lineNum="303" parent="globals/WinningView" pc="268439349" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="43" lineNum="304" parent="globals/WinningView" pc="268439382" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="43" lineNum="305" parent="globals/WinningView" pc="268439397" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="43" lineNum="306" parent="globals/WinningView" pc="268439403" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="44" lineNum="297" parent="globals/WinningView" pc="268439423" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="44" lineNum="298" parent="globals/WinningView" pc="268439425" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainView.mc" id="44" lineNum="299" parent="globals/WinningView" pc="268439437" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="45" lineNum="114" parent="globals/DividerTitle" pc="268439447" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="45" lineNum="115" parent="globals/DividerTitle" pc="268439449" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="46" lineNum="120" parent="globals/DividerTitle" pc="268439466" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="46" lineNum="121" parent="globals/DividerTitle" pc="268439468" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="46" lineNum="122" parent="globals/DividerTitle" pc="268439483" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="46" lineNum="124" parent="globals/DividerTitle" pc="268439491" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="47" lineNum="10" parent="globals/Menu2Delegate" pc="268439530" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="47" lineNum="11" parent="globals/Menu2Delegate" pc="268439532" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="18" parent="globals/Menu2Delegate" pc="268439545" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="19" parent="globals/Menu2Delegate" pc="268439548" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="20" parent="globals/Menu2Delegate" pc="268439568" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="21" parent="globals/Menu2Delegate" pc="268439577" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="23" parent="globals/Menu2Delegate" pc="268439601" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="24" parent="globals/Menu2Delegate" pc="268439618" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="25" parent="globals/Menu2Delegate" pc="268439625" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="26" parent="globals/Menu2Delegate" pc="268439633" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="27" parent="globals/Menu2Delegate" pc="268439648" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="29" parent="globals/Menu2Delegate" pc="268439662" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="31" parent="globals/Menu2Delegate" pc="268439679" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="32" parent="globals/Menu2Delegate" pc="268439698" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="34" parent="globals/Menu2Delegate" pc="268439708" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="35" parent="globals/Menu2Delegate" pc="268439745" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="36" parent="globals/Menu2Delegate" pc="268439789" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="37" parent="globals/Menu2Delegate" pc="268439833" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="38" parent="globals/Menu2Delegate" pc="268439877" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="39" parent="globals/Menu2Delegate" pc="268439914" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="41" parent="globals/Menu2Delegate" pc="268439928" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="43" parent="globals/Menu2Delegate" pc="268439945" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="44" parent="globals/Menu2Delegate" pc="268439959" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="48" lineNum="45" parent="globals/Menu2Delegate" pc="268439973" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="49" lineNum="101" parent="globals/Menu2SubMenuDelegate" pc="268439988" symbol="onBack"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="49" lineNum="102" parent="globals/Menu2SubMenuDelegate" pc="268439990" symbol="onBack"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="49" lineNum="103" parent="globals/Menu2SubMenuDelegate" pc="268440005" symbol="onBack"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="50" lineNum="57" parent="globals/Menu2SubMenuDelegate" pc="268440017" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="50" lineNum="58" parent="globals/Menu2SubMenuDelegate" pc="268440019" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="50" lineNum="59" parent="globals/Menu2SubMenuDelegate" pc="268440028" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="64" parent="globals/Menu2SubMenuDelegate" pc="268440041" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="68" parent="globals/Menu2SubMenuDelegate" pc="268440044" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="70" parent="globals/Menu2SubMenuDelegate" pc="268440113" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="71" parent="globals/Menu2SubMenuDelegate" pc="268440124" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="72" parent="globals/Menu2SubMenuDelegate" pc="268440141" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="73" parent="globals/Menu2SubMenuDelegate" pc="268440156" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="77" parent="globals/Menu2SubMenuDelegate" pc="268440184" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="78" parent="globals/Menu2SubMenuDelegate" pc="268440198" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="79" parent="globals/Menu2SubMenuDelegate" pc="268440221" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="80" parent="globals/Menu2SubMenuDelegate" pc="268440244" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="81" parent="globals/Menu2SubMenuDelegate" pc="268440267" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="82" parent="globals/Menu2SubMenuDelegate" pc="268440290" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="83" parent="globals/Menu2SubMenuDelegate" pc="268440313" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="86" parent="globals/Menu2SubMenuDelegate" pc="268440336" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="88" parent="globals/Menu2SubMenuDelegate" pc="268440363" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="89" parent="globals/Menu2SubMenuDelegate" pc="268440409" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="90" parent="globals/Menu2SubMenuDelegate" pc="268440436" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="92" parent="globals/Menu2SubMenuDelegate" pc="268440464" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="94" parent="globals/Menu2SubMenuDelegate" pc="268440478" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MenuDelegate.mc" id="51" lineNum="95" parent="globals/Menu2SubMenuDelegate" pc="268440503" symbol="onSelect"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\About.mc" id="52" lineNum="14" parent="globals/AboutView" pc="268440531" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\About.mc" id="52" lineNum="15" parent="globals/AboutView" pc="268440533" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\About.mc" id="53" lineNum="10" parent="globals/AboutView" pc="268440567" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\About.mc" id="53" lineNum="11" parent="globals/AboutView" pc="268440569" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Settings.mc" id="54" lineNum="14" parent="globals/PingPongSettingsView" pc="268440582" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Settings.mc" id="54" lineNum="15" parent="globals/PingPongSettingsView" pc="268440584" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Settings.mc" id="55" lineNum="10" parent="globals/PingPongSettingsView" pc="268440618" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Settings.mc" id="55" lineNum="11" parent="globals/PingPongSettingsView" pc="268440620" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="56" lineNum="103" parent="globals/CustomIcon" pc="268440633" symbol="uncheckBool"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="56" lineNum="104" parent="globals/CustomIcon" pc="268440635" symbol="uncheckBool"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="57" lineNum="94" parent="globals/CustomIcon" pc="268440644" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="57" lineNum="95" parent="globals/CustomIcon" pc="268440646" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="57" lineNum="96" parent="globals/CustomIcon" pc="268440662" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="58" lineNum="99" parent="globals/CustomIcon" pc="268440671" symbol="checkBool"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="58" lineNum="100" parent="globals/CustomIcon" pc="268440673" symbol="checkBool"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="110" parent="globals/CustomIcon" pc="268440682" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="111" parent="globals/CustomIcon" pc="268440684" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="112" parent="globals/CustomIcon" pc="268440692" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="113" parent="globals/CustomIcon" pc="268440709" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="114" parent="globals/CustomIcon" pc="268440725" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="115" parent="globals/CustomIcon" pc="268440741" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="117" parent="globals/CustomIcon" pc="268440760" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="118" parent="globals/CustomIcon" pc="268440777" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\SettingsMenuDelegate.mc" id="59" lineNum="120" parent="globals/CustomIcon" pc="268440793" symbol="draw"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="69" parent="globals/Stack" pc="268440802" symbol="pop"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="70" parent="globals/Stack" pc="268440805" symbol="pop"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="71" parent="globals/Stack" pc="268440818" symbol="pop"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="72" parent="globals/Stack" pc="268440825" symbol="pop"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="74" parent="globals/Stack" pc="268440830" symbol="pop"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="75" parent="globals/Stack" pc="268440843" symbol="pop"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="60" lineNum="76" parent="globals/Stack" pc="268440869" symbol="pop"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="61" lineNum="86" parent="globals/Stack" pc="268440872" symbol="getSize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="61" lineNum="87" parent="globals/Stack" pc="268440874" symbol="getSize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="62" lineNum="81" parent="globals/Stack" pc="268440886" symbol="isEmpty"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="62" lineNum="82" parent="globals/Stack" pc="268440888" symbol="isEmpty"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="63" lineNum="33" parent="globals/Stack" pc="268440902" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="63" lineNum="34" parent="globals/Stack" pc="268440904" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="64" lineNum="47" parent="globals/Stack" pc="268440914" symbol="push"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="64" lineNum="49" parent="globals/Stack" pc="268440917" symbol="push"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="64" lineNum="50" parent="globals/Stack" pc="268440949" symbol="push"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="13" parent="globals/MainDelegate" pc="268440972" symbol="onMenu"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="15" parent="globals/MainDelegate" pc="268440975" symbol="onMenu"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="16" parent="globals/MainDelegate" pc="268441015" symbol="onMenu"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="17" parent="globals/MainDelegate" pc="268441059" symbol="onMenu"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="18" parent="globals/MainDelegate" pc="268441103" symbol="onMenu"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="19" parent="globals/MainDelegate" pc="268441147" symbol="onMenu"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="65" lineNum="21" parent="globals/MainDelegate" pc="268441186" symbol="onMenu"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="66" lineNum="9" parent="globals/MainDelegate" pc="268441188" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="66" lineNum="10" parent="globals/MainDelegate" pc="268441190" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="24" parent="globals/MainDelegate" pc="268441203" symbol="onKey"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="26" parent="globals/MainDelegate" pc="268441205" symbol="onKey"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="28" parent="globals/MainDelegate" pc="268441218" symbol="onKey"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="29" parent="globals/MainDelegate" pc="268441232" symbol="onKey"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="33" parent="globals/MainDelegate" pc="268441237" symbol="onKey"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="34" parent="globals/MainDelegate" pc="268441266" symbol="onKey"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="35" parent="globals/MainDelegate" pc="268441284" symbol="onKey"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\MainDelegate.mc" id="67" lineNum="37" parent="globals/MainDelegate" pc="268441295" symbol="onKey"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="68" lineNum="59" parent="globals/Rez/Layouts" pc="268441297" symbol="AboutLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="68" lineNum="60" parent="globals/Rez/Layouts" pc="268441308" symbol="AboutLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="68" lineNum="62" parent="globals/Rez/Layouts" pc="268441405" symbol="AboutLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="68" lineNum="64" parent="globals/Rez/Layouts" pc="268441501" symbol="AboutLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="69" lineNum="43" parent="globals/Rez/Layouts" pc="268441516" symbol="GameOverLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="69" lineNum="44" parent="globals/Rez/Layouts" pc="268441527" symbol="GameOverLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="69" lineNum="46" parent="globals/Rez/Layouts" pc="268441625" symbol="GameOverLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="69" lineNum="48" parent="globals/Rez/Layouts" pc="268441709" symbol="GameOverLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="69" lineNum="50" parent="globals/Rez/Layouts" pc="268441807" symbol="GameOverLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="70" lineNum="53" parent="globals/Rez/Layouts" pc="268441827" symbol="SettingsLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="70" lineNum="54" parent="globals/Rez/Layouts" pc="268441838" symbol="SettingsLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="70" lineNum="56" parent="globals/Rez/Layouts" pc="268441913" symbol="SettingsLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="15" parent="globals/Rez/Layouts" pc="268441923" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="16" parent="globals/Rez/Layouts" pc="268441934" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="18" parent="globals/Rez/Layouts" pc="268442015" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="20" parent="globals/Rez/Layouts" pc="268442098" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="22" parent="globals/Rez/Layouts" pc="268442191" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="24" parent="globals/Rez/Layouts" pc="268442274" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="26" parent="globals/Rez/Layouts" pc="268442360" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="28" parent="globals/Rez/Layouts" pc="268442454" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="30" parent="globals/Rez/Layouts" pc="268442548" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="32" parent="globals/Rez/Layouts" pc="268442635" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="34" parent="globals/Rez/Layouts" pc="268442730" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="36" parent="globals/Rez/Layouts" pc="268442825" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="38" parent="globals/Rez/Layouts" pc="268442920" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="71" lineNum="40" parent="globals/Rez/Layouts" pc="268443016" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="72" lineNum="87" parent="globals/Rez/Menus/SettingsMenu" pc="268443081" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="73" lineNum="69" parent="globals/Rez/Menus/MatchLengthMenu" pc="268443093" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="74" lineNum="78" parent="globals/Rez/Menus/MainMenu" pc="268443105" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="18" parent="globals/Stack/StackEntry" pc="268443117" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="19" parent="globals/Stack/StackEntry" pc="268443119" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="20" parent="globals/Stack/StackEntry" pc="268443128" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="21" parent="globals/Stack/StackEntry" pc="268443137" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="22" parent="globals/Stack/StackEntry" pc="268443146" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="23" parent="globals/Stack/StackEntry" pc="268443155" symbol="initialize"/>
+        <entry filename="C:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\source\\Utilites.mc" id="75" lineNum="24" parent="globals/Stack/StackEntry" pc="268443164" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="76" lineNum="88" parent="globals/Rez/Menus/SettingsMenu" pc="268443174" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="76" lineNum="89" parent="globals/Rez/Menus/SettingsMenu" pc="268443176" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="76" lineNum="90" parent="globals/Rez/Menus/SettingsMenu" pc="268443188" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="77" lineNum="70" parent="globals/Rez/Menus/MatchLengthMenu" pc="268443234" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="77" lineNum="71" parent="globals/Rez/Menus/MatchLengthMenu" pc="268443236" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="77" lineNum="72" parent="globals/Rez/Menus/MatchLengthMenu" pc="268443248" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="77" lineNum="73" parent="globals/Rez/Menus/MatchLengthMenu" pc="268443293" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="77" lineNum="74" parent="globals/Rez/Menus/MatchLengthMenu" pc="268443338" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="78" lineNum="79" parent="globals/Rez/Menus/MainMenu" pc="268443384" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="78" lineNum="80" parent="globals/Rez/Menus/MainMenu" pc="268443386" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="78" lineNum="81" parent="globals/Rez/Menus/MainMenu" pc="268443398" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="78" lineNum="82" parent="globals/Rez/Menus/MainMenu" pc="268443443" symbol="initialize"/>
+        <entry filename="c:\\Users\\Samuel\\Documents\\dev\\GarminProjects\\GarminTableTennisApp\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="78" lineNum="83" parent="globals/Rez/Menus/MainMenu" pc="268443488" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
+        <entry field="true" id="19" symbol="batteryLabel"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="48" method="true" symbol="toggleServer"/>
+        <entry id="49" method="true" symbol="toggleServer"/>
         <entry id="8389346" symbol="text"/>
-        <entry id="42" method="true" symbol="matchLogic"/>
+        <entry id="43" method="true" symbol="matchLogic"/>
         <entry id="8388792" method="true" symbol="isEmpty"/>
-        <entry field="true" id="27" symbol="p2Label"/>
+        <entry field="true" id="28" symbol="p2Label"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry id="44" method="true" symbol="resetMatch"/>
+        <entry id="45" method="true" symbol="resetMatch"/>
         <entry id="5" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="56" method="true" symbol="uncheckBool"/>
+        <entry id="57" method="true" symbol="uncheckBool"/>
         <entry id="11" object="true" symbol="MainDelegate"/>
-        <entry id="65" method="true" symbol="MainLayout"/>
-        <entry field="true" id="25" symbol="p1Set"/>
+        <entry id="66" method="true" symbol="MainLayout"/>
+        <entry field="true" id="26" symbol="p1Set"/>
         <entry id="9" object="true" symbol="CustomIcon"/>
-        <entry id="55" method="true" symbol="checkBool"/>
-        <entry field="true" id="77" symbol="best_of_7"/>
-        <entry field="true" id="76" symbol="best_of_5"/>
-        <entry field="true" id="75" symbol="best_of_3"/>
-        <entry field="true" id="33" symbol="settingsVibration"/>
-        <entry id="43" method="true" symbol="resetGame"/>
-        <entry id="69" object="true" symbol="SettingsMenu"/>
+        <entry id="56" method="true" symbol="checkBool"/>
+        <entry field="true" id="78" symbol="best_of_7"/>
+        <entry field="true" id="77" symbol="best_of_5"/>
+        <entry field="true" id="76" symbol="best_of_3"/>
+        <entry field="true" id="34" symbol="settingsVibration"/>
+        <entry id="44" method="true" symbol="resetGame"/>
+        <entry id="70" object="true" symbol="SettingsMenu"/>
         <entry id="8390424" module="true" symbol="Storage"/>
         <entry id="16" object="true" symbol="SettingsMenuDelegate"/>
         <entry id="14" object="true" symbol="Menu2SubMenuDelegate"/>
-        <entry id="64" method="true" symbol="GameOverLayout"/>
-        <entry field="true" id="84" symbol="winner_p2"/>
-        <entry field="true" id="83" symbol="winner_p1"/>
+        <entry id="65" method="true" symbol="GameOverLayout"/>
+        <entry field="true" id="85" symbol="winner_p2"/>
+        <entry field="true" id="84" symbol="winner_p1"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="74" symbol="NewGamePrompt"/>
+        <entry field="true" id="75" symbol="NewGamePrompt"/>
         <entry id="7" object="true" symbol="AboutView"/>
         <entry id="8" object="true" symbol="App"/>
-        <entry field="true" id="30" symbol="p2Set"/>
-        <entry field="true" id="72" symbol="AppName"/>
-        <entry field="true" id="89" symbol="points"/>
-        <entry field="true" id="86" symbol="p1Sets"/>
+        <entry field="true" id="31" symbol="p2Set"/>
+        <entry field="true" id="73" symbol="AppName"/>
+        <entry field="true" id="90" symbol="points"/>
+        <entry field="true" id="87" symbol="p1Sets"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
-        <entry field="true" id="29" symbol="p2Score_ctr"/>
-        <entry field="true" id="38" symbol="whoServes"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry field="true" id="8388724" symbol="battery"/>
+        <entry field="true" id="30" symbol="p2Score_ctr"/>
+        <entry field="true" id="39" symbol="whoServes"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry field="true" id="53" symbol="&lt;globals/Menu2SubMenuDelegate/&lt;&gt;_menu&gt;"/>
+        <entry field="true" id="54" symbol="&lt;globals/Menu2SubMenuDelegate/&lt;&gt;_menu&gt;"/>
         <entry id="8389081" method="true" symbol="onBack"/>
-        <entry field="true" id="31" symbol="p2Set_ctr"/>
+        <entry field="true" id="32" symbol="p2Set_ctr"/>
         <entry id="8390425" module="true" symbol="Properties"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry id="45" method="true" symbol="settingServer"/>
-        <entry field="true" id="81" symbol="prompt"/>
+        <entry id="46" method="true" symbol="settingServer"/>
+        <entry field="true" id="82" symbol="prompt"/>
         <entry id="12" object="true" symbol="MainView"/>
-        <entry field="true" id="23" symbol="p1Score"/>
+        <entry field="true" id="24" symbol="p1Score"/>
         <entry id="8392303" method="true" symbol="setDividerType"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="20" symbol="matchStack"/>
+        <entry field="true" id="21" symbol="matchStack"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389630" method="true" symbol="getSize"/>
-        <entry id="93" symbol="item_3"/>
-        <entry id="92" symbol="item_2"/>
-        <entry id="91" symbol="item_1"/>
-        <entry id="50" module="true" symbol="Menus"/>
+        <entry id="94" symbol="item_3"/>
+        <entry id="93" symbol="item_2"/>
+        <entry id="92" symbol="item_1"/>
+        <entry id="51" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="87" symbol="p2"/>
-        <entry field="true" id="85" symbol="p1"/>
+        <entry field="true" id="88" symbol="p2"/>
+        <entry field="true" id="86" symbol="p1"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry field="true" id="24" symbol="p1Score_ctr"/>
-        <entry field="true" id="71" symbol="AboutText"/>
-        <entry id="40" method="true" symbol="isDeuce"/>
-        <entry field="true" id="32" symbol="setServer"/>
-        <entry field="true" id="22" symbol="p1Label"/>
-        <entry id="39" method="true" symbol="dynamicUpdate"/>
+        <entry field="true" id="25" symbol="p1Score_ctr"/>
+        <entry field="true" id="72" symbol="AboutText"/>
+        <entry id="41" method="true" symbol="isDeuce"/>
+        <entry field="true" id="33" symbol="setServer"/>
+        <entry field="true" id="23" symbol="p1Label"/>
+        <entry id="40" method="true" symbol="dynamicUpdate"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="68" object="true" symbol="MatchLengthMenu"/>
-        <entry id="67" object="true" symbol="MainMenu"/>
-        <entry field="true" id="37" symbol="watch_arm"/>
-        <entry field="true" id="82" symbol="settings_label_1"/>
-        <entry field="true" id="54" symbol="&lt;globals/CustomIcon/&lt;&gt;_checked&gt;"/>
-        <entry field="true" id="73" symbol="GameOver"/>
-        <entry field="true" id="21" symbol="match_length"/>
+        <entry id="69" object="true" symbol="MatchLengthMenu"/>
+        <entry id="68" object="true" symbol="MainMenu"/>
+        <entry field="true" id="38" symbol="watch_arm"/>
+        <entry field="true" id="83" symbol="settings_label_1"/>
+        <entry field="true" id="55" symbol="&lt;globals/CustomIcon/&lt;&gt;_checked&gt;"/>
+        <entry field="true" id="74" symbol="GameOver"/>
+        <entry field="true" id="22" symbol="match_length"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
-        <entry id="63" method="true" symbol="AboutLayout"/>
+        <entry id="64" method="true" symbol="AboutLayout"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="47" method="true" symbol="timerCallback"/>
-        <entry field="true" id="36" symbol="vibeProfile"/>
+        <entry id="48" method="true" symbol="timerCallback"/>
+        <entry field="true" id="37" symbol="vibeProfile"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="61" symbol="LauncherIcon"/>
+        <entry field="true" id="62" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
-        <entry field="true" id="35" symbol="updateTimer"/>
-        <entry field="true" id="62" symbol="pingpong"/>
-        <entry field="true" id="60" symbol="&lt;globals/Stack/&lt;&gt;stackArray&gt;"/>
+        <entry field="true" id="36" symbol="updateTimer"/>
+        <entry field="true" id="63" symbol="pingpong"/>
+        <entry field="true" id="61" symbol="&lt;globals/Stack/&lt;&gt;stackArray&gt;"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry field="true" id="90" symbol="serving"/>
+        <entry field="true" id="91" symbol="serving"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="17" object="true" symbol="Stack"/>
-        <entry field="true" id="52" symbol="_currentMatchLengthId"/>
+        <entry field="true" id="53" symbol="_currentMatchLengthId"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry id="18" object="true" symbol="WinningView"/>
-        <entry field="true" id="26" symbol="p1Set_ctr"/>
+        <entry field="true" id="27" symbol="p1Set_ctr"/>
         <entry id="8388641" module="true" symbol="Math"/>
-        <entry id="57" object="true" symbol="StackEntry"/>
-        <entry field="true" id="19" symbol="bestofLabel"/>
+        <entry id="58" object="true" symbol="StackEntry"/>
+        <entry field="true" id="20" symbol="bestofLabel"/>
         <entry id="13" object="true" symbol="Menu2Delegate"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
-        <entry field="true" id="51" symbol="winnerName"/>
+        <entry field="true" id="52" symbol="winnerName"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry field="true" id="70" symbol="About"/>
+        <entry field="true" id="71" symbol="About"/>
         <entry id="8389097" method="true" symbol="onKey"/>
         <entry id="15" object="true" symbol="PingPongSettingsView"/>
-        <entry field="true" id="28" symbol="p2Score"/>
+        <entry field="true" id="29" symbol="p2Score"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
-        <entry id="49" module="true" symbol="Layouts"/>
-        <entry id="58" method="true" symbol="pop"/>
+        <entry id="50" module="true" symbol="Layouts"/>
+        <entry id="59" method="true" symbol="pop"/>
         <entry id="8388636" module="true" symbol="Attention"/>
-        <entry field="true" id="34" symbol="total_points"/>
-        <entry id="66" method="true" symbol="SettingsLayout"/>
-        <entry field="true" id="88" symbol="p2Sets"/>
-        <entry id="59" method="true" symbol="push"/>
-        <entry id="46" method="true" symbol="switchServer"/>
+        <entry field="true" id="35" symbol="total_points"/>
+        <entry id="67" method="true" symbol="SettingsLayout"/>
+        <entry field="true" id="89" symbol="p2Sets"/>
+        <entry id="60" method="true" symbol="push"/>
+        <entry id="47" method="true" symbol="switchServer"/>
         <entry id="10" object="true" symbol="DividerTitle"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8389642" symbol="title"/>
-        <entry field="true" id="80" symbol="menu_label_3"/>
-        <entry id="41" method="true" symbol="isOver"/>
-        <entry field="true" id="79" symbol="menu_label_2"/>
-        <entry field="true" id="78" symbol="menu_label_1"/>
+        <entry field="true" id="81" symbol="menu_label_3"/>
+        <entry id="42" method="true" symbol="isOver"/>
+        <entry field="true" id="80" symbol="menu_label_2"/>
+        <entry field="true" id="79" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435769" name="state" stackId="1" startPc="268435711"/>
@@ -540,72 +563,77 @@
         <entry endPc="268436567" name="rightArmItem" stackId="14" startPc="268436299"/>
         <entry arg="true" endPc="268437114" name="keyEvent" stackId="1" startPc="268436583"/>
         <entry endPc="268437110" name="lastEntry" stackId="2" startPc="268436905"/>
-        <entry arg="true" endPc="268437355" name="dc" stackId="1" startPc="268437155"/>
-        <entry endPc="268438045" name="setsToWin" stackId="1" startPc="268437793"/>
-        <entry endPc="268438045" name="p1Name" stackId="2" startPc="268437793"/>
-        <entry endPc="268438045" name="p2Name" stackId="3" startPc="268437793"/>
-        <entry endPc="268437954" name="view" stackId="4" startPc="268437881"/>
-        <entry endPc="268438042" name="view" stackId="5" startPc="268437969"/>
-        <entry arg="true" endPc="268439084" name="dc" stackId="1" startPc="268438494"/>
-        <entry endPc="268439083" name="clockTime" stackId="2" startPc="268438497"/>
-        <entry endPc="268439083" name="timeString" stackId="3" startPc="268438497"/>
-        <entry endPc="268439083" name="timeView" stackId="4" startPc="268438497"/>
-        <entry arg="true" endPc="268439161" name="dc" stackId="1" startPc="268439085"/>
-        <entry endPc="268439160" name="winner" stackId="2" startPc="268439088"/>
-        <entry arg="true" endPc="268439185" name="name" stackId="1" startPc="268439162"/>
-        <entry arg="true" endPc="268439268" name="dc" stackId="1" startPc="268439205"/>
-        <entry arg="true" endPc="268439686" name="item" stackId="1" startPc="268439284"/>
-        <entry endPc="268439685" name="mainView" stackId="2" startPc="268439287"/>
-        <entry endPc="268439685" name="id" stackId="3" startPc="268439287"/>
-        <entry endPc="268439685" name="title" stackId="4" startPc="268439287"/>
-        <entry endPc="268439637" name="settingsMenu" stackId="5" startPc="268439392"/>
-        <entry arg="true" endPc="268439739" name="menu" stackId="1" startPc="268439716"/>
-        <entry arg="true" endPc="268440229" name="item" stackId="1" startPc="268439740"/>
-        <entry endPc="268439882" name="i" stackId="2" startPc="268439823"/>
-        <entry endPc="268439872" name="menuItem" stackId="3" startPc="268439823"/>
-        <entry arg="true" endPc="268440265" name="dc" stackId="1" startPc="268440230"/>
-        <entry arg="true" endPc="268440316" name="dc" stackId="1" startPc="268440281"/>
-        <entry arg="true" endPc="268440500" name="dc" stackId="1" startPc="268440381"/>
-        <entry endPc="268440570" name="currentSize" stackId="1" startPc="268440504"/>
-        <entry endPc="268440570" name="topEntry" stackId="2" startPc="268440504"/>
-        <entry arg="true" endPc="268440670" name="p1_val" stackId="1" startPc="268440613"/>
-        <entry arg="true" endPc="268440670" name="p1Sets" stackId="2" startPc="268440613"/>
-        <entry arg="true" endPc="268440670" name="p2_val" stackId="3" startPc="268440613"/>
-        <entry arg="true" endPc="268440670" name="p2Sets" stackId="4" startPc="268440613"/>
-        <entry arg="true" endPc="268440670" name="points_val" stackId="5" startPc="268440613"/>
-        <entry arg="true" endPc="268440670" name="serving_val" stackId="6" startPc="268440613"/>
-        <entry endPc="268440669" name="entry" stackId="7" startPc="268440616"/>
-        <entry endPc="268440886" name="menu" stackId="1" startPc="268440674"/>
-        <entry arg="true" endPc="268440995" name="keyEvent" stackId="1" startPc="268440902"/>
-        <entry arg="true" endPc="268441214" name="dc" stackId="1" startPc="268440996"/>
-        <entry endPc="268441214" name="rez_cmp_local_text_1429538713" stackId="2" startPc="268441007"/>
-        <entry endPc="268441214" name="rez_cmp_local_text_1182493329" stackId="3" startPc="268441007"/>
-        <entry arg="true" endPc="268441525" name="dc" stackId="1" startPc="268441215"/>
-        <entry endPc="268441525" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268441226"/>
-        <entry endPc="268441525" name="rez_cmp_local_text_winning_player" stackId="3" startPc="268441226"/>
-        <entry endPc="268441525" name="rez_cmp_local_text_1139614796" stackId="4" startPc="268441226"/>
-        <entry arg="true" endPc="268441621" name="dc" stackId="1" startPc="268441526"/>
-        <entry endPc="268441621" name="rez_cmp_local_text_8374157491" stackId="2" startPc="268441537"/>
-        <entry arg="true" endPc="268442605" name="dc" stackId="1" startPc="268441622"/>
-        <entry endPc="268442605" name="rez_cmp_local_text_match_length_label" stackId="2" startPc="268441633"/>
-        <entry endPc="268442605" name="rez_cmp_local_text_match_length_number" stackId="3" startPc="268441633"/>
-        <entry endPc="268442605" name="rez_cmp_local_text_p1_label" stackId="4" startPc="268441633"/>
-        <entry endPc="268442605" name="rez_cmp_local_text_p1_score" stackId="5" startPc="268441633"/>
-        <entry endPc="268442605" name="rez_cmp_local_text_p1_set" stackId="6" startPc="268441633"/>
-        <entry endPc="268442605" name="rez_cmp_local_text_p2_label" stackId="7" startPc="268441633"/>
-        <entry endPc="268442605" name="rez_cmp_local_text_p2_score" stackId="8" startPc="268441633"/>
-        <entry endPc="268442605" name="rez_cmp_local_text_p2_set" stackId="9" startPc="268441633"/>
-        <entry endPc="268442605" name="rez_cmp_local_text_binding" stackId="10" startPc="268441633"/>
-        <entry endPc="268442605" name="rez_cmp_local_text_time_label" stackId="11" startPc="268441633"/>
-        <entry arg="true" endPc="268442698" name="p1_val" stackId="1" startPc="268442642"/>
-        <entry arg="true" endPc="268442698" name="p1Sets_val" stackId="2" startPc="268442642"/>
-        <entry arg="true" endPc="268442698" name="p2_val" stackId="3" startPc="268442642"/>
-        <entry arg="true" endPc="268442698" name="p2Sets_val" stackId="4" startPc="268442642"/>
-        <entry arg="true" endPc="268442698" name="points_val" stackId="5" startPc="268442642"/>
-        <entry arg="true" endPc="268442698" name="serving_val" stackId="6" startPc="268442642"/>
+        <entry arg="true" endPc="268437375" name="dc" stackId="1" startPc="268437155"/>
+        <entry endPc="268438065" name="setsToWin" stackId="1" startPc="268437813"/>
+        <entry endPc="268438065" name="p1Name" stackId="2" startPc="268437813"/>
+        <entry endPc="268438065" name="p2Name" stackId="3" startPc="268437813"/>
+        <entry endPc="268437974" name="view" stackId="4" startPc="268437901"/>
+        <entry endPc="268438062" name="view" stackId="5" startPc="268437989"/>
+        <entry arg="true" endPc="268439345" name="dc" stackId="1" startPc="268438535"/>
+        <entry endPc="268439344" name="clockTime" stackId="2" startPc="268438538"/>
+        <entry endPc="268439344" name="timeString" stackId="3" startPc="268438538"/>
+        <entry endPc="268439344" name="timeView" stackId="4" startPc="268438538"/>
+        <entry endPc="268439344" name="batteryLevel" stackId="5" startPc="268438538"/>
+        <entry endPc="268439344" name="batteryIcon" stackId="6" startPc="268438538"/>
+        <entry arg="true" endPc="268439422" name="dc" stackId="1" startPc="268439346"/>
+        <entry endPc="268439421" name="winner" stackId="2" startPc="268439349"/>
+        <entry arg="true" endPc="268439446" name="name" stackId="1" startPc="268439423"/>
+        <entry arg="true" endPc="268439529" name="dc" stackId="1" startPc="268439466"/>
+        <entry arg="true" endPc="268439987" name="item" stackId="1" startPc="268439545"/>
+        <entry endPc="268439986" name="mainView" stackId="2" startPc="268439548"/>
+        <entry endPc="268439986" name="id" stackId="3" startPc="268439548"/>
+        <entry endPc="268439986" name="title" stackId="4" startPc="268439548"/>
+        <entry endPc="268439924" name="settingsMenu" stackId="5" startPc="268439679"/>
+        <entry arg="true" endPc="268440040" name="menu" stackId="1" startPc="268440017"/>
+        <entry arg="true" endPc="268440530" name="item" stackId="1" startPc="268440041"/>
+        <entry endPc="268440183" name="i" stackId="2" startPc="268440124"/>
+        <entry endPc="268440173" name="menuItem" stackId="3" startPc="268440124"/>
+        <entry arg="true" endPc="268440566" name="dc" stackId="1" startPc="268440531"/>
+        <entry arg="true" endPc="268440617" name="dc" stackId="1" startPc="268440582"/>
+        <entry arg="true" endPc="268440801" name="dc" stackId="1" startPc="268440682"/>
+        <entry endPc="268440871" name="currentSize" stackId="1" startPc="268440805"/>
+        <entry endPc="268440871" name="topEntry" stackId="2" startPc="268440805"/>
+        <entry arg="true" endPc="268440971" name="p1_val" stackId="1" startPc="268440914"/>
+        <entry arg="true" endPc="268440971" name="p1Sets" stackId="2" startPc="268440914"/>
+        <entry arg="true" endPc="268440971" name="p2_val" stackId="3" startPc="268440914"/>
+        <entry arg="true" endPc="268440971" name="p2Sets" stackId="4" startPc="268440914"/>
+        <entry arg="true" endPc="268440971" name="points_val" stackId="5" startPc="268440914"/>
+        <entry arg="true" endPc="268440971" name="serving_val" stackId="6" startPc="268440914"/>
+        <entry endPc="268440970" name="entry" stackId="7" startPc="268440917"/>
+        <entry endPc="268441187" name="menu" stackId="1" startPc="268440975"/>
+        <entry arg="true" endPc="268441296" name="keyEvent" stackId="1" startPc="268441203"/>
+        <entry arg="true" endPc="268441515" name="dc" stackId="1" startPc="268441297"/>
+        <entry endPc="268441515" name="rez_cmp_local_text_1429538713" stackId="2" startPc="268441308"/>
+        <entry endPc="268441515" name="rez_cmp_local_text_1182493329" stackId="3" startPc="268441308"/>
+        <entry arg="true" endPc="268441826" name="dc" stackId="1" startPc="268441516"/>
+        <entry endPc="268441826" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268441527"/>
+        <entry endPc="268441826" name="rez_cmp_local_text_winning_player" stackId="3" startPc="268441527"/>
+        <entry endPc="268441826" name="rez_cmp_local_text_1139614796" stackId="4" startPc="268441527"/>
+        <entry arg="true" endPc="268441922" name="dc" stackId="1" startPc="268441827"/>
+        <entry endPc="268441922" name="rez_cmp_local_text_8374157491" stackId="2" startPc="268441838"/>
+        <entry arg="true" endPc="268443080" name="dc" stackId="1" startPc="268441923"/>
+        <entry endPc="268443080" name="rez_cmp_local_bitmap_battery" stackId="2" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_battery_label" stackId="3" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_match_length_label" stackId="4" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_match_length_number" stackId="5" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_p1_label" stackId="6" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_p1_score" stackId="7" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_p1_set" stackId="8" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_p2_label" stackId="9" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_p2_score" stackId="10" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_p2_set" stackId="11" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_binding" stackId="12" startPc="268441934"/>
+        <entry endPc="268443080" name="rez_cmp_local_text_time_label" stackId="13" startPc="268441934"/>
+        <entry arg="true" endPc="268443173" name="p1_val" stackId="1" startPc="268443117"/>
+        <entry arg="true" endPc="268443173" name="p1Sets_val" stackId="2" startPc="268443117"/>
+        <entry arg="true" endPc="268443173" name="p2_val" stackId="3" startPc="268443117"/>
+        <entry arg="true" endPc="268443173" name="p2Sets_val" stackId="4" startPc="268443117"/>
+        <entry arg="true" endPc="268443173" name="points_val" stackId="5" startPc="268443117"/>
+        <entry arg="true" endPc="268443173" name="serving_val" stackId="6" startPc="268443117"/>
     </localVars>
     <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3906-00"/>
     <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="battery"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GameOver"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="winner_p1"/>
@@ -626,27 +654,27 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/App" offset="404" parentId="globals" symbolId="App" type="class"/>
-        <dataEntry label="globals/SettingsMenuDelegate" offset="475" parentId="globals" symbolId="SettingsMenuDelegate" type="class"/>
-        <dataEntry label="globals/MainView" offset="537" parentId="globals" symbolId="MainView" type="class"/>
-        <dataEntry label="globals/Rez" offset="689" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/WinningView" offset="751" parentId="globals" symbolId="WinningView" type="class"/>
-        <dataEntry label="globals/DividerTitle" offset="813" parentId="globals" symbolId="DividerTitle" type="class"/>
-        <dataEntry label="globals/Menu2Delegate" offset="866" parentId="globals" symbolId="Menu2Delegate" type="class"/>
-        <dataEntry label="globals/Menu2SubMenuDelegate" offset="928" parentId="globals" symbolId="Menu2SubMenuDelegate" type="class"/>
-        <dataEntry label="globals/AboutView" offset="999" parentId="globals" symbolId="AboutView" type="class"/>
-        <dataEntry label="globals/PingPongSettingsView" offset="1052" parentId="globals" symbolId="PingPongSettingsView" type="class"/>
-        <dataEntry label="globals/CustomIcon" offset="1105" parentId="globals" symbolId="CustomIcon" type="class"/>
-        <dataEntry label="globals/Stack" offset="1185" parentId="globals" symbolId="Stack" type="class"/>
-        <dataEntry label="globals/MainDelegate" offset="1283" parentId="globals" symbolId="MainDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1345" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="1389" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="1451" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1504" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Stack/StackEntry" offset="1665" parentId="Stack" symbolId="StackEntry" type="class"/>
-        <dataEntry label="globals/Rez/Menus/SettingsMenu" offset="1763" parentId="Menus" symbolId="SettingsMenu" type="class"/>
-        <dataEntry label="globals/Rez/Menus/MatchLengthMenu" offset="1807" parentId="Menus" symbolId="MatchLengthMenu" type="class"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1851" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/App" offset="413" parentId="globals" symbolId="App" type="class"/>
+        <dataEntry label="globals/SettingsMenuDelegate" offset="484" parentId="globals" symbolId="SettingsMenuDelegate" type="class"/>
+        <dataEntry label="globals/MainView" offset="546" parentId="globals" symbolId="MainView" type="class"/>
+        <dataEntry label="globals/Rez" offset="698" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/WinningView" offset="760" parentId="globals" symbolId="WinningView" type="class"/>
+        <dataEntry label="globals/DividerTitle" offset="822" parentId="globals" symbolId="DividerTitle" type="class"/>
+        <dataEntry label="globals/Menu2Delegate" offset="875" parentId="globals" symbolId="Menu2Delegate" type="class"/>
+        <dataEntry label="globals/Menu2SubMenuDelegate" offset="937" parentId="globals" symbolId="Menu2SubMenuDelegate" type="class"/>
+        <dataEntry label="globals/AboutView" offset="1008" parentId="globals" symbolId="AboutView" type="class"/>
+        <dataEntry label="globals/PingPongSettingsView" offset="1061" parentId="globals" symbolId="PingPongSettingsView" type="class"/>
+        <dataEntry label="globals/CustomIcon" offset="1114" parentId="globals" symbolId="CustomIcon" type="class"/>
+        <dataEntry label="globals/Stack" offset="1194" parentId="globals" symbolId="Stack" type="class"/>
+        <dataEntry label="globals/MainDelegate" offset="1292" parentId="globals" symbolId="MainDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1354" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1407" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1469" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1522" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Stack/StackEntry" offset="1683" parentId="Stack" symbolId="StackEntry" type="class"/>
+        <dataEntry label="globals/Rez/Menus/SettingsMenu" offset="1781" parentId="Menus" symbolId="SettingsMenu" type="class"/>
+        <dataEntry label="globals/Rez/Menus/MatchLengthMenu" offset="1825" parentId="Menus" symbolId="MatchLengthMenu" type="class"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1869" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435549" name="&lt;init&gt;" parent="App" startPc="268435538">
@@ -723,38 +751,38 @@
         <functionEntry accessMode="public" endPc="268437154" name="settingServer" parent="MainView" startPc="268437115">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437355" name="onLayout" parent="MainView" startPc="268437155">
+        <functionEntry accessMode="public" endPc="268437375" name="onLayout" parent="MainView" startPc="268437155">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437676" name="matchLogic" parent="MainView" startPc="268437356">
+        <functionEntry accessMode="public" endPc="268437696" name="matchLogic" parent="MainView" startPc="268437376">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437722" name="toggleServer" parent="MainView" startPc="268437677">
+        <functionEntry accessMode="public" endPc="268437742" name="toggleServer" parent="MainView" startPc="268437697">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437736" name="timerCallback" parent="MainView" startPc="268437723">
+        <functionEntry accessMode="public" endPc="268437756" name="timerCallback" parent="MainView" startPc="268437743">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437761" name="isDeuce" parent="MainView" startPc="268437737">
+        <functionEntry accessMode="public" endPc="268437781" name="isDeuce" parent="MainView" startPc="268437757">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437789" name="switchServer" parent="MainView" startPc="268437762">
+        <functionEntry accessMode="public" endPc="268437809" name="switchServer" parent="MainView" startPc="268437782">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438046" name="isOver" parent="MainView" startPc="268437790">
+        <functionEntry accessMode="public" endPc="268438066" name="isOver" parent="MainView" startPc="268437810">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438308" name="initialize" parent="MainView" startPc="268438047">
+        <functionEntry accessMode="public" endPc="268438328" name="initialize" parent="MainView" startPc="268438067">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438392" name="resetGame" parent="MainView" startPc="268438309">
+        <functionEntry accessMode="public" endPc="268438412" name="resetGame" parent="MainView" startPc="268438329">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438493" name="resetMatch" parent="MainView" startPc="268438393">
+        <functionEntry accessMode="public" endPc="268438534" name="resetMatch" parent="MainView" startPc="268438413">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439084" name="onUpdate" parent="MainView" startPc="268438494">
+        <functionEntry accessMode="public" endPc="268439345" name="onUpdate" parent="MainView" startPc="268438535">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -770,82 +798,82 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439161" name="onLayout" parent="WinningView" startPc="268439085">
+        <functionEntry accessMode="public" endPc="268439422" name="onLayout" parent="WinningView" startPc="268439346">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439185" name="initialize" parent="WinningView" startPc="268439162">
+        <functionEntry accessMode="public" endPc="268439446" name="initialize" parent="WinningView" startPc="268439423">
             <param id="name"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439204" name="initialize" parent="DividerTitle" startPc="268439186">
+        <functionEntry accessMode="public" endPc="268439465" name="initialize" parent="DividerTitle" startPc="268439447">
             <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439268" name="draw" parent="DividerTitle" startPc="268439205">
+        <functionEntry accessMode="public" endPc="268439529" name="draw" parent="DividerTitle" startPc="268439466">
             <param id="dc"/>
             <documentation><![CDATA[<div class="description"> Draw the title with instructions to change the divider type<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439283" name="initialize" parent="Menu2Delegate" startPc="268439269">
+        <functionEntry accessMode="public" endPc="268439544" name="initialize" parent="Menu2Delegate" startPc="268439530">
             <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439686" name="onSelect" parent="Menu2Delegate" startPc="268439284">
+        <functionEntry accessMode="public" endPc="268439987" name="onSelect" parent="Menu2Delegate" startPc="268439545">
             <param id="item"/>
             <documentation><![CDATA[<div class="description"> Handle an item being selected<br/> <div class="param"> item The selected menu item</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439715" name="onBack" parent="Menu2SubMenuDelegate" startPc="268439687">
+        <functionEntry accessMode="public" endPc="268440016" name="onBack" parent="Menu2SubMenuDelegate" startPc="268439988">
             <documentation><![CDATA[<div class="description"> Handle the back key being pressed<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439739" name="initialize" parent="Menu2SubMenuDelegate" startPc="268439716">
+        <functionEntry accessMode="public" endPc="268440040" name="initialize" parent="Menu2SubMenuDelegate" startPc="268440017">
             <param id="menu"/>
             <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> menu The menu to be used</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440229" name="onSelect" parent="Menu2SubMenuDelegate" startPc="268439740">
+        <functionEntry accessMode="public" endPc="268440530" name="onSelect" parent="Menu2SubMenuDelegate" startPc="268440041">
             <param id="item"/>
             <documentation><![CDATA[<div class="description"> Handle an item being selected<br/> <div class="param"> item The selected menu item</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440265" name="onLayout" parent="AboutView" startPc="268440230">
+        <functionEntry accessMode="public" endPc="268440566" name="onLayout" parent="AboutView" startPc="268440531">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440280" name="initialize" parent="AboutView" startPc="268440266">
+        <functionEntry accessMode="public" endPc="268440581" name="initialize" parent="AboutView" startPc="268440567">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440316" name="onLayout" parent="PingPongSettingsView" startPc="268440281">
+        <functionEntry accessMode="public" endPc="268440617" name="onLayout" parent="PingPongSettingsView" startPc="268440582">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440331" name="initialize" parent="PingPongSettingsView" startPc="268440317">
+        <functionEntry accessMode="public" endPc="268440632" name="initialize" parent="PingPongSettingsView" startPc="268440618">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440342" name="uncheckBool" parent="CustomIcon" startPc="268440332">
+        <functionEntry accessMode="public" endPc="268440643" name="uncheckBool" parent="CustomIcon" startPc="268440633">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440369" name="initialize" parent="CustomIcon" startPc="268440343">
+        <functionEntry accessMode="public" endPc="268440670" name="initialize" parent="CustomIcon" startPc="268440644">
             <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440380" name="checkBool" parent="CustomIcon" startPc="268440370">
+        <functionEntry accessMode="public" endPc="268440681" name="checkBool" parent="CustomIcon" startPc="268440671">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440500" name="draw" parent="CustomIcon" startPc="268440381">
+        <functionEntry accessMode="public" endPc="268440801" name="draw" parent="CustomIcon" startPc="268440682">
             <param id="dc"/>
             <documentation><![CDATA[<div class="description"> Set the color for the current state and use dc.clear() to fill<br/> the drawable area with that color<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440570" name="pop" parent="Stack" startPc="268440501">
+        <functionEntry accessMode="public" endPc="268440871" name="pop" parent="Stack" startPc="268440802">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440584" name="getSize" parent="Stack" startPc="268440571">
+        <functionEntry accessMode="public" endPc="268440885" name="getSize" parent="Stack" startPc="268440872">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440600" name="isEmpty" parent="Stack" startPc="268440585">
+        <functionEntry accessMode="public" endPc="268440901" name="isEmpty" parent="Stack" startPc="268440886">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="StackEntry">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440612" name="initialize" parent="Stack" startPc="268440601">
+        <functionEntry accessMode="public" endPc="268440913" name="initialize" parent="Stack" startPc="268440902">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440670" name="push" parent="Stack" startPc="268440613">
+        <functionEntry accessMode="public" endPc="268440971" name="push" parent="Stack" startPc="268440914">
             <param id="p1_val"/>
             <param id="p1Sets"/>
             <param id="p2_val"/>
@@ -854,42 +882,42 @@
             <param id="serving_val"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440886" name="onMenu" parent="MainDelegate" startPc="268440671">
+        <functionEntry accessMode="public" endPc="268441187" name="onMenu" parent="MainDelegate" startPc="268440972">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440901" name="initialize" parent="MainDelegate" startPc="268440887">
+        <functionEntry accessMode="public" endPc="268441202" name="initialize" parent="MainDelegate" startPc="268441188">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440995" name="onKey" parent="MainDelegate" startPc="268440902">
+        <functionEntry accessMode="public" endPc="268441296" name="onKey" parent="MainDelegate" startPc="268441203">
             <param id="keyEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441214" name="AboutLayout" parent="Layouts" startPc="268440996">
+        <functionEntry accessMode="public" endPc="268441515" name="AboutLayout" parent="Layouts" startPc="268441297">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441525" name="GameOverLayout" parent="Layouts" startPc="268441215">
+        <functionEntry accessMode="public" endPc="268441826" name="GameOverLayout" parent="Layouts" startPc="268441516">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441621" name="SettingsLayout" parent="Layouts" startPc="268441526">
+        <functionEntry accessMode="public" endPc="268441922" name="SettingsLayout" parent="Layouts" startPc="268441827">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442605" name="MainLayout" parent="Layouts" startPc="268441622">
+        <functionEntry accessMode="public" endPc="268443080" name="MainLayout" parent="Layouts" startPc="268441923">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442617" name="&lt;init&gt;" parent="SettingsMenu" startPc="268442606">
+        <functionEntry accessMode="public" endPc="268443092" name="&lt;init&gt;" parent="SettingsMenu" startPc="268443081">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442629" name="&lt;init&gt;" parent="MatchLengthMenu" startPc="268442618">
+        <functionEntry accessMode="public" endPc="268443104" name="&lt;init&gt;" parent="MatchLengthMenu" startPc="268443093">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442641" name="&lt;init&gt;" parent="MainMenu" startPc="268442630">
+        <functionEntry accessMode="public" endPc="268443116" name="&lt;init&gt;" parent="MainMenu" startPc="268443105">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442698" name="initialize" parent="StackEntry" startPc="268442642">
+        <functionEntry accessMode="public" endPc="268443173" name="initialize" parent="StackEntry" startPc="268443117">
             <param id="p1_val"/>
             <param id="p1Sets_val"/>
             <param id="p2_val"/>
@@ -898,13 +926,13 @@
             <param id="serving_val"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442758" name="initialize" parent="SettingsMenu" startPc="268442699">
+        <functionEntry accessMode="public" endPc="268443233" name="initialize" parent="SettingsMenu" startPc="268443174">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442908" name="initialize" parent="MatchLengthMenu" startPc="268442759">
+        <functionEntry accessMode="public" endPc="268443383" name="initialize" parent="MatchLengthMenu" startPc="268443234">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443058" name="initialize" parent="MainMenu" startPc="268442909">
+        <functionEntry accessMode="public" endPc="268443533" name="initialize" parent="MainMenu" startPc="268443384">
             <documentation/>
         </functionEntry>
     </functions>

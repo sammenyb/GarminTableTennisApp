@@ -23,6 +23,8 @@ class Menu2Delegate extends WatchUi.Menu2InputDelegate {
         if (id.equals("reset_match")) {
             title = "Reset Match";
             mainView.resetMatch();
+            WatchUi.popView(WatchUi.SLIDE_DOWN);
+            WatchUi.requestUpdate();
 
         } else if (id.equals("settings")) {
             // Settings menu
@@ -38,6 +40,7 @@ class Menu2Delegate extends WatchUi.Menu2InputDelegate {
 
         } else if (id.equals("exit")) {
             // Exit
+            WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
             WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
             WatchUi.requestUpdate();
         }

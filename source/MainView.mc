@@ -6,11 +6,13 @@ import Toybox.Math;
 import Toybox.Timer;
 import Toybox.Attention;
 import Toybox.Application.Storage;
+import Toybox.System;
 
 
 
 var watch_arm = null;
 var match_length = null;
+var batteryLabel = null;
 
 var p2Score_ctr = 0;
 var p1Score_ctr = 0;
@@ -69,6 +71,7 @@ class MainView extends WatchUi.View {
         p2Set = findDrawableById("p2_set") as WatchUi.Text;
         p1Label = findDrawableById("p1_label") as WatchUi.Text;
         p2Label = findDrawableById("p2_label") as WatchUi.Text;
+        batteryLabel = findDrawableById("battery_label") as WatchUi.Text;
     }
 
     function onUpdate(dc as Dc) as Void {
@@ -78,10 +81,30 @@ class MainView extends WatchUi.View {
         var timeView = findDrawableById("time_label") as WatchUi.Text;
         timeView.setText(timeString);
         bestofLabel.setText(match_length.toString());
-        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_LT_GRAY); // Set border color
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE); // Set border color
         dc.setPenWidth(1); // Set border width
         dc.drawRoundedRectangle((dc.getWidth() / 2) - 40 , dc.getHeight() - (dc.getHeight()/7), 80, 60, 10);
+        dc.drawRoundedRectangle((dc.getWidth() / 2) - 40 , -20, 80, 60, 10);
         dc.setPenWidth(2); 
+
+        var batteryLevel = System.getSystemStats().battery.toNumber();
+        // var batteryLevel = 100.0000 as Float; // Placeholder for testing
+        var batteryIcon = findDrawableById("battery") as WatchUi.Bitmap;
+        
+        batteryLabel.setText(batteryLevel.toNumber().toString() + "%");
+
+        if (batteryLevel == 100){
+            batteryIcon.setLocation(92, 10);
+            batteryLabel.setLocation(114, 7);
+        } else if (batteryLevel < 10){
+            batteryIcon.setLocation(103, 10);
+            batteryLabel.setLocation(126, 7);
+        } else {
+            batteryIcon.setLocation(97, 10);
+            batteryLabel.setLocation(121, 7);
+        }
+
+
 
 
         if (watch_arm.equals("left_arm")) {
@@ -261,6 +284,8 @@ class MainView extends WatchUi.View {
         p2Set_ctr = 0;
         p1Set.setText(p1Set_ctr.toString());
         p2Set.setText(p2Set_ctr.toString());
+        whoServes = 1;
+        setServer = whoServes;
     }
 
 }

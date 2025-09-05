@@ -16,13 +16,13 @@ module Rez {
 
             var rez_cmp_local_text_match_length_number = new WatchUi.Text({:identifier=>"match_length_number", :color=>Gfx.COLOR_WHITE, :locX=>155, :locY=>105, :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_XTINY});
 
-            var rez_cmp_local_text_p1_label = new WatchUi.Text({:identifier=>"p1_label", :color=>Gfx.COLOR_WHITE, :locX=>45, :locY=>90, :text=>$.Rez.Strings.p1, :font=>Gfx.FONT_MEDIUM});
+            var rez_cmp_local_text_p1_label = new WatchUi.Text({:identifier=>"p1_label", :color=>Gfx.COLOR_WHITE, :locX=>45, :locY=>90, :text=>"P1", :font=>Gfx.FONT_MEDIUM});
 
             var rez_cmp_local_text_p1_score = new WatchUi.Text({:identifier=>"p1_score", :color=>Gfx.COLOR_WHITE, :locX=>60, :locY=>119, :text=>"0", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_NUMBER_MEDIUM});
 
             var rez_cmp_local_text_p1_set = new WatchUi.Text({:identifier=>"p1_set", :color=>Gfx.COLOR_WHITE, :locX=>114, :locY=>125, :text=>"0", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
-            var rez_cmp_local_text_p2_label = new WatchUi.Text({:identifier=>"p2_label", :color=>Gfx.COLOR_WHITE, :locX=>182, :locY=>90, :text=>$.Rez.Strings.p2, :font=>Gfx.FONT_MEDIUM});
+            var rez_cmp_local_text_p2_label = new WatchUi.Text({:identifier=>"p2_label", :color=>Gfx.COLOR_WHITE, :locX=>182, :locY=>90, :text=>"P2", :font=>Gfx.FONT_MEDIUM});
 
             var rez_cmp_local_text_p2_score = new WatchUi.Text({:identifier=>"p2_score", :color=>Gfx.COLOR_WHITE, :locX=>198, :locY=>119, :text=>"0", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_NUMBER_MEDIUM});
 
@@ -88,8 +88,6 @@ module Rez {
     } // Menus
 
     module Strings {
-        (:initialized) var p1 as ResourceId;
-        (:initialized) var p2 as ResourceId;
         (:initialized) var AboutText as ResourceId;
         (:initialized) var GameOver as ResourceId;
         (:initialized) var NewGamePrompt as ResourceId;

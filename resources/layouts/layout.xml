@@ -1,6 +1,9 @@
 <resources>
     <layout id="MainLayout">
-        
+
+        <bitmap id="battery" filename="../drawables/icons8-battery-24.png" x="94" y="10"/>
+        <label id="battery_label" x="120" y="7" text="" font="Gfx.FONT_TINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT"/>
+
         <label id="match_length_label" x="125" y="105" text="Best of " font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
         <label id="match_length_number" x="155" y="105" text="" font="Gfx.FONT_XTINY" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
 
@@ -13,7 +16,7 @@
         <label id="p2_set" x="144" y="125" text="0" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
         <label id="binding" x="129" y="125" text="-" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
 
-        <label id="time_label" x="130" y="225" text="00:00" font="Gfx.FONT_SMALL" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+        <label id="time_label" x="130" y="225" text="00:00" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
 
     </layout>
 
